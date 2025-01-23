@@ -20,74 +20,6 @@ body {
     box-sizing: border-box;
     font-size: 16px;
 }
-/* fonts */
-.quantico-regular {
-    font-family: "Quantico", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .quantico-bold {
-    font-family: "Quantico", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .quantico-regular-italic {
-    font-family: "Quantico", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .quantico-bold-italic {
-    font-family: "Quantico", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-
-  .palanquin-thin {
-    font-family: "Palanquin", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .palanquin-extralight {
-    font-family: "Palanquin", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .palanquin-light {
-    font-family: "Palanquin", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .palanquin-regular {
-    font-family: "Palanquin", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .palanquin-medium {
-    font-family: "Palanquin", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .palanquin-semibold {
-    font-family: "Palanquin", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .palanquin-bold {
-    font-family: "Palanquin", serif;
-    font-weight: 700;
-    font-style: normal;
-  }  
-  
-/* FONTS END!!  */
 
 .container {
     text-align: center;
@@ -198,6 +130,7 @@ p {
 }
 
 
+/* Player styling from here down */
 .legend {
     display: flex;
     flex-wrap: wrap;
@@ -247,3 +180,72 @@ p {
     padding: 5px;
     border-radius: 20px;
 }
+
+/* fonts */
+.quantico-regular {
+    font-family: "Quantico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .quantico-bold {
+    font-family: "Quantico", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .quantico-regular-italic {
+    font-family: "Quantico", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .quantico-bold-italic {
+    font-family: "Quantico", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .palanquin-thin {
+    font-family: "Palanquin", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .palanquin-extralight {
+    font-family: "Palanquin", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .palanquin-light {
+    font-family: "Palanquin", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .palanquin-regular {
+    font-family: "Palanquin", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .palanquin-medium {
+    font-family: "Palanquin", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .palanquin-semibold {
+    font-family: "Palanquin", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .palanquin-bold {
+    font-family: "Palanquin", serif;
+    font-weight: 700;
+    font-style: normal;
+  }  
+  
+/* FONTS END!!  */
