@@ -49,7 +49,8 @@
             </div>
         </div>
 
-        <h2> LEGEND </h2>
+        <h2>LEGEND</h2>
+        <hr>
         <div class="legend palanquin-bold">
             <p class="mike">• Mike (Brotherhood)</p>
             <p class="pat">• Patty (Spideys)</p>
@@ -58,6 +59,7 @@
             <p class="josh">• Josh (Thor &amp; Friends)</p>
             <p class="none">• Uncontrolled</p>
         </div>
+        <hr>
     </div>
 
     <div class="clear">
@@ -65,8 +67,8 @@
         <p>WARNING, THIS WILL RESET ANY COLOURS SET</p>
     </div>
 
-     <script>
-        document.getElementById('clearButton').addEventListener('click', function() {
+    <script>
+        document.getElementById('clearButton').addEventListener('click', function () {
             localStorage.clear();
             alert('Local storage cleared!');
         });
