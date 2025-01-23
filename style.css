@@ -126,7 +126,7 @@ h2 {
     flex-direction: column;
 }
 
-p {
+.clear p {
     font-size: .5rem;
     color: white;
 }
