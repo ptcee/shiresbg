@@ -3,15 +3,15 @@
   --chris: #F033FF;
   --josh: #7a00c7;
   --pat: #a81207;
-  --chadd: #FFFC33;
-  --none: #F0F0F0;
+  --chadd: #000;
+  --none: #cccccc;
 }
 
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #1e1e1e;
+  background-color: #767676;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -31,13 +31,17 @@ body {
 
 h1 {
   font-size: 2rem;
-  color: #f2f2f2;
+  color: #ffffff;
 }
 
 h2 {
   font-size: 1.5rem;
-  color: #d0d0d0;
+  color: #ffffff;
   margin-bottom: 0px;
+}
+
+p {
+  color: #ffffff;
 }
 
 .map-container {
@@ -54,8 +58,8 @@ h2 {
   text-align: center;
   font-weight: bold;
   font-size: 1rem;
-  color: rgb(0, 0, 0);
-  background-color: #F0F0F0;
+  color: rgb(255, 255, 255);
+  background-color: #333333;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -104,7 +108,7 @@ h2 {
   flex: 1;
   font-size: 14px;
   font-weight: bold;
-  color: #333;
+  color: white;
 }
 
 #clearButton {
