@@ -59,7 +59,7 @@ p {
   font-weight: bold;
   font-size: 1rem;
   color: rgb(255, 255, 255);
-  background-color: #333333;
+  background-color: #cccccc;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
