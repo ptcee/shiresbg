@@ -1,253 +1,253 @@
 :root {
-    --mike: #FF5733;
-    --chris: #F033FF;
-    --josh: #FF9B33;
-    --pat: #a81207;
-    --chadd: #FFFC33;
-    --none: #F0F0F0;
+  --mike: #FF5733;
+  --chris: #F033FF;
+  --josh: #7a00c7;
+  --pat: #a81207;
+  --chadd: #FFFC33;
+  --none: #F0F0F0;
 }
 
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #1e1e1e;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    box-sizing: border-box;
-    font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
 .container {
-    text-align: center;
-    width: 100%;
-    max-width: 800px;
-    margin-bottom: 100px;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 100px;
 }
 
 h1 {
-    font-size: 2rem;
-    color: #f2f2f2;
+  font-size: 2rem;
+  color: #f2f2f2;
 }
 
 h2 {
-    font-size: 1.5rem;
-    color: #d0d0d0;
-    margin-bottom: 0px;
+  font-size: 1.5rem;
+  color: #d0d0d0;
+  margin-bottom: 0px;
 }
 
 .map-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .borough {
-    width: 25%;
-    padding: 40px 0;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1rem;
-    color: rgb(0, 0, 0);
-    background-color: #F0F0F0;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  width: 25%;
+  padding: 40px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  background-color: #F0F0F0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 
 .color-dropdown {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    z-index: 100;
-    width: 200px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 200px;
 }
 
 .color-option {
-    display: flex;
-    align-items: center;
-    width: 95%;
-    height: 40px;
-    cursor: pointer;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    transition: opacity 0.3s ease;
-    padding: 5px;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: opacity 0.3s ease;
+  padding: 5px;
 }
 
 
 .color-option {
-    background-color: white;
+  background-color: white;
 }
 
 .color-label {
-    flex: 1;
-    font-size: 14px;
-    font-weight: bold;
-    color: #333;
+  flex: 1;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
 }
 
 #clearButton {
-            padding: 10px 20px;
-            background-color: red;
-            color: white;
-            border: none;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
+          padding: 10px 20px;
+          background-color: red;
+          color: white;
+          border: none;
+          font-size: 16px;
+          cursor: pointer;
+          border-radius: 5px;
 }
-        
+      
 #clearButton:hover {
-            background-color: darkred;
+          background-color: darkred;
 }
 
 .clear {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .clear p {
-    font-size: .5rem;
-    color: white;
+  font-size: .5rem;
+  color: white;
 }
 
 
 /* Player styling from here down */
 .legend {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    font-size: 1rem;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1rem;
+  width: 100%;
 }
 
 .legend p {
-    width: 25%;
-    margin: 0 0 0 0;
+  width: 25%;
+  margin: 0 0 0 0;
 }
 
 .legend .mike {
-    background-color: var(--mike);
-    padding: 5px;
-    border-radius: 20px;
+  background-color: var(--mike);
+  padding: 5px;
+  border-radius: 20px;
 }
 
 .legend .chris {
-    background-color: var(--chris);
-    padding: 5px;
-    border-radius: 20px;
+  background-color: var(--chris);
+  padding: 5px;
+  border-radius: 20px;
 }
 
 .legend .josh {
-    background-color: var(--josh);
-    padding: 5px;
-    border-radius: 20px;
+  background-color: var(--josh);
+  padding: 5px;
+  border-radius: 20px;
 }
 
 .legend .pat {
-    background-color: var(--pat);
-    padding: 5px;
-    border-radius: 20px;
+  background-color: var(--pat);
+  padding: 5px;
+  border-radius: 20px;
 }
 
 .legend .chadd {
-    background-color: var(--chadd);
-    padding: 5px;
-    border-radius: 20px;
+  background-color: var(--chadd);
+  padding: 5px;
+  border-radius: 20px;
 }
 
 .legend .none {
-    background-color: var(--none);
-    padding: 5px;
-    border-radius: 20px;
+  background-color: var(--none);
+  padding: 5px;
+  border-radius: 20px;
 }
 
 /* fonts */
 .quantico-regular {
-    font-family: "Quantico", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .quantico-bold {
-    font-family: "Quantico", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .quantico-regular-italic {
-    font-family: "Quantico", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .quantico-bold-italic {
-    font-family: "Quantico", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
+  font-family: "Quantico", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .palanquin-thin {
-    font-family: "Palanquin", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .palanquin-extralight {
-    font-family: "Palanquin", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .palanquin-light {
-    font-family: "Palanquin", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .palanquin-regular {
-    font-family: "Palanquin", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .palanquin-medium {
-    font-family: "Palanquin", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .palanquin-semibold {
-    font-family: "Palanquin", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .palanquin-bold {
-    font-family: "Palanquin", serif;
-    font-weight: 700;
-    font-style: normal;
-  }  
-  
+.quantico-bold {
+  font-family: "Quantico", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quantico-regular-italic {
+  font-family: "Quantico", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quantico-bold-italic {
+  font-family: "Quantico", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.palanquin-thin {
+  font-family: "Palanquin", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.palanquin-extralight {
+  font-family: "Palanquin", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.palanquin-light {
+  font-family: "Palanquin", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.palanquin-regular {
+  font-family: "Palanquin", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.palanquin-medium {
+  font-family: "Palanquin", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.palanquin-semibold {
+  font-family: "Palanquin", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.palanquin-bold {
+  font-family: "Palanquin", serif;
+  font-weight: 700;
+  font-style: normal;
+}  
+
 /* FONTS END!!  */

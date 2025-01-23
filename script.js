@@ -2,10 +2,10 @@ $(document).ready(function () {
     // Array of colors and their corresponding borough names
     const availableColors = [
         { color: "#FF5733", label: "Brotherhood" },
-        { color: "#a81207", label: "Spideys" },
+        { color: "#66cfff", label: "Spideys" },
         { color: "#F033FF", label: "Apocalypse" },
         { color: "#FFFC33", label: "Black Order" },
-        { color: "#FF9B33", label: "Thors" },
+        { color: "#7a00c7", label: "Asgavengers" },
         { color: "#F0F0F0", label: "Uncontrolled" }
 
     ];
