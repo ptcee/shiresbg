@@ -6,6 +6,7 @@ $(document).ready(function () {
         { color: "#F033FF", label: "Apocalypse" },
         { color: "#000", label: "Black Order" },
         { color: "#7a00c7", label: "Asgavengers" },
+        { color: "#6ebd00", label: "Incels" },
         { color: "#cccccc", label: "Uncontrolled" }
 
     ];

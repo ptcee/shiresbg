@@ -4,6 +4,7 @@
   --josh: #7a00c7;
   --pat: #a81207;
   --chadd: #000;
+  --bren: #6ebd00;
   --none: #cccccc;
 }
 
@@ -177,6 +178,12 @@ p {
 
 .legend .chadd {
   background-color: var(--chadd);
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.legend .bren {
+  background-color: var(--bren);
   padding: 5px;
   border-radius: 20px;
 }
