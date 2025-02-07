@@ -5,15 +5,17 @@
   --pat: #8d0b02;
   --chadd: #000;
   --bren: #6ebd00;
+  --mark: #7c3d0a;
+  --gini: #9b8007;
  
-  --none: #cccccc;
+  --none: #898989;
 }
 
 
 body {
   font-family: "Palanquin", serif;
   margin: 0;
-  background-color: #767676;
+  background-color: #363636;
   align-items: center;
   box-sizing: border-box;
   font-size: 16px;
@@ -86,7 +88,7 @@ p {
   padding: 40px 0;
   text-align: center;
   color: rgb(255, 255, 255);
-  background-color: #cccccc;
+  background-color: #868484;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -204,6 +206,7 @@ p {
   justify-content: center;
   width: 25%;
   margin: 0 0 0 0;
+  border: 1px solid #fff;
   border-radius: 20px;
   height: 60px;
   padding: 5px;
@@ -216,7 +219,10 @@ p {
 .pat { background-color: var(--pat); }
 .chadd { background-color: var(--chadd); }
 .bren { background-color: var(--bren); }
-.none { background-color: var(--none); color: #000; }
+.mark { background-color: var(--mark); }
+.gini { background-color: var(--gini); }
+
+.none { background-color: var(--none); }
 
 /* fonts */
 .quantico-regular {

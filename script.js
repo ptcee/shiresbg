@@ -6,6 +6,8 @@ $(document).ready(function () {
         { varName: "--chadd", label: "Black Order" },
         { varName: "--josh", label: "Asgavengers" },
         { varName: "--bren", label: "Incels" },
+        { varName: "--mark", label: "x" },
+        { varName: "--gini", label: "x" },
         { varName: "--none", label: "Uncontrolled" }
     ];
 
