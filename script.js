@@ -1,14 +1,20 @@
 $(document).ready(function () {
-    const availableColors = [
-        { color: "#FF5733", label: "Brotherhood" },
-        { color: "#a81207", label: "Spideys" },
-        { color: "#F033FF", label: "Apocalypse" },
-        { color: "#000", label: "Black Order" },
-        { color: "#7a00c7", label: "Asgavengers" },
-        { color: "#6ebd00", label: "Incels" },
-        { color: "#cccccc", label: "Uncontrolled" }
-
+    const cssVars = [
+        { varName: "--mike", label: "Brotherhood" },
+        { varName: "--pat", label: "Spideys" },
+        { varName: "--chris", label: "Apocalypse" },
+        { varName: "--chadd", label: "Black Order" },
+        { varName: "--josh", label: "Asgavengers" },
+        { varName: "--bren", label: "Incels" },
+        { varName: "--none", label: "Uncontrolled" }
     ];
+
+    const rootStyles = getComputedStyle(document.documentElement);
+
+    const availableColors = cssVars.map(({ varName, label }) => {
+        const color = rootStyles.getPropertyValue(varName).trim();
+        return { color, label };
+    });
 
     // Function to handle zone color change
     function showColorDropdown(event) {
@@ -76,13 +82,13 @@ $(document).ready(function () {
     applySavedColors();
 });
 
-// Clear local storage on clicky
+// Clear local storage on click
 document.getElementById('clearButton').addEventListener('click', function () {
     localStorage.clear();
     alert('Local storage cleared!');
 });
 
-// Smooth anchors
+// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
