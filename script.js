@@ -81,3 +81,14 @@ document.getElementById('clearButton').addEventListener('click', function () {
     localStorage.clear();
     alert('Local storage cleared!');
 });
+
+// Smooth anchors
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
