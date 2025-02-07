@@ -29,8 +29,9 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #ffffff;
+  margin: 0;;
 }
 
 h2 {
@@ -63,7 +64,12 @@ p {
 }
 
 .area h2 {
-  margin-top: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.area p {
+  margin: -5px;
 }
 
 .zones {
@@ -181,62 +187,35 @@ p {
 
 
 /* Player styling from here down */
-.legend {
+.legend-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   font-size: 1rem;
   width: 100%;
+
 }
 
-.legend p {
+.legend-box p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 25%;
   margin: 0 0 0 0;
+  border-radius: 20px;
+  height: 60px;
+  padding: 5px;
+  line-height: 15px;
 }
 
-.legend .mike {
-  background-color: var(--mike);
-  padding: 5px;
-  border-radius: 20px;
-}
-
-.legend .chris {
-  background-color: var(--chris);
-  padding: 5px;
-  border-radius: 20px;
-}
-
-.legend .josh {
-  background-color: var(--josh);
-  padding: 5px;
-  border-radius: 20px;
-}
-
-.legend .pat {
-  background-color: var(--pat);
-  padding: 5px;
-  border-radius: 20px;
-}
-
-.legend .chadd {
-  background-color: var(--chadd);
-  padding: 5px;
-  border-radius: 20px;
-}
-
-.legend .bren {
-  background-color: var(--bren);
-  padding: 5px;
-  border-radius: 20px;
-}
-
-.legend .none {
-  background-color: var(--none);
-  padding: 5px;
-  border-radius: 20px;
-  color: #000;
-}
+.mike { background-color: var(--mike); }
+.chris { background-color: var(--chris) }
+.josh { background-color: var(--josh); }
+.pat { background-color: var(--pat); }
+.chadd { background-color: var(--chadd); }
+.bren { background-color: var(--bren); }
+.none { background-color: var(--none); color: #000; }
 
 /* fonts */
 .quantico-regular {
