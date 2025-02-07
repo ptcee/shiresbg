@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    // Array of colors and their corresponding borough names
     const availableColors = [
         { color: "#FF5733", label: "Brotherhood" },
         { color: "#a81207", label: "Spideys" },
@@ -11,18 +10,18 @@ $(document).ready(function () {
 
     ];
 
-    // Function to handle borough color change via custom dropdown
+    // Function to handle zone color change
     function showColorDropdown(event) {
         const target = $(event.target);
 
-        if (target.hasClass('borough')) {
-            // Remove any existing dropdown if there's one already open
+        if (target.hasClass('zone')) {
+            // Remove any existing dropdown
             $('.color-dropdown').remove();
 
-            // Create a custom dropdown for color selection
+            // Create a custom dropdown
             const dropdown = $('<div class="color-dropdown"></div>');
 
-            // Add color options to the dropdown with text
+            // Add color options to the dropdown
             availableColors.forEach(option => {
                 const optionDiv = $('<div class="color-option"></div>')
                     .css('background-color', option.color)
@@ -32,19 +31,19 @@ $(document).ready(function () {
                 dropdown.append(optionDiv);
             });
 
-            // Position the dropdown near the clicked borough
+            // Position the dropdown near the clicked zone
             target.append(dropdown);
 
             // When a color is selected, change the background and save it to localStorage
             dropdown.on('click', '.color-option', function () {
                 const selectedColor = $(this).attr('data-color');
 
-                // Change the background color of the borough
+                // Change the background color of the zone
                 target.css('background-color', selectedColor);
 
                 // Save the color in localStorage
-                const boroughId = target.attr('id');
-                localStorage.setItem(boroughId, selectedColor);
+                const zoneId = target.attr('id');
+                localStorage.setItem(zoneId, selectedColor);
 
                 // Remove the dropdown after color selection
                 dropdown.remove();
@@ -52,21 +51,21 @@ $(document).ready(function () {
 
             // If clicked outside the dropdown, remove it
             $(document).on('click', function (e) {
-                if (!$(e.target).closest('.color-dropdown').length && !$(e.target).closest('.borough').length) {
+                if (!$(e.target).closest('.color-dropdown').length && !$(e.target).closest('.zone').length) {
                     $('.color-dropdown').remove();
                 }
             });
         }
     }
 
-    // Attach the click event to boroughs (div elements inside the .map-container)
-    $('.map-container').on('click', '.borough', showColorDropdown);
+    // Attach the click event to zones (div elements inside the .map-container)
+    $('.map-container').on('click', '.zone', showColorDropdown);
 
     // Function to apply saved colors from localStorage
     function applySavedColors() {
-        $('.borough').each(function () {
-            const boroughId = $(this).attr('id');
-            const savedColor = localStorage.getItem(boroughId);
+        $('.zone').each(function () {
+            const zoneId = $(this).attr('id');
+            const savedColor = localStorage.getItem(zoneId);
             if (savedColor) {
                 $(this).css('background-color', savedColor);
             }
@@ -75,4 +74,10 @@ $(document).ready(function () {
 
     // Apply saved colors when the page loads
     applySavedColors();
+});
+
+// Clear local storage on clicky
+document.getElementById('clearButton').addEventListener('click', function () {
+    localStorage.clear();
+    alert('Local storage cleared!');
 });

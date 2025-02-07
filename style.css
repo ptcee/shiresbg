@@ -5,20 +5,16 @@
   --pat: #a81207;
   --chadd: #000;
   --bren: #6ebd00;
+ 
   --none: #cccccc;
 }
 
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Palanquin", serif;
   margin: 0;
   background-color: #767676;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -26,8 +22,10 @@ body {
 .container {
   text-align: center;
   width: 100%;
-  max-width: 800px;
-  margin-bottom: 100px;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -51,10 +49,32 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  width: 95%;
+  margin-top: 20px;
 }
 
-.borough {
-  width: 25%;
+.area {
+  border: 4px solid #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+
+.area h2 {
+  margin-top: 0px;
+}
+
+.zones {
+  display: flex;
+  flex-direction:  row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.zone {
+  width: 32%;
   padding: 40px 0;
   text-align: center;
   font-weight: bold;
@@ -113,13 +133,16 @@ p {
 }
 
 #clearButton {
-          padding: 10px 20px;
+          padding: 10px 10px;
           background-color: red;
           color: white;
           border: none;
           font-size: 16px;
           cursor: pointer;
           border-radius: 5px;
+          font-size: .5rem;
+          width: 80px;
+
 }
       
 #clearButton:hover {
@@ -129,6 +152,9 @@ p {
 .clear {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .clear p {
@@ -262,4 +288,4 @@ p {
   font-style: normal;
 }  
 
-/* FONTS END!!  */
+/* font end  */
