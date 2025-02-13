@@ -100,6 +100,10 @@ p {
   border: 1px solid #fff;
 }
 
+.zone span {
+  pointer-events: none;
+}
+
 
 .color-dropdown {
   position: absolute;

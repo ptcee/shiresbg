@@ -74,6 +74,11 @@ $(document).ready(function () {
     applySavedColors();
 });
 
+// scoreboard based on how many zones players control
+
+
+
+
 // clear local storage
 document.getElementById('clearButton').addEventListener('click', function () {
     localStorage.clear();
