@@ -71,6 +71,7 @@ p {
 }
 
 .area p {
+  font-family: "Kanit", sans-serif;
   margin: -5px;
 }
 
@@ -101,8 +102,11 @@ p {
 }
 
 .zone span {
+  font-family: "Kanit", sans-serif;
   pointer-events: none;
 }
+
+
 
 
 .color-dropdown {
@@ -177,6 +181,7 @@ p {
 
 .legend-btn {
   padding: 10px 10px;
+  font-family: "Kanit", sans-serif;
   background-color: rgb(87, 53, 99);
   color: white;
   border: none;
@@ -205,6 +210,7 @@ p {
 }
 
 .legend-box p {
+  font-family: "Kanit", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -228,74 +234,8 @@ p {
 
 .none { background-color: var(--none); }
 
-/* fonts */
-.quantico-regular {
-  font-family: "Quantico", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+ 
 
-.quantico-bold {
-  font-family: "Quantico", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.quantico-regular-italic {
-  font-family: "Quantico", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.quantico-bold-italic {
-  font-family: "Quantico", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.palanquin-thin {
-  font-family: "Palanquin", serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.palanquin-extralight {
-  font-family: "Palanquin", serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.palanquin-light {
-  font-family: "Palanquin", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.palanquin-regular {
-  font-family: "Palanquin", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.palanquin-medium {
-  font-family: "Palanquin", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.palanquin-semibold {
-  font-family: "Palanquin", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.palanquin-bold {
-  font-family: "Palanquin", serif;
-  font-weight: 700;
-  font-style: normal;
-}  
-
-/* font end  */
 
 @media only screen and (max-width: 600px) {
   .area {
