@@ -66,7 +66,7 @@ $(document).ready(function () {
 
     //rules div
     const rulesButton = document.getElementById('rules-btn');
-    const rulesDiv = document.getElementById('rulesDiv');
+    const rulesDiv = document.getElementById('rules');
     const closeButton = document.getElementById('close-btn');
 
     rulesButton.onclick = function() {
