@@ -1,25 +1,16 @@
 $(document).ready(function () {
     const cssVars = [
-        { varName: "--mike", label: "Brotherhood" },
-        { varName: "--pat", label: "Spideys" },
-        { varName: "--chris", label: "Apocalypse" },
-        { varName: "--chadd", label: "Black Order" },
-        { varName: "--josh", label: "Asgavengers" },
-        { varName: "--bren", label: "Sinister 6" },
-        { varName: "--mark", label: "MODOK & Pals" },
-        { varName: "--gini", label: "x" },
-        { varName: "--none", label: "Uncontrolled" }
-    ];
+        { label: "Brotherhood", className: "mike" },
+        { label: "Spideys", className: "pat" },
+        { label: "Apocalypse", className: "chris" },
+        { label: "Black Order", className: "chadd" },
+        { label: "Asgavengers", className: "josh" },
+        { label: "Sinister 6", className: "bren" },
+        { label: "MODOK & Pals", className: "mark" },
+        { label: "Uncontrolled", className: "none" }
+    ];    
 
-    const rootStyles = getComputedStyle(document.documentElement);
-
-    // Get the available colors and store them in the array
-    const availableColors = cssVars.map(({ varName, label }) => {
-        const color = rootStyles.getPropertyValue(varName).trim();
-        return { color, label };
-    });
-
-    // Function to show the color dropdown and handle color change
+    // dropdown menu
     function showColorDropdown(event) {
         const target = $(event.target);
 
@@ -28,10 +19,10 @@ $(document).ready(function () {
 
             const dropdown = $('<div class="color-dropdown"></div>');
 
-            availableColors.forEach(option => {
+            cssVars.forEach(option => {
                 const optionDiv = $('<div class="color-option"></div>')
-                    .css('background-color', option.color)
-                    .attr('data-color', option.color)
+                    .addClass(option.className)
+                    .attr('data-class', option.className)
                     .append(`<span class="color-label">${option.label}</span>`);
 
                 dropdown.append(optionDiv);
@@ -40,12 +31,12 @@ $(document).ready(function () {
             target.append(dropdown);
 
             dropdown.on('click', '.color-option', function () {
-                const selectedColor = $(this).attr('data-color');
-                target.css('background-color', selectedColor);
+                const selectedClass = $(this).attr('data-class');
 
-                // Get the zone ID and store the color in localStorage
+                target.removeClass().addClass(`zone ${selectedClass}`);
+
                 const zoneId = target.attr('id');
-                localStorage.setItem(zoneId, selectedColor);
+                localStorage.setItem(zoneId, selectedClass);
 
                 dropdown.remove();
             });
@@ -58,30 +49,28 @@ $(document).ready(function () {
         }
     }
 
-    // Apply saved colors when the page loads
-    function applySavedColors() {
+    function applySavedClasses() {
         $('.zone').each(function () {
             const zoneId = $(this).attr('id');
-            const savedColor = localStorage.getItem(zoneId);
-            if (savedColor) {
-                $(this).css('background-color', savedColor);
+            const savedClass = localStorage.getItem(zoneId);
+            if (savedClass) {
+                $(this).removeClass().addClass(`zone ${savedClass}`);
             }
         });
     }
 
     $('.map-container').on('click', '.zone', showColorDropdown);
 
-    // Apply saved colors on page load
-    applySavedColors();
+    applySavedClasses();
 
-
-    // Clear local storage and reset color counts
+    // clear local storage
     document.getElementById('clearButton').addEventListener('click', function () {
         localStorage.clear();
+        $('.zone').removeClass().addClass('zone');
         alert('Local storage cleared!');
     });
 
-    // Smooth scrolling for anchors
+    // smooth scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();

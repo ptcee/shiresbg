@@ -1,31 +1,30 @@
 $(document).ready(function () {
-    const rootStyles = getComputedStyle(document.documentElement);
-    const mikeColor = rootStyles.getPropertyValue('--mike').trim();
-    const chrisColor = rootStyles.getPropertyValue('--chris').trim();
-    const joshColor = rootStyles.getPropertyValue('--josh').trim();
-    const patColor = rootStyles.getPropertyValue('--pat').trim();
-    const chaddColor = rootStyles.getPropertyValue('--chadd').trim();
-    const brenColor = rootStyles.getPropertyValue('--bren').trim();
-    const markColor = rootStyles.getPropertyValue('--mark').trim();
-    
     let counts = [
-        { name: 'Mike', color: mikeColor, class: 'pts'},
-        { name: 'Patty', color: patColor, class: 'pts'},
-        { name: 'Chris', color: chrisColor, class: 'pts' },
-        { name: 'Chadd', color: chaddColor, class: 'pts' },
-        { name: 'Josh', color: joshColor, class: 'pts' },
-        { name: 'Brendan', color: brenColor, class: 'pts' },
-        { name: 'Mark', color: markColor, class: 'pts' }
+        { name: 'Mike', class: 'pts', className: 'mike' },
+        { name: 'Patty', class: 'pts', className: 'pat' },
+        { name: 'Chris', class: 'pts', className: 'chris' },
+        { name: 'Chadd', class: 'pts', className: 'chadd' },
+        { name: 'Josh', class: 'pts', className: 'josh' },
+        { name: 'Brendan', class: 'pts', className: 'bren' },
+        { name: 'Mark', class: 'pts', className: 'mark' }
     ];
 
     counts.forEach(function(player) {
         let count = 0;
-        $('.map-container div').each(function () {
-            const inlineBgColor = $(this).attr('style');
-            if (inlineBgColor && inlineBgColor.includes(player.color)) {
-                count++;
+
+        $('.zone').each(function () {
+            const hasPlayerClass = $(this).hasClass(player.className);
+            const parentHasPlayerClass = $(this).closest('.area').hasClass(player.className);
+
+            if (hasPlayerClass) {
+                if (parentHasPlayerClass) {
+                    count += 1; 
+                } else {
+                    count += 2;
+                }
             }
         });
+
         player.count = count;
     });
 
