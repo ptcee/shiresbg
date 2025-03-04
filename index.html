@@ -17,180 +17,211 @@
 <body>
     <div class="container">
         <h1>BATTLEWORLD</h1>
-        <a href="#legend"> <button class="legend-btn" id="top">Legend</button></a>
+        <div class="buttons-top">
+            <button id="rules-btn">Rules</button>
+            <a href="#legend"> <button class="legend-btn" id="top">Legend</button></a>
+        </div>
+            <div id="rulesDiv">
+                <button id="close-btn">X</button>
+                <h2>Rules</h2>
+                <p>
+                <ul>
+                    <li>Holding a home zone: 1 point. </li>
+                    <li>Holding an enemy zone: 2 points.</li>
+                    <hr />
+                    <li>If you are defending a zone in your home area, you may choose which player recieves priority.
+                    </li>
 
-        <div class="map-container">
+                    <li>You cannot challenge the same person twice in a row.</li>
+                    <hr />
+                    <li>Starting from the bottom ranked player, each player may declare an attack on a zone, wagering
+                        one of their
+                        own zones if defeated.</li>
+                    <li>If you control no zones to wager, you may attack an uncontested zone. Choose an opponent,
+                        whoever wins
+                        claims the zone.</li>
+                    <li>If there are no uncontested zones, you may declare an attack on a zone, but your opponent
+                        chooses priority.
+                    </li>
+                    <hr />
+                    <li>If a baron does not attack a zone 2 weeks in a row, one of their zones will randomly become
+                        uncontested.
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <div class="map-container">
 
-            <!-- Monarchy of M -->
-            <div class="area mike">
-                <h2>Monarchy of M</h2>
-                <p>Baron: Mike</p>
-                <div class="zones">
-                    <div class="zone" id="atl">
-                        <span class="palanquin-bold">Atlantis</span>
-                    </div>
-                    <div class="zone" id="geno">
-                        <span class="palanquin-bold">Genosha</span>
-                    </div>
-                    <div class="zone" id="castlemag">
-                        <span class="palanquin-bold">Castle Magnus</span>
+                <!-- Monarchy of M -->
+                <div class="area mike">
+                    <h2>Monarchy of M</h2>
+                    <p>Baron: Mike</p>
+                    <div class="zones">
+                        <div class="zone" id="atl">
+                            <span class="palanquin-bold">Atlantis</span>
+                        </div>
+                        <div class="zone" id="geno">
+                            <span class="palanquin-bold">Genosha</span>
+                        </div>
+                        <div class="zone" id="castlemag">
+                            <span class="palanquin-bold">Castle Magnus</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Spider-Island -->
-            <div class="area pat">
-                <h2>Spider-Island</h2>
-                <p>Baron: Patty</p>
-                <div class="zones">
-                    <div class="zone" id="spiqueen">
-                        <span class="palanquin-bold">Avengers Tower (Spider Queen's Lair)</span>
-                    </div>
-                    <div class="zone" id="meatdis">
-                        <span class="palanquin-bold">Meatpacking District</span>
-                    </div>
-                    <div class="zone" id="ostower">
-                        <span class="palanquin-bold">Oscorp Tower</span>
+                <!-- Spider-Island -->
+                <div class="area pat">
+                    <h2>Spider-Island</h2>
+                    <p>Baron: Patty</p>
+                    <div class="zones">
+                        <div class="zone" id="spiqueen">
+                            <span class="palanquin-bold">Avengers Tower (Spider Queen's Lair)</span>
+                        </div>
+                        <div class="zone" id="meatdis">
+                            <span class="palanquin-bold">Meatpacking District</span>
+                        </div>
+                        <div class="zone" id="ostower">
+                            <span class="palanquin-bold">Oscorp Tower</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Domain of Apocalypse -->
-            <div class="area chris">
-                <h2>Domain of Apocalypse</h2>
-                <p>Baron: Chris</p>
-                <div class="zones">
-                    <div class="zone" id="ncair">
-                        <span class="palanquin-bold">New Cairo</span>
-                    </div>
-                    <div class="zone" id="sfran">
-                        <span class="palanquin-bold">San Fransico</span>
-                    </div>
-                    <div class="zone" id="westcount">
-                        <span class="palanquin-bold">Westchester County</span>
+                <!-- Domain of Apocalypse -->
+                <div class="area chris">
+                    <h2>Domain of Apocalypse</h2>
+                    <p>Baron: Chris</p>
+                    <div class="zones">
+                        <div class="zone" id="ncair">
+                            <span class="palanquin-bold">New Cairo</span>
+                        </div>
+                        <div class="zone" id="sfran">
+                            <span class="palanquin-bold">San Fransico</span>
+                        </div>
+                        <div class="zone" id="westcount">
+                            <span class="palanquin-bold">Westchester County</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Deadlands -->
-            <div class="area chadd">
-                <h2>Deadlands</h2>
-                <p>Baron: Chadd</p>
-                <div class="zones">
-                    <div class="zone" id="udcamp">
-                        <span class="palanquin-bold">Undead Encampment</span>
-                    </div>
-                    <div class="zone" id="shield">
-                        <span class="palanquin-bold">The Shield</span>
-                    </div>
-                    <div class="zone" id="rshq">
-                        <span class="palanquin-bold">Red Skull's Hideout</span>
+                <!-- Deadlands -->
+                <div class="area chadd">
+                    <h2>Deadlands</h2>
+                    <p>Baron: Chadd</p>
+                    <div class="zones">
+                        <div class="zone" id="udcamp">
+                            <span class="palanquin-bold">Undead Encampment</span>
+                        </div>
+                        <div class="zone" id="shield">
+                            <span class="palanquin-bold">The Shield</span>
+                        </div>
+                        <div class="zone" id="rshq">
+                            <span class="palanquin-bold">Red Skull's Hideout</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Greenland -->
-            <div class="area josh">
-                <h2>Greenland</h2>
-                <p>Baron: Josh</p>
-                <div class="zones">
-                    <div class="zone" id="fangmtn">
-                        <span class="palanquin-bold">Fang Mountain</span>
-                    </div>
-                    <div class="zone" id="seaofmon">
-                        <span class="palanquin-bold">Sea of Monsters</span>
-                    </div>
-                    <div class="zone" id="tribal">
-                        <span class="palanquin-bold">Barrens of the Tribal Hulks</span>
+                <!-- Greenland -->
+                <div class="area josh">
+                    <h2>Greenland</h2>
+                    <p>Baron: Josh</p>
+                    <div class="zones">
+                        <div class="zone" id="fangmtn">
+                            <span class="palanquin-bold">Fang Mountain</span>
+                        </div>
+                        <div class="zone" id="seaofmon">
+                            <span class="palanquin-bold">Sea of Monsters</span>
+                        </div>
+                        <div class="zone" id="tribal">
+                            <span class="palanquin-bold">Barrens of the Tribal Hulks</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Manhattan 616 -->
-            <div class="area bren">
-                <h2>Manhattan 616</h2>
-                <p>Baron: Brendan</p>
-                <div class="zones">
-                    <div class="zone" id="bronx-1">
-                        <span class="palanquin-bold">Baxter Building</span>
-                    </div>
-                    <div class="zone" id="bronx-2">
-                        <span class="palanquin-bold">Fisk Towers</span>
-                    </div>
-                    <div class="zone" id="bronx-3">
-                        <span class="palanquin-bold">Times Square</span>
+                <!-- Manhattan 616 -->
+                <div class="area bren">
+                    <h2>Manhattan 616</h2>
+                    <p>Baron: Brendan</p>
+                    <div class="zones">
+                        <div class="zone" id="bronx-1">
+                            <span class="palanquin-bold">Baxter Building</span>
+                        </div>
+                        <div class="zone" id="bronx-2">
+                            <span class="palanquin-bold">Fisk Towers</span>
+                        </div>
+                        <div class="zone" id="bronx-3">
+                            <span class="palanquin-bold">Times Square</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Killville -->
-            <div class="area mark">
-                <h2>Killville</h2>
-                <p>Baron: Mark</p>
-                <div class="zones">
-                    <div class="zone" id="assguild">
-                        <span class="palanquin-bold">Assassin's Guild</span>
-                    </div>
-                    <div class="zone" id="griffprk">
-                        <span class="palanquin-bold">Griffith Park</span>
-                    </div>
-                    <div class="zone" id="mannd">
-                        <span class="palanquin-bold">Mann District</span>
+                <!-- Killville -->
+                <div class="area mark">
+                    <h2>Killville</h2>
+                    <p>Baron: Mark</p>
+                    <div class="zones">
+                        <div class="zone" id="assguild">
+                            <span class="palanquin-bold">Assassin's Guild</span>
+                        </div>
+                        <div class="zone" id="griffprk">
+                            <span class="palanquin-bold">Griffith Park</span>
+                        </div>
+                        <div class="zone" id="mannd">
+                            <span class="palanquin-bold">Mann District</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Westchester County -->
-            <div class="area none">
-                <h2>Doomgard</h2>
-                <p>God Emperor Doom's Home</p>
-                <div class="zones">
-                    <div class="zone" id="west-1">
-                        <span class="palanquin-bold">Doom's Castle</span>
-                    </div>
-                    <div class="zone" id="west-2">
-                        <span class="palanquin-bold">Courtyard</span>
-                    </div>
-                    <div class="zone" id="west-3">
-                        <span class="palanquin-bold">Halls of Homicide</span>
+                <!-- Westchester County -->
+                <div class="area none">
+                    <h2>Doomgard</h2>
+                    <p>God Emperor Doom's Home</p>
+                    <div class="zones">
+                        <div class="zone" id="west-1">
+                            <span class="palanquin-bold">Doom's Castle</span>
+                        </div>
+                        <div class="zone" id="west-2">
+                            <span class="palanquin-bold">Courtyard</span>
+                        </div>
+                        <div class="zone" id="west-3">
+                            <span class="palanquin-bold">Halls of Homicide</span>
+                        </div>
                     </div>
                 </div>
+
+
             </div>
 
+            <h2>LEGEND</h2>
+            <div class="legend-box" id="legend">
+                <p class="mike">Mike (Brotherhood)</p>
+                <p class="pat">Patty (Spideys)</p>
+                <p class="chris">Chris (Apocalypse)</p>
+                <p class="chadd">Chadd (Black Order)</p>
+                <p class="josh">Josh (Asgardians)</p>
+                <p class="bren">Brendan (Sinister 6)</p>
+                <p class="mark">Mark (MODOK Probably)</p>
+                <p class="none">Uncontrolled</p>
+            </div>
 
+            <div id="scores">
+                <h2>LEADERBOARD</h2>
+                <div class="scores-container"></div>
+            </div>
+
+            <a href="#top"> <button class="legend-btn">Top</button></a>
         </div>
 
-        <h2>LEGEND</h2>
-        <div class="legend-box" id="legend">
-            <p class="mike">Mike (Brotherhood)</p>
-            <p class="pat">Patty (Spideys)</p>
-            <p class="chris">Chris (Apocalypse)</p>
-            <p class="chadd">Chadd (Black Order)</p>
-            <p class="josh">Josh (Asgardians)</p>
-            <p class="bren">Brendan (Sinister 6)</p>
-            <p class="mark">Mark (MODOK Probably)</p>
-            <p class="none">Uncontrolled</p>
+
+
+
+        <div class="clear">
+            <button id="clearButton">Clear Local Storage</button>
+            <p>WARNING, THIS WILL RESET ANY COLOURS SET</p>
         </div>
 
-        <div id="scores">
-            <h2>LEADERBOARD</h2>
-            <div class="scores-container"></div>
-        </div>
 
-        <a href="#top"> <button class="legend-btn">Top</button></a>
-    </div>
-
-
-
-
-    <div class="clear">
-        <button id="clearButton">Clear Local Storage</button>
-        <p>WARNING, THIS WILL RESET ANY COLOURS SET</p>
-    </div>
-
-
-    <script src="script.js"></script>
-    <script src="scores.js"></script>
+        <script src="script.js"></script>
+        <script src="scores.js"></script>
 </body>
 
 </html>

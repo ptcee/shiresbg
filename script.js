@@ -63,6 +63,22 @@ $(document).ready(function () {
 
     applySavedClasses();
 
+
+    //rules div
+    const rulesButton = document.getElementById('rules-btn');
+    const rulesDiv = document.getElementById('rulesDiv');
+    const closeButton = document.getElementById('close-btn');
+
+    rulesButton.onclick = function() {
+      rulesDiv.style.display = 'block'; 
+      setTimeout(() => rulesDiv.style.opacity = '1', 10); 
+    };
+
+    closeButton.onclick = function() {
+      rulesDiv.style.opacity = '0';  
+      setTimeout(() => rulesDiv.style.display = 'none', 300); 
+    };
+
     // clear local storage
     document.getElementById('clearButton').addEventListener('click', function () {
         localStorage.clear();
