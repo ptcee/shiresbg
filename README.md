@@ -4,7 +4,7 @@ This is the map for Dojo league 1! <br /><a href="https://ptcee.github.io/dojo-l
 <br />Mike controls the master. If your name isn't Mike and you make changes they mean nothing.
 
 # Leaderboard
-<img width="282" alt="Screen Shot 2025-03-04 at 1 50 53 PM" src="https://github.com/user-attachments/assets/70307a34-4b9a-40aa-aa70-4e9acad328ee" />
+<img width="271" alt="Screen Shot 2025-03-04 at 1 52 16 PM" src="https://github.com/user-attachments/assets/5a4caa89-6abe-4022-be69-9f3500d04af3" />
 
 # Current territories
 <img width="992" alt="Screen Shot 2025-03-04 at 1 50 47 PM" src="https://github.com/user-attachments/assets/d2ca0e74-6472-438e-a3ba-c29abfe19ea6" />
