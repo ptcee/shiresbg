@@ -18,9 +18,9 @@ $(document).ready(function () {
 
             if (hasPlayerClass) {
                 if (parentHasPlayerClass) {
-                    count += 2; 
+                    count += 1; 
                 } else {
-                    count += 1;
+                    count += 2;
                 }
             }
         });
