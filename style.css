@@ -85,7 +85,7 @@ p {
 .zone {
   width: 32%;
   height: 60px;
-  padding: 40px 0;
+  padding: 40px 5px;
   text-align: center;
   color: rgb(255, 255, 255);
   background-color: #868484;
