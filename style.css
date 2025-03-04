@@ -1,14 +1,14 @@
 :root {
-  --mike: #ce183c;
-  --chris: #1f448e;
-  --josh: #7a00c7;
-  --pat: #8d0b02;
-  --chadd: #000;
-  --bren: #6ebd00;
-  --mark: #7c3d0a;
-  --gini: #9b8007;
+  --mike: rgb(206, 24, 60);
+  --chris: rgb(31, 68, 142);
+  --josh: rgb(122, 0, 199);
+  --pat: rgb(141, 11, 2);
+  --chadd: rgb(0, 0, 0);
+  --bren: rgb(110, 189, 0);
+  --mark: rgb(124, 61, 10);
+  --gini: rgb(155, 128, 7);
  
-  --none: #898989;
+  --none: rgb(137, 137, 137);
 }
 
 
@@ -150,20 +150,20 @@ p {
 }
 
 #clearButton {
-          padding: 10px 10px;
-          background-color: red;
-          color: white;
-          border: none;
-          font-size: 16px;
-          cursor: pointer;
-          border-radius: 5px;
-          font-size: .5rem;
-          width: 80px;
+  padding: 10px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: .5rem;
+  width: 80px;
 
 }
       
 #clearButton:hover {
-          background-color: darkred;
+  background-color: darkred;
 }
 
 .clear {
@@ -223,8 +223,8 @@ p {
   line-height: 15px;
 }
 
-.mike { background-color: var(--mike); }
-.chris { background-color: var(--chris) }
+.mike { background-color: var(--mike) !important;}
+.chris { background-color: var(--chris); }
 .josh { background-color: var(--josh); }
 .pat { background-color: var(--pat); }
 .chadd { background-color: var(--chadd); }
@@ -234,7 +234,50 @@ p {
 
 .none { background-color: var(--none); }
 
- 
+
+#scores {
+  background-color: #5b5b5b;
+  margin: 30px 0 10px 0;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  width: 285px;
+}
+
+#scores h2 {
+  border-bottom: 2px solid #fff;
+  margin-top: 0;
+}
+
+ .scores-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #5b5b5b;
+  color: #ffffff;
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+ }
+
+ .pts {
+  padding: 10px;
+ }
+
+ .pts:nth-child(odd) {
+  background-color: #787878;
+ }
+
+ .pts:first-child{
+  background-color: rgb(255, 196, 0);
+  color: black;
+ }
+
+ .pts:nth-last-child(-n + 2){
+  background-color: rgb(121, 25, 25);
+ }
+
+ .pts:last-child{
+  background-color: rgb(71, 14, 14);
+ }
 
 
 @media only screen and (max-width: 600px) {
