@@ -6,7 +6,7 @@ $(document).ready(function () {
         { label: "Black Order", className: "chadd" },
         { label: "Asgavengers", className: "josh" },
         { label: "Sinister 6", className: "bren" },
-        { label: "MODOK & Pals", className: "mark" },
+        { label: "A-Force", className: "mark" },
         { label: "Uncontrolled", className: "none" }
     ];    
 
