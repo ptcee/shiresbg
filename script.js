@@ -10,7 +10,7 @@ $(document).ready(function () {
         { label: "Uncontrolled", className: "none" }
     ];    
 
-    // dropdown menu
+// ########## DROPDOWN MENU ##########
     function showColorDropdown(event) {
         const target = $(event.target);
 
@@ -40,12 +40,6 @@ $(document).ready(function () {
 
                 dropdown.remove();
             });
-
-            $(document).on('click', function (e) {
-                if (!$(e.target).closest('.color-dropdown').length && !$(e.target).closest('.zone').length) {
-                    $('.color-dropdown').remove();
-                }
-            });
         }
     }
 
@@ -61,10 +55,15 @@ $(document).ready(function () {
 
     $('.map-container').on('click', '.zone', showColorDropdown);
 
+    $(document).on('click', function (e) {
+        if (!$(e.target).closest('.color-dropdown').length && !$(e.target).closest('.zone').length) {
+            $('.color-dropdown').remove();
+        }
+    });
+
     applySavedClasses();
 
-
-    //rules div
+// ########## RULES DIV REVEAL ##########
     const rulesButton = document.getElementById('rules-btn');
     const rulesDiv = document.getElementById('rules');
     const closeButton = document.getElementById('close-btn');
@@ -79,14 +78,14 @@ $(document).ready(function () {
       setTimeout(() => rulesDiv.style.display = 'none', 300); 
     };
 
-    // clear local storage
+// ########## LOCAL STORAGE STUFF ##########
     document.getElementById('clearButton').addEventListener('click', function () {
         localStorage.clear();
         $('.zone').removeClass().addClass('zone');
         alert('Local storage cleared!');
     });
 
-    // smooth scrolling
+// ########## SMOOTH SCROLL ##########
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();

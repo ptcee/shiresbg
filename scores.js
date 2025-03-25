@@ -1,12 +1,12 @@
 $(document).ready(function () {
     let counts = [
-        { name: 'Mike', class: 'pts', className: 'mike' },
-        { name: 'Patty', class: 'pts', className: 'pat' },
-        { name: 'Chris', class: 'pts', className: 'chris' },
-        { name: 'Chadd', class: 'pts', className: 'chadd' },
-        { name: 'Josh', class: 'pts', className: 'josh' },
-        { name: 'Brendan', class: 'pts', className: 'bren' },
-        { name: 'Mark', class: 'pts', className: 'mark' }
+        { name: 'Mike', className: 'mike' },
+        { name: 'Patty', className: 'pat' },
+        { name: 'Chris', className: 'chris' },
+        { name: 'Chadd', className: 'chadd' },
+        { name: 'Josh', className: 'josh' },
+        { name: 'Brendan', className: 'bren' },
+        { name: 'Mark', className: 'mark' }
     ];
 
     counts.forEach(function(player) {
@@ -34,7 +34,7 @@ $(document).ready(function () {
     scoresContainer.empty();
 
     counts.forEach(function(player) {
-        const scoreElement = `<div class="${player.class}">${player.name}: ${player.count}</div>`;
+        const scoreElement = `<div class="pts">${player.name}: ${player.count}</div>`;
         scoresContainer.append(scoreElement);
         console.log("Updated <div> text:", `${player.name}: ${player.count}`);
     });

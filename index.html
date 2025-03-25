@@ -18,9 +18,23 @@
     <div class="container">
         <h1>BATTLEWORLD</h1>
         <div class="buttons-top">
-            <button id="rules-btn">Rules</button>
-            <a href="#legend"> <button class="legend-btn" id="top">Legend</button></a>
+            <button class="pushable" id="rules-btn">
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front"> Rules </span>
+              </button>
+            <!-- <button id="rules-btn">Rules</button> -->
+            <a href="#legend">
+                <button class="pushable" id="legends-btn">
+                    <span class="shadow"></span>
+                    <span class="edge purp-edge"></span>
+                    <span class="front purp-front"> Legend </span>
+                  </button>
+                  <!-- <button class="legend-btn" id="top">Legend</button> -->
+                </a>
         </div>
+
+<!-- ########## RULES ########## -->
             <div id="rules">
                 <button id="close-btn">X</button>
                 <h2>Rules</h2>
@@ -50,6 +64,8 @@
                 </ul>
                 </p>
             </div>
+
+<!-- ########## AREAS & ZONES ########## -->
             <div class="map-container">
 
                 <!-- Monarchy of M -->
@@ -67,6 +83,7 @@
                             <span class="palanquin-bold">Castle Magnus</span>
                         </div>
                     </div>
+                    <span class="shad shadm"></span>
                 </div>
 
                 <!-- Spider-Island -->
@@ -75,7 +92,7 @@
                     <p>Baron: Patty</p>
                     <div class="zones">
                         <div class="zone" id="spiqueen">
-                            <span class="palanquin-bold">Avengers Tower (Spider Queen's Lair)</span>
+                            <span class="palanquin-bold">Spider Queen's Lair</span>
                         </div>
                         <div class="zone" id="meatdis">
                             <span class="palanquin-bold">Meatpacking District</span>
@@ -84,6 +101,7 @@
                             <span class="palanquin-bold">Oscorp Tower</span>
                         </div>
                     </div>
+                    <span class="shad shadp"></span>
                 </div>
 
                 <!-- Domain of Apocalypse -->
@@ -101,6 +119,7 @@
                             <span class="palanquin-bold">Westchester County</span>
                         </div>
                     </div>
+                    <span class="shad shadc"></span>
                 </div>
 
                 <!-- Deadlands -->
@@ -118,6 +137,7 @@
                             <span class="palanquin-bold">Red Skull's Hideout</span>
                         </div>
                     </div>
+                    <span class="shad shadd"></span>
                 </div>
 
                 <!-- Greenland -->
@@ -135,6 +155,7 @@
                             <span class="palanquin-bold">Barrens of the Tribal Hulks</span>
                         </div>
                     </div>
+                    <span class="shad shadj"></span>
                 </div>
 
                 <!-- Manhattan 616 -->
@@ -152,6 +173,7 @@
                             <span class="palanquin-bold">Times Square</span>
                         </div>
                     </div>
+                    <span class="shad shadb"></span>
                 </div>
 
                 <!-- Killville -->
@@ -169,6 +191,7 @@
                             <span class="palanquin-bold">Mann District</span>
                         </div>
                     </div>
+                    <span class="shad shadpc"></span>
                 </div>
 
                 <!-- Uncontested Zones -->
@@ -186,21 +209,22 @@
                             <span class="palanquin-bold">Halls of Homicide</span>
                         </div>
                     </div>
+                    <span class="shad shadnone"></span>
                 </div>
 
 
             </div>
-
+<!-- ########## LEGENDS AND SCOREBOARD ########## -->
             <h2>LEGEND</h2>
             <div class="legend-box" id="legend">
-                <p class="mike">Mike (Brotherhood)</p>
-                <p class="pat">Patty (Spideys)</p>
-                <p class="chris">Chris (Apocalypse)</p>
-                <p class="chadd">Chadd (Black Order)</p>
-                <p class="josh">Josh (Asgardians)</p>
-                <p class="bren">Brendan (Sinister 6)</p>
-                <p class="mark">Mark (A-Force)</p>
-                <p class="none">Uncontrolled</p>
+                <p class="mike">Mike (Brotherhood)<span class="shad shadm"></span></p>
+                <p class="pat">Patty (Spideys)<span class="shad shadp"></span></p>
+                <p class="chris">Chris (Apocalypse)<span class="shad shadc"></span></p>
+                <p class="chadd">Chadd (Black Order)<span class="shad shadd"></span></p>
+                <p class="josh">Josh (Asgardians)<span class="shad shadj"></span></p>
+                <p class="bren">Brendan (Sinister 6)<span class="shad shadb"></span></p>
+                <p class="mark">Mark (A-Force)<span class="shad shadpc"></span></p>
+                <p class="none">Uncontrolled<span class="shad shadnone"></span></p>
             </div>
 
             <div id="scores">
@@ -208,7 +232,15 @@
                 <div class="scores-container"></div>
             </div>
 
-            <a href="#top"> <button class="legend-btn">Top</button></a>
+
+            <a href="#rules-btn">
+                <button class="pushable legend-btn">
+                    <span class="shadow"></span>
+                    <span class="edge purp-edge"></span>
+                    <span class="front purp-front top-btn"> Top </span>
+                  </button>
+                </a>
+             <!-- <button class="legend-btn">Top</button></a> -->
         </div>
 
 
