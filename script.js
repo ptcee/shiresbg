@@ -7,6 +7,7 @@ $(document).ready(function () {
         { label: "Asgavengers", className: "josh" },
         { label: "Sinister 6", className: "bren" },
         { label: "A-Force", className: "mark" },
+        { label: "X-Men", className: "eric" },
         { label: "Uncontrolled", className: "none" }
     ];    
 
