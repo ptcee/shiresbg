@@ -6,7 +6,8 @@ $(document).ready(function () {
         { name: 'Chadd', className: 'chadd' },
         { name: 'Josh', className: 'josh' },
         { name: 'Brendan', className: 'bren' },
-        { name: 'Mark', className: 'mark' }
+        { name: 'Mark', className: 'mark' },
+        { name: 'Eric', className: 'eric' },
     ];
 
     counts.forEach(function(player) {
