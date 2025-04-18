@@ -8,6 +8,7 @@ $(document).ready(function () {
         { label: "Sinister 6", className: "bren" },
         { label: "A-Force", className: "mark" },
         { label: "X-Men", className: "eric" },
+        { label: "Asgard", className: "gini" },
         { label: "Uncontrolled", className: "none" }
     ];    
 
