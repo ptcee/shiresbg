@@ -7,7 +7,7 @@
   --bren: rgb(110, 189, 0);
   --mark: rgb(124, 61, 10);
   --eric: rgb(255, 102, 0);
-  --gini: rgb(155, 128, 7);
+  --gini: rgb(0, 192, 222);
  
   --none: rgb(137, 137, 137);
 }
@@ -130,6 +130,7 @@ p {
 .shadb { background-color: rgb(61, 104, 1); } /* Bren */
 .shadpc { background-color: rgb(64, 31, 5); } /* Mark */
 .shade { background-color: rgb(128, 51, 0); } /* Eric */
+.shadg { background-color: rgb(2, 135, 156); } /* Gini */
 .shadnone { background-color: rgb(101, 101, 101); } /* None */
 
 .color-dropdown {
