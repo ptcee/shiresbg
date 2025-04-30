@@ -19,6 +19,7 @@ const data = {
     datasets: [
         {
         label: 'Abomination (5)',
+        hidden: true,
         data: [4, 4, 4, 2, 3, 1],
         fill: true,
         backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -30,6 +31,7 @@ const data = {
     },
     {
         label: 'Agent Venom (4)',
+        hidden: true,
         data: [4, 3, 3, 4, 3, 1],
         fill: true,
         backgroundColor: 'rgba(20, 0, 133, 0.2)',
