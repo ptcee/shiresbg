@@ -538,8 +538,9 @@ p {
 /* RADAR */
 .radar {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 15px;
   margin: 15px;
   width: 70vw;
@@ -548,6 +549,10 @@ p {
 
 nav {
   margin-top: 15px;
+}
+
+ul {
+  list-style: none;
 }
 
 /* Media Queries */

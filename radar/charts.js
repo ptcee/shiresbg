@@ -1,10 +1,10 @@
 Chart.defaults.backgroundColor = '#c0c0c0';
 Chart.defaults.borderColor = '#c0c0c0';
 Chart.defaults.color = '#fff';
-Chart.defaults.font.size = 16;
+Chart.defaults.font.size = 18;
 Chart.defaults.font.family = "'Palanquin', serif";
 Chart.defaults.elements.point.pointStyle = 'rect';
-Chart.defaults.plugins.legend.label
+Chart.defaults.plugins.legend.position = 'bottom';
 
 let ctx = document.getElementById('charts');
 
@@ -79,6 +79,11 @@ new Chart(ctx, {
     options: {
         scales: {
             r: {
+                pointLabels: {
+                    font: {
+                        size: 14
+                    },
+                },
                 angleLines: {
                     display: false
                 },
