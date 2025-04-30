@@ -536,23 +536,30 @@ p {
 
 
 /* RADAR */
-.radar {
+.chart {
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin: 5px;
+  width: 60vw;
+  height: 80vh;
   align-items: center;
-  padding: 15px;
-  margin: 15px;
-  width: 70vw;
-  height: 70vh;
 }
 
-nav {
-  margin-top: 15px;
+#legendBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
-ul {
-  list-style: none;
+.lgd-btn {
+  color: #fff;
+  font-weight: 800;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  font-family: "Palanquin", serif;
 }
 
 /* Media Queries */
@@ -570,8 +577,7 @@ ul {
     position: relative;
   }
 
-  .radar {
+  .chart {
     width: 100vw;
-    font-size: 16px;
   }
 }

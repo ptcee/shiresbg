@@ -16,24 +16,23 @@
 
 <body>
     <div class="container">
-        <nav>
-            <a href="../index.html">
-                <button class="pushable" id="legends-btn">
-                    <span class="shadow"></span>
-                    <span class="edge purp-edge"></span>
-                    <span class="front purp-front"> Back </span>
-                  </button>
-                  <!-- <button class="legend-btn" id="top">Legend</button> -->
-                </a>
-        </nav>
+        <h1>MCP Radar</h1>
 
-                    <div class="radar">
-                        <!-- <div id="chart-legend">
-                                <p>A-C</p>
-                        </div>  -->
-                            <canvas id="charts"></canvas>    
-                    </div>
-                </div>
+        <div class="chart">
+        <canvas id="charts"></canvas>
+        <div id="legendBox">
+            <button id="abom" onclick="toggleData(0)" class="lgd-btn"></button>
+            <button id="av" onclick="toggleData(1)" class="lgd-btn"></button>
+            <button id="asm" onclick="toggleData(2)" class="lgd-btn"></button>
+            <button id="a1" onclick="toggleData(3)" class="lgd-btn"></button>
+            <button id="angl" onclick="toggleData(4)" class="lgd-btn"></button>
+            <button id="angla" onclick="toggleData(5)" class="lgd-btn"></button>
+            <button id="ant" onclick="toggleData(6)" class="lgd-btn"></button>
+           
+        </div>
+        </div>
+
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
