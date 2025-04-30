@@ -17,20 +17,22 @@
 <body>
     <div class="container">
         <nav>
-            <!-- Dropdowns for picking each character -->
+            <a href="../index.html">
+                <button class="pushable" id="legends-btn">
+                    <span class="shadow"></span>
+                    <span class="edge purp-edge"></span>
+                    <span class="front purp-front"> Back </span>
+                  </button>
+                  <!-- <button class="legend-btn" id="top">Legend</button> -->
+                </a>
         </nav>
-        <div class="radarbox">
 
-            <div class="radar">
-                <!-- <h2>Abomination (5)</h2> -->
-                <div>
-                    <canvas id="abom"></canvas>
-                </div>        
-            </div>
+                    <div class="radar">
+                            <div id="chart-legend"></div>
+                            <canvas id="charts"></canvas>       
+                    </div>
+                </div>
 
-        </div>
-
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="charts.js"></script>

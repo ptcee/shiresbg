@@ -30,6 +30,7 @@ const data = {
             pointHoverBackgroundColor: '#fff',
             pointHoverBorderColor: 'rgb(50, 226, 91)'
         },
+
         {
             label: 'Agent Venom (4)',
             hidden: true,
@@ -41,7 +42,33 @@ const data = {
             pointBorderColor: '#fff',
             pointHoverBackgroundColor: '#fff',
             pointHoverBorderColor: 'rgb(147, 128, 255)'
-        }
+        },
+
+        {
+            label: 'Amazing Spiderman (5)',
+            hidden: true,
+            data: [3, 5, 5, 2, 2, 4],
+            fill: true,
+            backgroundColor: 'rgba(158, 0, 0, 0.2)',
+            borderColor: 'rgb(255, 15, 15)',
+            pointBackgroundColor: 'rgb(255, 15, 15)',
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: 'rgb(255, 15, 15)'
+        },
+
+        {
+            label: 'Ancient One (4)',
+            hidden: true,
+            data: [4, 3, 3, 2, 4, 1],
+            fill: true,
+            backgroundColor: 'rgba(223, 201, 1, 0.2)',
+            borderColor: 'rgb(223, 201, 1)',
+            pointBackgroundColor: 'rgb(223, 201, 1)',
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: 'rgb(223, 201, 1)'
+        },
 
     ]
 };
