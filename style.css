@@ -7,10 +7,11 @@
   --bren: rgb(110, 189, 0);
   --mark: rgb(124, 61, 10);
   --eric: rgb(255, 102, 0);
-  --gini: rgb(0, 192, 222);
+  --gini: rgb(155, 128, 7);
  
   --none: rgb(137, 137, 137);
 }
+
 
 body {
   font-family: "Palanquin", serif;
@@ -62,7 +63,7 @@ p {
   /* border: 4px solid #fff; */
   border-radius: 20px;
   display: flex;
-  width: 40vw;
+  width: 30vw;
   position: relative;
 }
 
@@ -130,7 +131,6 @@ p {
 .shadb { background-color: rgb(61, 104, 1); } /* Bren */
 .shadpc { background-color: rgb(64, 31, 5); } /* Mark */
 .shade { background-color: rgb(128, 51, 0); } /* Eric */
-.shadg { background-color: rgb(2, 135, 156); } /* Gini */
 .shadnone { background-color: rgb(101, 101, 101); } /* None */
 
 .color-dropdown {
@@ -465,9 +465,30 @@ p {
   }
 
 
+  /* RADAR */
+.radar {
+    display: block;
+}
+
+.radarbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.on {color: #e7ff0a;}
+
+
 /* Media Queries */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .area {
     flex-direction: column;
     width: 80%;
