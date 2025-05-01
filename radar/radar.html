@@ -19,23 +19,21 @@
         <h1>MCP Radar</h1>
 
         <div class="chart">
-        <canvas id="charts"></canvas>
-        <div id="legendBox">
-            <button id="abom" onclick="toggleData(0)" class="lgd-btn"></button>
-            <button id="av" onclick="toggleData(1)" class="lgd-btn"></button>
-            <button id="asm" onclick="toggleData(2)" class="lgd-btn"></button>
-            <button id="a1" onclick="toggleData(3)" class="lgd-btn"></button>
-            <button id="angl" onclick="toggleData(4)" class="lgd-btn"></button>
-            <button id="angla" onclick="toggleData(5)" class="lgd-btn"></button>
-            <button id="ant" onclick="toggleData(6)" class="lgd-btn"></button>
-           
-        </div>
+            <p class="shout">Shout out to Soren from Germany for the data. In-depth breakdowns of these stats on <a href="https://sgprotocol.blogspot.com/2025/04/battlefield-roles-for-every-mcp.html" target="_blank">his site here.</a></p>
+            <canvas id="charts"></canvas>
+            <button id="resetData" class="filter">Reset</button>
+            <div id="filters"></div>
+            
+            <div>
+                <div id="buttonContainer" class="legendBox"></div>
+            </div>
         </div>
 
     </div>
 
-
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dataset.js"></script>
+    <script src="buttondata.js"></script>
     <script src="charts.js"></script>
 </body>
 

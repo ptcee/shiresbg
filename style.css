@@ -546,11 +546,18 @@ p {
   align-items: center;
 }
 
-#legendBox {
+#charts {
+  margin-left: 15px;
+}
+
+.legendBox {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
+  margin-top: 15px;
+  padding: 20px;
+  width: 80vw;
 }
 
 .lgd-btn {
@@ -560,7 +567,46 @@ p {
   border: none;
   padding: 10px;
   font-family: "Palanquin", serif;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  overflow: hidden;
+  opacity: 1;
+  display: inline-block;
 }
+
+.lgd-btn.hidden {
+  display: none;
+  opacity: 0;
+  max-height: 0;
+  pointer-events: none;
+}
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.filter {
+  color: #c4c4c4;
+  background-color: #666666;
+  font-weight: 800;
+  border-radius: 5px;
+  border: none;
+  padding: 1px 7px;
+  font-family: "Palanquin", serif;
+}
+
+#resetData {
+  background-color: #700000;
+}
+
+a:link {color: orange;}
+a:visited {color: darkgoldenrod;}
+a:hover {color: yellow;}
+a:active {color: orange;}
+a {text-decoration: none; font-weight: bolder;}
+.shout {font-size: .8rem; font-style: oblique; width: 45%; margin: 0 0 20px 0;}
 
 /* Media Queries */
 

@@ -11,7 +11,6 @@ Chart.defaults.plugins.legend.labels.padding = 15;
 Chart.defaults.plugins.legend.labels.textAlign = 'center';
 
 
-
 let ctx = document.getElementById('charts');
 
 const data = {
@@ -23,138 +22,7 @@ const data = {
         'Control',
         'Support',
     ],
-    datasets: [
-        {
-            label: 'Abomination (5)',
-            hidden: true,
-            data: [4, 4, 4, 2, 3, 1],
-            fill: true,
-            backgroundColor: 'rgba(0, 102, 24, 0.2)',
-            borderColor: 'rgb(50, 226, 91)',
-            pointBackgroundColor: 'rgb(50, 226, 91)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(50, 226, 91)'
-        },
-
-        {
-            label: 'Agent Venom (4)',
-            hidden: true,
-            data: [4, 3, 3, 4, 3, 1],
-            fill: true,
-            backgroundColor: 'rgba(20, 0, 133, 0.2)',
-            borderColor: 'rgb(147, 128, 255)',
-            pointBackgroundColor: 'rgb(147, 128, 255)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(147, 128, 255)'
-        },
-
-        {
-            label: 'Amazing Spiderman (5)',
-            hidden: true,
-            data: [3, 5, 5, 2, 2, 4],
-            fill: true,
-            backgroundColor: 'rgba(158, 0, 0, 0.2)',
-            borderColor: 'rgb(255, 15, 15)',
-            pointBackgroundColor: 'rgb(255, 15, 15)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(255, 15, 15)'
-        },
-
-        {
-            label: 'Ancient One (4)',
-            hidden: true,
-            data: [4, 3, 3, 2, 4, 1],
-            fill: true,
-            backgroundColor: 'rgba(223, 201, 1, 0.2)',
-            borderColor: 'rgb(223, 201, 1)',
-            pointBackgroundColor: 'rgb(223, 201, 1)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(223, 201, 1)'
-        },
-
-        {
-            label: 'Angel (3)',
-            hidden: true,
-            data: [2, 2, 4, 3, 3, 1],
-            fill: true,
-            backgroundColor: 'rgba(35, 117, 123, 0.2)',
-            borderColor: 'rgb(0, 228, 245)',
-            pointBackgroundColor: 'rgb(0, 228, 245)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(0, 228, 245)'
-        },
-
-        {
-            label: 'Angela (5)',
-            hidden: true,
-            data: [4, 3, 4, 3, 1, 1],
-            fill: true,
-            backgroundColor: 'rgba(98, 70, 14, 0.2)',
-            borderColor: 'rgb(209, 173, 102)',
-            pointBackgroundColor: 'rgb(209, 173, 102)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(209, 173, 102)'
-        },
-
-        {
-            label: 'Ant-Man (3)',
-            hidden: true,
-            data: [3, 2, 1, 1, 1, 1],
-            fill: true,
-            backgroundColor: 'rgba(235, 74, 0, 0.2)',
-            borderColor: 'rgb(235, 74, 0)',
-            pointBackgroundColor: 'rgb(235, 74, 0)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(235, 74, 0)'
-        },
-
-        {
-            label: 'Apocalypse (6)',
-            hidden: true,
-            data: [4, 5, 3, 3, 1, 4],
-            fill: true,
-            backgroundColor: 'rgba(44, 76, 144, 0.2)',
-            borderColor: 'rgb(96, 131, 205)',
-            pointBackgroundColor: 'rgb(96, 131, 205)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(96, 131, 205)'
-        },
-
-        {
-            label: 'Archangel (4)',
-            hidden: true,
-            data: [4, 2, 4, 3, 1, 1],
-            fill: true,
-            backgroundColor: 'rgba(32, 114, 162, 0.2)',
-            borderColor: 'rgb(101, 183, 230)',
-            pointBackgroundColor: 'rgb(101, 183, 230)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(101, 183, 230)'
-        },
-
-        {
-            label: 'Arnim Zola (3)',
-            hidden: true,
-            data: [3, 2, 1, 4, 3, 3],
-            fill: true,
-            backgroundColor: 'rgba(90, 16, 132, 0.2)',
-            borderColor: 'rgb(172, 57, 239)',
-            pointBackgroundColor: 'rgb(172, 57, 239)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(172, 57, 239)'
-        },
-
-    ]
+    datasets: dataSet
 };
 
 var myChart = new Chart(ctx, {
@@ -201,37 +69,115 @@ var myChart = new Chart(ctx, {
 });
 
 // CHARACTER LEGEND BUTTONS //
-document.getElementById('abom').style.backgroundColor = data.datasets[0].pointBackgroundColor;
-document.getElementById('abom').innerText = data.datasets[0].label;
 
-document.getElementById('av').style.backgroundColor = data.datasets[1].pointBackgroundColor;
-document.getElementById('av').innerText = data.datasets[1].label;
+const container = document.getElementById('buttonContainer');
 
-document.getElementById('asm').style.backgroundColor = data.datasets[2].pointBackgroundColor;
-document.getElementById('asm').innerText = data.datasets[2].label;
-
-document.getElementById('a1').style.backgroundColor = data.datasets[3].pointBackgroundColor;
-document.getElementById('a1').innerText = data.datasets[3].label;
-
-document.getElementById('angl').style.backgroundColor = data.datasets[4].pointBackgroundColor;
-document.getElementById('angl').innerText = data.datasets[4].label;
-
-document.getElementById('angla').style.backgroundColor = data.datasets[5].pointBackgroundColor;
-document.getElementById('angla').innerText = data.datasets[5].label;
-
-document.getElementById('ant').style.backgroundColor = data.datasets[6].pointBackgroundColor;
-document.getElementById('ant').innerText = data.datasets[6].label;
+buttonData.forEach((btn, index) => {
+    const button = document.createElement('button');
+    button.id = btn.id;
+    button.className = ` ${btn.classes}`;
+    button.setAttribute('onclick', `toggleData(${index})`);
+    container.appendChild(button);
+});
 
 
+const elements = document.querySelectorAll('.data-label');
+
+elements.forEach((element, index) => {
+    if (data.datasets[index]) {
+        element.style.backgroundColor = data.datasets[index].pointBackgroundColor;
+        element.innerText = data.datasets[index].label;
+    }
+});
 
 
-function toggleData(value){
+function toggleData(value) {
     const visData = myChart.isDatasetVisible(value);
-    if(visData === true ){
+    if (visData === true) {
         myChart.hide(value);
     }
 
-    if(visData === false ){
+    if (visData === false) {
         myChart.show(value);
     }
 }
+
+// FILTER BUTTONS //
+const filters = [
+    { id: 'tag-a', label: 'A' },
+    { id: 'tag-b', label: 'B' },
+    { id: 'tag-c', label: 'C' },
+    { id: 'tag-d', label: 'D' },
+    { id: 'tag-e', label: 'E' },
+    { id: 'tag-f', label: 'F' },
+    { id: 'tag-g', label: 'G' },
+    { id: 'tag-h', label: 'H' },
+    { id: 'tag-i', label: 'I' },
+    { id: 'tag-j', label: 'J' },
+    { id: 'tag-k', label: 'K' },
+    { id: 'tag-l', label: 'L' },
+    { id: 'tag-m', label: 'M' },
+    { id: 'tag-n', label: 'N' },
+    { id: 'tag-o', label: 'O' },
+    { id: 'tag-p', label: 'P' },
+    { id: 'tag-q', label: 'Q' },
+    { id: 'tag-r', label: 'R' },
+    { id: 'tag-s', label: 'S' },
+    { id: 'tag-t', label: 'T' },
+    { id: 'tag-u', label: 'U' },
+    { id: 'tag-v', label: 'V' },
+    { id: 'tag-w', label: 'W' },
+    { id: 'tag-x', label: 'X' },
+    { id: 'tag-y', label: 'Y' },
+
+    { id: 'threat-2', label: 'Threat 2' },
+    { id: 'threat-3', label: 'Threat 3' },
+    { id: 'threat-4', label: 'Threat 4' },
+    { id: 'threat-5', label: 'Threat 5' },
+    { id: 'threat-6', label: 'Threat 6' },
+    { id: 'threat-4', label: 'Threat 7' },
+    { id: 'threat-8', label: 'Threat 8' },
+    { id: 'show-all', label: 'Show All' }
+];
+
+const filterContainer = document.getElementById('filters');
+
+filters.forEach(filter => {
+    const button = document.createElement('button');
+    button.id = filter.id;
+    button.className = 'filter';
+    button.textContent = filter.label;
+    filterContainer.appendChild(button);
+});
+
+
+document.querySelectorAll("#filters button").forEach(button => {
+    button.addEventListener("click", function () {
+        const tag = this.id;
+        const buttons = document.querySelectorAll(".legendBox .lgd-btn");
+
+        if (tag === "show-all") {
+            buttons.forEach(btn => {
+                btn.classList.remove("hidden");
+            });
+        } else {
+            buttons.forEach(btn => {
+                if (btn.classList.contains(tag)) {
+                    btn.classList.remove("hidden");
+                } else {
+                    btn.classList.add("hidden");
+                }
+            });
+        }
+    });
+});
+
+document.getElementById('resetData').addEventListener('click', () => {
+    for (let i = 0; i < myChart.data.datasets.length; i++) {
+        myChart.getDatasetMeta(i).hidden = true;
+    }
+    myChart.update();
+});
+
+
+
