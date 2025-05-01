@@ -702,6 +702,7 @@ a {text-decoration: none; font-weight: bolder;}
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  z-index: 5;
 }
 
 
@@ -734,6 +735,6 @@ a {text-decoration: none; font-weight: bolder;}
     padding: 5px;
   }
 
-  .info-drawer {padding-top: 15px;}
+  .info-drawer {padding-top: 48px;}
   .info-drawer a {font-size: 18px;}
 }
