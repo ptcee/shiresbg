@@ -122,11 +122,11 @@ var dataSet = [
         data: [3, 2, 1, 4, 3, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(167, 106, 1)',
+        pointBackgroundColor: 'rgb(167, 106, 1)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(167, 106, 1)'
     },
 
     {
@@ -148,11 +148,11 @@ var dataSet = [
         data: [4, 2, 3, 3, 1, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(135, 13, 112)',
+        pointBackgroundColor: 'rgb(135, 13, 112)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(135, 13, 112)'
     },
 
     {
@@ -161,11 +161,11 @@ var dataSet = [
         data: [3, 2, 4, 4, 2, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(12, 38, 233)',
+        pointBackgroundColor: 'rgb(12, 38, 233)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(12, 38, 233)'
     },
 
     {
@@ -174,11 +174,11 @@ var dataSet = [
         data: [3, 3, 2, 3, 1, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(39, 172, 6)',
+        pointBackgroundColor: 'rgb(39, 172, 6)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(39, 172, 6)'
     },
 
     {
@@ -187,11 +187,11 @@ var dataSet = [
         data: [4, 3, 5, 4, 1, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(159, 30, 156)',
+        pointBackgroundColor: 'rgb(159, 30, 156)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(159, 30, 156)'
     },
 
     {
@@ -200,11 +200,11 @@ var dataSet = [
         data: [2, 3, 4, 2, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(11, 108, 177)',
+        pointBackgroundColor: 'rgb(11, 108, 177)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(11, 108, 177)'
     },
 
     {
@@ -213,11 +213,11 @@ var dataSet = [
         data: [2, 5, 3, 3, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(168, 21, 21)',
+        pointBackgroundColor: 'rgb(168, 21, 21)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(168, 21, 21)'
     },
 
     {
@@ -226,11 +226,11 @@ var dataSet = [
         data: [4, 2, 3, 3, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(168, 146, 0)',
+        pointBackgroundColor: 'rgb(168, 146, 0)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(168, 146, 0)'
     },
 
     {
@@ -239,11 +239,11 @@ var dataSet = [
         data: [5, 4, 2, 4, 2, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(41, 44, 106)',
+        pointBackgroundColor: 'rgb(41, 44, 106)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(41, 44, 106)'
     },
 
     {
@@ -252,11 +252,11 @@ var dataSet = [
         data: [2, 4, 4, 2, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
     },
 
     {
@@ -265,11 +265,11 @@ var dataSet = [
         data: [3, 5, 2, 2, 4, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(106, 129, 109)',
+        pointBackgroundColor: 'rgb(106, 129, 109)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(106, 129, 109)'
     },
 
     {
@@ -278,11 +278,11 @@ var dataSet = [
         data: [4, 4, 3, 2, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(97, 83, 110)',
+        pointBackgroundColor: 'rgb(97, 83, 110)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(97, 83, 110)'
     },
 
     {
@@ -304,11 +304,11 @@ var dataSet = [
         data: [4, 3, 2, 2, 2, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(82, 99, 107)',
+        pointBackgroundColor: 'rgb(82, 99, 107)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(82, 99, 107)'
     },
 
     {
@@ -317,11 +317,11 @@ var dataSet = [
         data: [2, 3, 4, 2, 2, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(136, 58, 79)',
+        pointBackgroundColor: 'rgb(136, 58, 79)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(136, 58, 79)'
     },
 
     {
@@ -330,11 +330,11 @@ var dataSet = [
         data: [3, 2, 2, 3, 2, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(152, 37, 67)',
+        pointBackgroundColor: 'rgb(152, 37, 67)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(152, 37, 67)'
     },
 
     {
@@ -343,11 +343,11 @@ var dataSet = [
         data: [3, 3, 3, 3, 1, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(179, 96, 41)',
+        pointBackgroundColor: 'rgb(179, 96, 41)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(179, 96, 41)'
     },
 
     {
@@ -356,11 +356,11 @@ var dataSet = [
         data: [0, 0, 0, 0, 0, 0],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(41, 52, 179)',
+        pointBackgroundColor: 'rgb(41, 52, 179)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(41, 52, 179)'
     },
 
     {
@@ -369,11 +369,11 @@ var dataSet = [
         data: [3, 4, 3, 3, 1, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(105, 179, 41)',
+        pointBackgroundColor: 'rgb(105, 179, 41)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(105, 179, 41)'
     },
 
     {
@@ -382,11 +382,11 @@ var dataSet = [
         data: [3, 2, 3, 4, 1, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(92, 117, 114)',
+        pointBackgroundColor: 'rgb(92, 117, 114)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(92, 117, 114)'
     },
 
     {
@@ -395,11 +395,11 @@ var dataSet = [
         data: [5, 3, 2, 5, 1, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(216, 219, 0)',
+        pointBackgroundColor: 'rgb(216, 219, 0)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(216, 219, 0)'
     },
 
     {
@@ -408,11 +408,11 @@ var dataSet = [
         data: [2, 3, 4, 4, 4, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(219, 0, 0)',
+        pointBackgroundColor: 'rgb(219, 0, 0)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(219, 0, 0)'
     },
 
     {
@@ -421,11 +421,11 @@ var dataSet = [
         data: [2, 4, 2, 4, 3, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(0, 113, 219)',
+        pointBackgroundColor: 'rgb(0, 113, 219)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(0, 113, 219)'
     },
 
     {
@@ -434,11 +434,11 @@ var dataSet = [
         data: [3, 3, 3, 3, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(75, 116, 155)',
+        pointBackgroundColor: 'rgb(75, 116, 155)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(75, 116, 155)'
     },
 
     {
@@ -447,11 +447,11 @@ var dataSet = [
         data: [4, 3, 2, 4, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(235, 121, 0)',
+        pointBackgroundColor: 'rgb(235, 121, 0)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(235, 121, 0)'
     },
 
     {
@@ -460,11 +460,11 @@ var dataSet = [
         data: [4, 4, 3, 3, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(0, 184, 235)',
+        pointBackgroundColor: 'rgb(0, 184, 235)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(0, 184, 235)'
     },
 
     {
@@ -473,11 +473,11 @@ var dataSet = [
         data: [2, 2, 4, 3, 1, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(189, 28, 0)',
+        pointBackgroundColor: 'rgb(189, 28, 0)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(189, 28, 0)'
     },
 
     {
@@ -486,11 +486,11 @@ var dataSet = [
         data: [3, 3, 2, 3, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(109, 61, 23)',
+        pointBackgroundColor: 'rgb(109, 61, 23)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(109, 61, 23)'
     },
 
     {
@@ -499,11 +499,11 @@ var dataSet = [
         data: [2, 1, 2, 3, 2, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(95, 17, 151)',
+        pointBackgroundColor: 'rgb(95, 17, 151)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(95, 17, 151)'
     },
 
     {
@@ -512,11 +512,11 @@ var dataSet = [
         data: [2, 4, 3, 2, 3, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(96, 107, 138)',
+        pointBackgroundColor: 'rgb(96, 107, 138)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(96, 107, 138)'
     },
 
     {
@@ -525,11 +525,11 @@ var dataSet = [
         data: [4, 3, 3, 3, 1, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(64, 78, 114)',
+        pointBackgroundColor: 'rgb(64, 78, 114)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(64, 78, 114)'
     },
 
     {
@@ -538,11 +538,11 @@ var dataSet = [
         data: [5, 4, 3, 4, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(9, 129, 127)',
+        pointBackgroundColor: 'rgb(9, 129, 127)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(9, 129, 127)'
     },
 
     {
@@ -551,11 +551,11 @@ var dataSet = [
         data: [3, 4, 2, 4, 3, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(189, 0, 38)',
+        pointBackgroundColor: 'rgb(189, 0, 38)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(189, 0, 38)'
     },
 
     {
@@ -564,11 +564,11 @@ var dataSet = [
         data: [2, 3, 1, 2, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(112, 76, 84)',
+        pointBackgroundColor: 'rgb(112, 76, 84)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(112, 76, 84)'
     },
 
     {
@@ -577,11 +577,11 @@ var dataSet = [
         data: [3, 3, 2, 3, 2, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(129, 50, 66)',
+        pointBackgroundColor: 'rgb(129, 50, 66)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(129, 50, 66)'
     },
 
     {
@@ -590,11 +590,11 @@ var dataSet = [
         data: [3, 2, 4, 4, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(153, 141, 30)',
+        pointBackgroundColor: 'rgb(153, 141, 30)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(153, 141, 30)'
     },
 
     {
@@ -603,11 +603,11 @@ var dataSet = [
         data: [4, 3, 2, 4, 4, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(214, 193, 0)',
+        pointBackgroundColor: 'rgb(214, 193, 0)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(214, 193, 0)'
     },
 
     {
@@ -616,11 +616,11 @@ var dataSet = [
         data: [3, 3, 3, 3, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(147, 21, 21)',
+        pointBackgroundColor: 'rgb(147, 21, 21)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(147, 21, 21)'
     },
 
     {
@@ -629,11 +629,11 @@ var dataSet = [
         data: [2, 2, 3, 4, 1, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(190, 166, 9)',
+        pointBackgroundColor: 'rgb(190, 166, 9)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(190, 166, 9)'
     },
 
     {
@@ -642,11 +642,11 @@ var dataSet = [
         data: [3, 3, 2, 4, 2, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(190, 9, 9)',
+        pointBackgroundColor: 'rgb(190, 9, 9)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(190, 9, 9)'
     },
 
     {
@@ -655,11 +655,11 @@ var dataSet = [
         data: [3, 2, 3, 3, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(60, 168, 21)',
+        pointBackgroundColor: 'rgb(60, 168, 21)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(60, 168, 21)'
     },
 
     {
@@ -668,11 +668,11 @@ var dataSet = [
         data: [2, 2, 3, 3, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(21, 168, 38)',
+        pointBackgroundColor: 'rgb(21, 168, 38)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(21, 168, 38)'
     },
 
     {
@@ -681,11 +681,11 @@ var dataSet = [
         data: [2, 2, 3, 4, 4, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(26, 99, 234)',
+        pointBackgroundColor: 'rgb(26, 99, 234)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(26, 99, 234)'
     },
 
     {
@@ -694,11 +694,11 @@ var dataSet = [
         data: [4, 3, 3, 4, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(234, 75, 26)',
+        pointBackgroundColor: 'rgb(234, 75, 26)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(234, 75, 26)'
     },
 
     {
@@ -707,11 +707,11 @@ var dataSet = [
         data: [3, 3, 3, 3, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(130, 44, 201)',
+        pointBackgroundColor: 'rgb(130, 44, 201)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(130, 44, 201)'
     },
 
     {
@@ -733,11 +733,11 @@ var dataSet = [
         data: [4, 4, 2, 4, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(129, 40, 230)',
+        pointBackgroundColor: 'rgb(129, 40, 230)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(129, 40, 230)'
     },
 
     {
@@ -746,11 +746,11 @@ var dataSet = [
         data: [5, 4, 2, 2, 3, 2],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(215, 40, 40)',
+        pointBackgroundColor: 'rgb(215, 40, 40)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(215, 40, 40)'
     },
 
     {
@@ -759,11 +759,11 @@ var dataSet = [
         data: [2, 3, 2, 2, 2, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(51, 136, 43)',
+        pointBackgroundColor: 'rgb(51, 136, 43)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(51, 136, 43)'
     },
 
     {
@@ -772,11 +772,11 @@ var dataSet = [
         data: [4, 2, 2, 4, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(43, 86, 136)',
+        pointBackgroundColor: 'rgb(43, 86, 136)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(43, 86, 136)'
     },
 
     {
@@ -798,11 +798,11 @@ var dataSet = [
         data: [0, 0, 0, 0, 0, 0],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(208, 196, 27)',
+        pointBackgroundColor: 'rgb(208, 196, 27)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(208, 196, 27)'
     },
 
     {
@@ -811,11 +811,11 @@ var dataSet = [
         data: [3, 2, 2, 2, 1, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(208, 27, 48)',
+        pointBackgroundColor: 'rgb(208, 27, 48)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(208, 27, 48)'
     },
 
     {
@@ -824,11 +824,11 @@ var dataSet = [
         data: [4, 2, 3, 4, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(133, 133, 133)',
+        pointBackgroundColor: 'rgb(159, 91, 99)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(133, 133, 133)'
     },
 
     {
@@ -837,11 +837,11 @@ var dataSet = [
         data: [3, 2, 2, 4, 4, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(49, 129, 185)',
+        pointBackgroundColor: 'rgb(49, 129, 185)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(49, 129, 185)'
     },
 
     {
@@ -850,11 +850,11 @@ var dataSet = [
         data: [3, 2, 2, 3, 4, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(54, 185, 49)',
+        pointBackgroundColor: 'rgb(54, 185, 49)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(54, 185, 49)'
     },
 
     {
@@ -863,11 +863,11 @@ var dataSet = [
         data: [4, 4, 3, 3, 3, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(76, 49, 185)',
+        pointBackgroundColor: 'rgb(76, 49, 185)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(76, 49, 185)'
     },
 
     {
@@ -876,11 +876,11 @@ var dataSet = [
         data: [3, 4, 3, 2, 2, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(100, 175, 18)',
+        pointBackgroundColor: 'rgb(100, 175, 18)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(100, 175, 18)'
     },
 
     {
@@ -889,11 +889,11 @@ var dataSet = [
         data: [4, 2, 2, 3, 2, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(196, 19, 216)',
+        pointBackgroundColor: 'rgb(196, 19, 216)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(196, 19, 216)'
     },
 
     {
@@ -902,11 +902,11 @@ var dataSet = [
         data: [4, 2, 5, 2, 1, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(19, 216, 71)',
+        pointBackgroundColor: 'rgb(19, 216, 71)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(19, 216, 71)'
     },
 
     {
@@ -915,11 +915,11 @@ var dataSet = [
         data: [4, 3, 4, 3, 4, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(216, 121, 19)',
+        pointBackgroundColor: 'rgb(216, 121, 19)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(216, 121, 19)'
     },
 
     {
@@ -928,11 +928,11 @@ var dataSet = [
         data: [2, 2, 3, 4, 5, 5],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(19, 203, 216)',
+        pointBackgroundColor: 'rgb(19, 203, 216)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(19, 203, 216)'
     },
 
     {
@@ -941,11 +941,11 @@ var dataSet = [
         data: [4, 5, 3, 3, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(19, 42, 216)',
+        pointBackgroundColor: 'rgb(19, 42, 216)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(19, 42, 216)'
     },
 
     {
@@ -954,11 +954,11 @@ var dataSet = [
         data: [3, 3, 3, 3, 2, 4],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(155, 116, 23)',
+        pointBackgroundColor: 'rgb(155, 116, 23)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(155, 116, 23)'
     },
 
     {
@@ -967,11 +967,11 @@ var dataSet = [
         data: [4, 3, 3, 4, 3, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(23, 155, 34)',
+        pointBackgroundColor: 'rgb(23, 155, 34)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(23, 155, 34)'
     },
 
     {
@@ -980,11 +980,11 @@ var dataSet = [
         data: [2, 4, 2, 3, 1, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(155, 91, 23)',
+        pointBackgroundColor: 'rgb(155, 91, 23)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(155, 91, 23)'
     },
 
     {
@@ -993,11 +993,11 @@ var dataSet = [
         data: [3, 3, 3, 3, 4, 3],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(23, 153, 155)',
+        pointBackgroundColor: 'rgb(23, 153, 155)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(23, 153, 155)'
     },
 
     {
@@ -1006,11 +1006,11 @@ var dataSet = [
         data: [3, 4, 3, 4, 1, 1],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
-        borderColor: 'rgb(172, 57, 239)',
-        pointBackgroundColor: 'rgb(172, 57, 239)',
+        borderColor: 'rgb(186, 18, 174)',
+        pointBackgroundColor: 'rgb(186, 18, 174)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(172, 57, 239)'
+        pointHoverBorderColor: 'rgb(186, 18, 174)'
     },
 
     
