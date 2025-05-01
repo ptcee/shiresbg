@@ -19,13 +19,66 @@
         <h1>MCP Radar</h1>
 
         <div class="chart">
-            <p class="shout">Shout out to Soren from Germany for the data. In-depth breakdowns of these stats on <a href="https://sgprotocol.blogspot.com/2025/04/battlefield-roles-for-every-mcp.html" target="_blank">his site here.</a></p>
-           
+            <p class="shout">Shout out to Soren from Germany for the data. In-depth breakdowns of these stats on <a
+                    href="https://sgprotocol.blogspot.com/2025/04/battlefield-roles-for-every-mcp.html"
+                    target="_blank">his site here.</a></p>
+
             <canvas id="charts"></canvas>
-           
+
             <button id="resetData" class="filter">Reset</button>
             <div id="filters"></div>
-            
+            <div id="dropdowns">
+                <select id="damageFilter" class="filter-dropdown">
+                    <option value="all">Damage</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select id="durabilityFilter">
+                    <option value="all">Durability</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select id="speedFilter">
+                    <option value="all">Speed</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select id="rangeFilter">
+                    <option value="all">Range</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select id="controlFilter">
+                    <option value="all">Control</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select id="supportFilter">
+                    <option value="all">Support</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+
             <div>
                 <div id="buttonContainer" class="legendBox"></div>
             </div>

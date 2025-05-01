@@ -176,6 +176,40 @@ document.querySelectorAll("#filters button").forEach(button => {
     });
 });
 
+//STAT FILTERS//
+document.querySelectorAll('#dropdowns select').forEach(select => {
+    select.addEventListener('change', function () {
+        filterButtons();
+    });
+});
+
+function filterButtons() {
+    const damageValue = document.getElementById('damageFilter').value;
+    const durabilityValue = document.getElementById('durabilityFilter').value;
+    const speedValue = document.getElementById('speedFilter').value;
+    const rangeValue = document.getElementById('rangeFilter').value;
+    const controlValue = document.getElementById('controlFilter').value;
+    const supportValue = document.getElementById('supportFilter').value;
+
+    buttonData.forEach((btn, index) => {
+        let showButton = true;
+        if (damageValue !== "all" && dataSet[index].data[0] !== parseInt(damageValue)) showButton = false;
+        if (durabilityValue !== "all" && dataSet[index].data[1] !== parseInt(durabilityValue)) showButton = false;
+        if (speedValue !== "all" && dataSet[index].data[2] !== parseInt(speedValue)) showButton = false;
+        if (rangeValue !== "all" && dataSet[index].data[3] !== parseInt(rangeValue)) showButton = false;
+        if (controlValue !== "all" && dataSet[index].data[4] !== parseInt(controlValue)) showButton = false;
+        if (supportValue !== "all" && dataSet[index].data[5] !== parseInt(supportValue)) showButton = false;
+
+        const button = document.getElementById(btn.id);
+        if (showButton) {
+            button.classList.remove('hidden');
+        } else {
+            button.classList.add('hidden');
+        }
+    });
+}
+
+
 document.getElementById('resetData').addEventListener('click', () => {
     for (let i = 0; i < myChart.data.datasets.length; i++) {
         myChart.getDatasetMeta(i).hidden = true;
@@ -184,7 +218,14 @@ document.getElementById('resetData').addEventListener('click', () => {
 
     const allButtons = document.querySelectorAll('#buttonContainer button');
     allButtons.forEach(button => button.classList.remove('selected'));
+
+    const dropdowns = document.querySelectorAll('.filter-dropdown');
+    dropdowns.forEach(dropdown => {
+        dropdown.value = 'all'; 
+    });
+    filterButtons();
 });
+
 
 
 

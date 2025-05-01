@@ -598,6 +598,10 @@ p {
   font-family: "Palanquin", serif;
 }
 
+.filter:last-child {
+  background-color: rgb(16, 141, 213);
+}
+
 button.selected {
   filter: brightness(2.0);
   filter: blur(1.8);
@@ -606,7 +610,19 @@ button.selected {
   color: #000;
 }
 
+select {
+border: none;
+background-color: #666666;
+color: #c4c4c4;
+border-radius: 5px;
+padding: 1px 7px;
+font-family: "Palanquin", serif;
+font-weight: 800;
+}
 
+select:focus {
+  border: none;
+}
 
 
 
