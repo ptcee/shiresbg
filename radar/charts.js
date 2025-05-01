@@ -84,7 +84,6 @@ buttonData.forEach((btn, index) => {
 });
 
 
-
 const elements = document.querySelectorAll('.data-label');
 
 elements.forEach((element, index) => {
@@ -105,6 +104,8 @@ function toggleData(value) {
         myChart.show(value);
     }
 }
+
+
 
 // FILTER BUTTONS //
 const filters = [
@@ -209,7 +210,30 @@ function filterButtons() {
     });
 }
 
+document.querySelectorAll('.lgd-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const id = button.id;
+        const datasetEntry = dataSet.find(ds => ds.id === id);
+        const writeupContainer = document.querySelector('#drawer .writeup');
+        const existingWriteup = writeupContainer.querySelector(`#writeup-${id}`);
 
+        if (datasetEntry && datasetEntry.writeup) {
+            if (existingWriteup) {
+                writeupContainer.removeChild(existingWriteup);
+            } else {
+                const div = document.createElement('div');
+                div.id = `writeup-${id}`;
+                div.className = 'writeblock';
+                div.innerHTML = datasetEntry.writeup;
+                writeupContainer.appendChild(div);
+            }
+        }
+    });
+});
+
+
+
+//RESET SHIT//
 document.getElementById('resetData').addEventListener('click', () => {
     for (let i = 0; i < myChart.data.datasets.length; i++) {
         myChart.getDatasetMeta(i).hidden = true;
@@ -223,10 +247,21 @@ document.getElementById('resetData').addEventListener('click', () => {
     dropdowns.forEach(dropdown => {
         dropdown.value = 'all'; 
     });
+
+    document.querySelector('#drawer .writeup').innerHTML = '';
+
     filterButtons();
 });
 
+// SIDE DRAWER WITH WRITEUPS //
 
+function openNav() {
+    document.getElementById("drawer").style.width = "350px";
+  }
+  
+  function closeNav() {
+    document.getElementById("drawer").style.width = "0";
+  }
 
 
 

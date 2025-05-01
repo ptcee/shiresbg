@@ -580,6 +580,15 @@ p {
   pointer-events: none;
 }
 
+.util {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+
+}
+
 #filters {
   display: flex;
   flex-wrap: wrap;
@@ -624,10 +633,33 @@ select:focus {
   border: none;
 }
 
+.writeup {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
 
+.writeblock {
+  background: #444;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
 
 #resetData {
   background-color: #700000;
+}
+
+.info-btn {
+  color: #c4c4c4;
+  background-color: #666666;
+  font-weight: 800;
+  border-radius: 5px;
+  border: none;
+  padding: 1px 7px;
+  font-family: "Palanquin", serif;
 }
 
 a:link {color: orange;}
@@ -636,6 +668,42 @@ a:hover {color: yellow;}
 a:active {color: orange;}
 a {text-decoration: none; font-weight: bolder;}
 .shout {font-size: .8rem; font-style: oblique; width: 45%; margin: 0 0 20px 0;}
+
+/* SIDE DRAWER */
+.info-drawer {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.info-drawer a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.info-drawer a:hover {
+  color: #f1f1f1;
+}
+
+.info-drawer .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
 
 /* Media Queries */
 
@@ -666,4 +734,6 @@ a {text-decoration: none; font-weight: bolder;}
     padding: 5px;
   }
 
+  .info-drawer {padding-top: 15px;}
+  .info-drawer a {font-size: 18px;}
 }

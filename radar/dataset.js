@@ -1,5 +1,6 @@
 var dataSet = [
     {
+        id: 'abom',
         label: 'Abomination (5)',
         hidden: true,
         data: [4, 4, 4, 2, 3, 1],
@@ -9,10 +10,12 @@ var dataSet = [
         pointBackgroundColor: 'rgb(50, 226, 91)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(50, 226, 91)'
+        pointHoverBorderColor: 'rgb(50, 226, 91)',
+        writeup: 'Abomination is gross.',
     },
 
     {
+        id: 'av',
         label: 'Agent Venom (4)',
         hidden: true,
         data: [4, 3, 3, 4, 3, 1],
@@ -22,7 +25,8 @@ var dataSet = [
         pointBackgroundColor: 'rgb(147, 128, 255)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(147, 128, 255)'
+        pointHoverBorderColor: 'rgb(147, 128, 255)',
+        writeup: 'Agent Venom says no to rerolls.',
     },
 
     {
