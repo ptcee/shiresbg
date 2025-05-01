@@ -71,7 +71,7 @@ const buttonData = [
     { id: 'gmra', classes: 'data-label lgd-btn tag-g threat-4' },
     { id: 'gr', classes: 'data-label lgd-btn tag-g threat-5' },
     { id: 'gwen', classes: 'data-label lgd-btn tag-g threat-3' },
-    { id: 'glad', classes: 'data-label lgd-btn tag-g threat-5' },
+    { id: 'glad', classes: 'data-label lgd-btn tag-g threat-6' },
     { id: 'gorg', classes: 'data-label lgd-btn tag-g threat-3' },
     { id: 'gobbo', classes: 'data-label lgd-btn tag-g threat-4' },
     { id: 'groot', classes: 'data-label lgd-btn tag-g threat-3' },
