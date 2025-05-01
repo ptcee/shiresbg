@@ -936,7 +936,7 @@ var dataSet = [
     },
 
     {
-        label: 'Gladiator (5)',
+        label: 'Gladiator (6)',
         hidden: true,
         data: [4, 5, 3, 3, 3, 1],
         fill: true,
