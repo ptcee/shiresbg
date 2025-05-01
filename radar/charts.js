@@ -76,9 +76,13 @@ buttonData.forEach((btn, index) => {
     const button = document.createElement('button');
     button.id = btn.id;
     button.className = ` ${btn.classes}`;
-    button.setAttribute('onclick', `toggleData(${index})`);
+    button.addEventListener('click', () => {
+        toggleData(index);
+        button.classList.toggle('selected');
+    });    
     container.appendChild(button);
 });
+
 
 
 const elements = document.querySelectorAll('.data-label');
@@ -177,7 +181,12 @@ document.getElementById('resetData').addEventListener('click', () => {
         myChart.getDatasetMeta(i).hidden = true;
     }
     myChart.update();
+
+    const allButtons = document.querySelectorAll('#buttonContainer button');
+    allButtons.forEach(button => button.classList.remove('selected'));
 });
+
+
 
 
 
