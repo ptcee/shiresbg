@@ -586,7 +586,17 @@ p {
   justify-content: center;
   width: 100%;
   margin-top: 10px;
+}
 
+.util button:hover {
+  filter: brightness(2.0);
+  filter: blur(1.8);
+  box-shadow: inset 0 0 4px #ffffff;
+  transition: filter 0.2s, box-shadow 0.2s;
+}
+
+#filter-toggle-box {
+  display: none;
 }
 
 #filters {
@@ -595,6 +605,16 @@ p {
   justify-content: center;
   gap: 5px;
   margin-top: 5px;
+}
+
+.flex-break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.legendBox button:hover {
+  box-shadow: inset 0 0 4px #fff;
+  transition: filter 0.2s, box-shadow 0.2s;
 }
 
 .filter {
@@ -611,10 +631,13 @@ p {
   background-color: rgb(16, 141, 213);
 }
 
+.affil {
+  background-color: #7e6a6a;
+}
+
 button.selected {
   filter: brightness(2.0);
-  filter: blur(1.8);
-  box-shadow: 0 0 5px #fff;
+  box-shadow: inset 0 0 4px #ffffff;
   transition: filter 0.2s, box-shadow 0.2s;
   color: #000;
 }
@@ -653,13 +676,11 @@ select:focus {
 }
 
 .info-btn {
-  color: #c4c4c4;
-  background-color: #666666;
-  font-weight: 800;
-  border-radius: 5px;
-  border: none;
-  padding: 1px 7px;
-  font-family: "Palanquin", serif;
+  background-color: #a26b27;
+}
+
+.filtertog-btn {
+background-color: #189d1f !important;
 }
 
 a:link {color: orange;}

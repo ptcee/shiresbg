@@ -1,4 +1,4 @@
-var dataSet = [
+let dataSet = [
     {
         id: 'abom',
         label: 'Abomination (5)',
@@ -30,6 +30,7 @@ var dataSet = [
     },
 
     {
+        id: 'asm',
         label: 'Amazing Spiderman (5)',
         hidden: true,
         data: [3, 5, 5, 2, 2, 4],
@@ -39,7 +40,9 @@ var dataSet = [
         pointBackgroundColor: 'rgb(255, 15, 15)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(255, 15, 15)'
+        pointHoverBorderColor: 'rgb(255, 15, 15)',
+        writeup: 'He\'s Spider-man, except extra amazing.',
+
     },
 
     {

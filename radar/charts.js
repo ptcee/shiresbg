@@ -79,7 +79,7 @@ buttonData.forEach((btn, index) => {
     button.addEventListener('click', () => {
         toggleData(index);
         button.classList.toggle('selected');
-    });    
+    });
     container.appendChild(button);
 });
 
@@ -108,52 +108,23 @@ function toggleData(value) {
 
 
 // FILTER BUTTONS //
-const filters = [
-    { id: 'tag-a', label: 'A' },
-    { id: 'tag-b', label: 'B' },
-    { id: 'tag-c', label: 'C' },
-    { id: 'tag-d', label: 'D' },
-    { id: 'tag-e', label: 'E' },
-    { id: 'tag-f', label: 'F' },
-    { id: 'tag-g', label: 'G' },
-    { id: 'tag-h', label: 'H' },
-    { id: 'tag-i', label: 'I' },
-    { id: 'tag-j', label: 'J' },
-    { id: 'tag-k', label: 'K' },
-    { id: 'tag-l', label: 'L' },
-    { id: 'tag-m', label: 'M' },
-    { id: 'tag-n', label: 'N' },
-    { id: 'tag-o', label: 'O' },
-    { id: 'tag-p', label: 'P' },
-    { id: 'tag-q', label: 'Q' },
-    { id: 'tag-r', label: 'R' },
-    { id: 'tag-s', label: 'S' },
-    { id: 'tag-t', label: 'T' },
-    { id: 'tag-u', label: 'U' },
-    { id: 'tag-v', label: 'V' },
-    { id: 'tag-w', label: 'W' },
-    { id: 'tag-x', label: 'X' },
-    { id: 'tag-y', label: 'Y' },
-
-    { id: 'threat-2', label: 'Threat 2' },
-    { id: 'threat-3', label: 'Threat 3' },
-    { id: 'threat-4', label: 'Threat 4' },
-    { id: 'threat-5', label: 'Threat 5' },
-    { id: 'threat-6', label: 'Threat 6' },
-    { id: 'threat-4', label: 'Threat 7' },
-    { id: 'threat-8', label: 'Threat 8' },
-    { id: 'show-all', label: 'Show All' }
-];
-
 const filterContainer = document.getElementById('filters');
+const breakAfterIds = ['tag-y', 'xforce'];
 
 filters.forEach(filter => {
     const button = document.createElement('button');
     button.id = filter.id;
-    button.className = 'filter';
+    button.className = filter.class;
     button.textContent = filter.label;
     filterContainer.appendChild(button);
+
+    if (breakAfterIds.includes(filter.id)) {
+        const flexBreak = document.createElement('div');
+        flexBreak.className = 'flex-break';
+        filterContainer.appendChild(flexBreak);
+    }
 });
+
 
 
 document.querySelectorAll("#filters button").forEach(button => {
@@ -176,6 +147,19 @@ document.querySelectorAll("#filters button").forEach(button => {
         }
     });
 });
+
+// TOGGLE FILTERS //
+function openFilters() {
+    var x = document.getElementById("filter-toggle-box");
+    var currentDisplay = window.getComputedStyle(x).display;
+  
+    if (currentDisplay === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  
 
 //STAT FILTERS//
 document.querySelectorAll('#dropdowns select').forEach(select => {
@@ -245,7 +229,7 @@ document.getElementById('resetData').addEventListener('click', () => {
 
     const dropdowns = document.querySelectorAll('.filter-dropdown');
     dropdowns.forEach(dropdown => {
-        dropdown.value = 'all'; 
+        dropdown.value = 'all';
     });
 
     document.querySelector('#drawer .writeup').innerHTML = '';
@@ -257,11 +241,11 @@ document.getElementById('resetData').addEventListener('click', () => {
 
 function openNav() {
     document.getElementById("drawer").style.width = "350px";
-  }
-  
-  function closeNav() {
+}
+
+function closeNav() {
     document.getElementById("drawer").style.width = "0";
-  }
+}
 
 
 
