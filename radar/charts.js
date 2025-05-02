@@ -244,12 +244,15 @@ document.getElementById('resetData').addEventListener('click', () => {
 // SIDE DRAWER WITH WRITEUPS //
 
 function openNav() {
-    document.getElementById("drawer").style.width = "350px";
+    if (document.getElementById("drawer").style.width != "350px") {
+        document.getElementById("drawer").style.width = "350px";
+    } else (document.getElementById("drawer").style.width = "0");
+    
 }
 
 function closeNav() {
     document.getElementById("drawer").style.width = "0";
-}
+} 
 
 
 
