@@ -194,12 +194,15 @@ function filterButtons() {
     });
 }
 
+// WRITEUPS //
+
 document.querySelectorAll('.lgd-btn').forEach(button => {
     button.addEventListener('click', () => {
         const id = button.id;
         const datasetEntry = dataSet.find(ds => ds.id === id);
         const writeupContainer = document.querySelector('#drawer .writeup');
         const existingWriteup = writeupContainer.querySelector(`#writeup-${id}`);
+        document.querySelector( '.writenull' ).style.display = 'none';
 
         if (datasetEntry && datasetEntry.writeup) {
             if (existingWriteup) {
@@ -233,6 +236,7 @@ document.getElementById('resetData').addEventListener('click', () => {
     });
 
     document.querySelector('#drawer .writeup').innerHTML = '';
+    document.querySelector( '.writenull' ).style.display = 'block';
 
     filterButtons();
 });
