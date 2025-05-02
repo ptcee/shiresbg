@@ -187,9 +187,9 @@ function filterButtons() {
 
         const button = document.getElementById(btn.id);
         if (showButton) {
-            button.classList.remove('hidden');
+            button.classList.remove('hidden2');
         } else {
-            button.classList.add('hidden');
+            button.classList.add('hidden2');
         }
     });
 }
@@ -228,7 +228,7 @@ document.getElementById('resetData').addEventListener('click', () => {
     myChart.update();
 
     const allButtons = document.querySelectorAll('#buttonContainer button');
-    allButtons.forEach(button => button.classList.remove('selected'));
+    allButtons.forEach(button => button.classList.remove('selected', 'hidden2', 'hidden'));
 
     const dropdowns = document.querySelectorAll('.filter-dropdown');
     dropdowns.forEach(dropdown => {

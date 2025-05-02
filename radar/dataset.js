@@ -1020,5 +1020,1771 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(186, 18, 174)'
     },
 
-    
+    {
+        label: 'Hawkeye (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Heimdall (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Hela, Queen of Hel (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Honey Badger (2)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Hood (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Hulk (6)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Hulkbuster (6)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Iceman (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Invincible Iron Man (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Iron Fist (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Iron Man (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Jean Grey (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Juggernaut (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Karnak (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Killmonger (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Killmonger, Usurper (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'King Black Bolt (6)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'King T\'Challa (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Kingpin (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Klaw (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Kraven the Hunter (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Lady Mastermind (?)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Lady Sif (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Lizard (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Lockjaw (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Logan the Wolverine (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Loki God of Mischief (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Loki Prince of Lies (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Luke Cage (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'MODOK (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'MODOK Supreme (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Magik (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Magneto (6)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Malekith (7)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Man-Thing (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Maverick (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Maximus the Mad (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Medusa (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Mephisto (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Mr Sinister (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Moon Knight (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Ms Marvel (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Mysterio (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Mystique (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'M\'Baku (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Namor (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Nebula (2)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Nick Fury Jr (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Nick Fury + Commandos (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Nightcrawler (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Nova (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'N\Kantu, Mummy (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Okoye (2)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Omega Red (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Phoenix (6)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Prof X (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Prowler (?)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Proxima Mid (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Psylocke (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Punisher (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Pyro (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Quicksilver (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Red Guardian (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Red Skull (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Red Skull, Hydra (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Red Skull, World (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Rhino (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Rocket (2)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Rogue (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Ronan (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Ronin (?)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Sabretooth (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Sabretooth, Apex (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Sandman (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Scarlet Spidey (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Scarlet Witch (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Sentinel MK4 (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Sentinal Prime (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Shadow King (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Shadowcat (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Shadowland DD (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Shang-Chi (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'She-Hulk (6)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Shocker (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Shuri (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Silk (?)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Silver Sable (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Sin (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Skurge (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Spectacular Spidey (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Spectrum (?)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Spider-Ham (2)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Spidey (Peter) (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Spidey (Miles) (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Spidey 2099 (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Spidey Noir (?)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Spidey Woman (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Squirrel Girl (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Star-Lord (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Steve Rogers, Cap (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Storm (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Sunspot (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Supergiant (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Taskmaster (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Thanos (6)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Black Widow, The (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Blob, The (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'iHulk, The (7)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Mighty Thor, The (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'OG Torch, The (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Wrecking Crew, The (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Thor, Hero (6)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Thor, Prince (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Tigra (?)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Toad (2)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Ulik (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Ult Spidey (?)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Ultron (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Ultron, Tyrant (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Ursa Major (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Valkyrie (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Venom (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Viper (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Vision (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Vulture (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'War Machine (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Warlock (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Wasp (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Weapon X (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Werewolf (5)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Winter Soldier (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Winter Soldier, Op (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Wolverine (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Wong (2)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'X-23 (3)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
+
+    {
+        label: 'Yondu (4)',
+        hidden: true,
+        data: [3, 4, 3, 4, 1, 1],
+        fill: true,
+        backgroundColor: 'rgba(105, 105, 105, 0.2)',
+        borderColor: 'rgb(105, 105, 105)',
+        pointBackgroundColor: 'rgb(105, 105, 105)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(105, 105, 105)'
+    },
 ]

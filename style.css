@@ -580,6 +580,13 @@ p {
   pointer-events: none;
 }
 
+.lgd-btn.hidden2 {
+  display: none;
+  opacity: 0;
+  max-height: 0;
+  pointer-events: none;
+}
+
 .util {
   display: flex;
   gap: 5px;
