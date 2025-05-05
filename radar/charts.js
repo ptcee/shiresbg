@@ -60,6 +60,10 @@ var myChart = new Chart(ctx, {
             }
         },
         elements: {
+            point: {
+                radius: 2,
+                hoverRadius: 2,
+            },
             line: {
                 borderWidth: 3
             }
