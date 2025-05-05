@@ -236,6 +236,20 @@ document.getElementById('rolepicker').addEventListener('change', function () {
 
 
 // WRITEUPS //
+const roleMap = {
+    1: 'Extract Runner',
+    2: 'Secure Specialist',
+    3: 'Glass Canon',
+    4: 'Damage Dealer',
+    5: 'Brawler',
+    6: 'Tank',
+    7: 'Taunt',
+    8: 'Bodyguard',
+    9: 'Backpoint Squatter',
+    10: 'Control',
+    11: 'Support'
+};
+
 document.querySelectorAll('.lgd-btn').forEach(button => {
     button.addEventListener('click', () => {
         const id = button.id;
@@ -245,18 +259,30 @@ document.querySelectorAll('.lgd-btn').forEach(button => {
         document.querySelector('.writenull').style.display = 'none';
 
         if (datasetEntry && datasetEntry.writeup) {
+            let processedWriteup = datasetEntry.writeup;
+
+            const cleanLabel = datasetEntry.label.replace(/\s*\([^)]*\)/, '');
+            processedWriteup = processedWriteup.replace('[l]', cleanLabel);
+
+            if (Array.isArray(datasetEntry.role)) {
+                const roleNames = datasetEntry.role.map(num => roleMap[num] || `Unknown (${num})`);
+                processedWriteup = processedWriteup.replace('[r]', roleNames.join(', '));
+            }
+
             if (existingWriteup) {
                 writeupContainer.removeChild(existingWriteup);
             } else {
                 const div = document.createElement('div');
                 div.id = `writeup-${id}`;
                 div.className = 'writeblock';
-                div.innerHTML = datasetEntry.writeup;
+                div.innerHTML = processedWriteup;
                 writeupContainer.appendChild(div);
             }
         }
     });
 });
+
+
 
 
 

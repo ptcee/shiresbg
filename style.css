@@ -698,12 +698,30 @@ select:focus {
 }
 
 .writeblock, .writenull {
-  background: #444;
-  color: white;
+  background: #d4d4d4;
+  color: #000;
   padding: 10px;
   border-radius: 5px;
   font-size: 14px;
+  text-align: left;
 }
+
+.writeblock h3 {
+  color: #474747;
+  margin: 0;
+  margin-bottom: -10px;
+  text-transform: uppercase;
+}
+
+.writeblock p {
+  color: #474747;
+  margin: 0;  
+}
+
+.prole {
+  font-size: .8rem;
+}
+
 
 .writenull {
   margin: 15px 10px;
