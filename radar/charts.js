@@ -69,7 +69,6 @@ var myChart = new Chart(ctx, {
 });
 
 // CHARACTER LEGEND BUTTONS //
-
 const container = document.getElementById('buttonContainer');
 
 buttonData.forEach((btn, index) => {
@@ -215,33 +214,28 @@ document.getElementById('affiliations').addEventListener('change', function () {
 
 
 
-// // ROLE FILTERS //
+//ROLE PICKER//
+document.getElementById('rolepicker').addEventListener('change', function () {
+    const selectedRole = this.value;
+    const allButtons = document.querySelectorAll('#buttonContainer .lgd-btn');
 
-// function roleCheck(clickedId) {
-//     const buttons = document.querySelectorAll('#buttonContainer button');
-  
-//     buttons.forEach((button, index) => {
-//       const dataset = myChart.data.datasets[index];
-//       if (!dataset || !Array.isArray(dataset.roles)) {
-//         button.classList.add('hidden3');
-//         return;
-//       }
-  
-//       const matches = dataset.roles.includes(clickedId);
-  
-//       if (!matches) {
-//         button.classList.add('hidden3');
-//       } else {
-//         button.classList.remove('hidden3');
-//       }
-//     });
-//   }
+    allButtons.forEach((btn) => {
+        const datasetItem = dataSet.find(d => d.id === btn.id);
+        if (!datasetItem) return;
+
+        if (selectedRole === 'all') {
+            btn.classList.remove('hiddenrole');
+        } else {
+            const matches = datasetItem.role.includes(parseInt(selectedRole));
+            btn.classList.toggle('hiddenrole', !matches);
+        }
+    });
+});
   
   
 
 
 // WRITEUPS //
-
 document.querySelectorAll('.lgd-btn').forEach(button => {
     button.addEventListener('click', () => {
         const id = button.id;
@@ -274,7 +268,7 @@ document.getElementById('resetData').addEventListener('click', () => {
     myChart.update();
 
     const allButtons = document.querySelectorAll('#buttonContainer button');
-    allButtons.forEach(button => button.classList.remove('selected', 'hidden2', 'hidden', 'hidden3', 'hiddenaffil'));
+    allButtons.forEach(button => button.classList.remove('selected', 'hidden2', 'hidden', 'hidden3', 'hiddenaffil', 'hiddenrole'));
 
     const dropdowns = document.querySelectorAll('.filter-dropdown');
     dropdowns.forEach(dropdown => {

@@ -601,6 +601,13 @@ p {
   pointer-events: none;
 }
 
+.hiddenrole {
+  display: none;
+  opacity: 0;
+  max-height: 0;
+  pointer-events: none;
+}
+
 .util {
   display: flex;
   gap: 5px;
@@ -633,6 +640,7 @@ p {
   height: 0;
 }
 
+
 .legendBox button:hover {
   box-shadow: inset 0 0 4px #fff;
   transition: filter 0.2s, box-shadow 0.2s;
@@ -640,7 +648,7 @@ p {
 
 .filter {
   color: #c4c4c4;
-  background-color: #666666;
+  background-color: #2c5d9d;
   font-weight: 800;
   border-radius: 5px;
   border: none;
@@ -657,6 +665,10 @@ p {
   margin-top: 10px;
 }
 
+#rolepicker  {
+  background-color: #912d74;
+}
+
 button.selected {
   filter: brightness(2.0);
   box-shadow: inset 0 0 4px #ffffff;
@@ -666,7 +678,7 @@ button.selected {
 
 select {
 border: none;
-background-color: #666666;
+background-color: #a55c03;
 color: #c4c4c4;
 border-radius: 5px;
 padding: 1px 7px;
