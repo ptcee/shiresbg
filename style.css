@@ -587,6 +587,20 @@ p {
   pointer-events: none;
 }
 
+.hidden3 {
+  display: none;
+  opacity: 0;
+  max-height: 0;
+  pointer-events: none;
+}
+
+.hiddenaffil {
+  display: none;
+  opacity: 0;
+  max-height: 0;
+  pointer-events: none;
+}
+
 .util {
   display: flex;
   gap: 5px;
@@ -634,12 +648,13 @@ p {
   font-family: "Palanquin", serif;
 }
 
-.filter:last-child {
+#filters .filter:last-child {
   background-color: rgb(16, 141, 213);
 }
 
-.affil {
-  background-color: #7e6a6a;
+#affiliations  {
+  background-color: #206b3a;
+  margin-top: 10px;
 }
 
 button.selected {

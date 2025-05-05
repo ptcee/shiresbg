@@ -127,21 +127,21 @@ filters.forEach(filter => {
 
 
 
-document.querySelectorAll("#filters button").forEach(button => {
-    button.addEventListener("click", function () {
+document.querySelectorAll('#filters button').forEach(button => {
+    button.addEventListener('click', function () {
         const tag = this.id;
-        const buttons = document.querySelectorAll(".legendBox .lgd-btn");
+        const buttons = document.querySelectorAll('.legendBox .lgd-btn');
 
-        if (tag === "show-all") {
+        if (tag === 'show-all') {
             buttons.forEach(btn => {
-                btn.classList.remove("hidden");
+                btn.classList.remove('hidden');
             });
         } else {
             buttons.forEach(btn => {
                 if (btn.classList.contains(tag)) {
-                    btn.classList.remove("hidden");
+                    btn.classList.remove('hidden');
                 } else {
-                    btn.classList.add("hidden");
+                    btn.classList.add('hidden');
                 }
             });
         }
@@ -150,16 +150,16 @@ document.querySelectorAll("#filters button").forEach(button => {
 
 // TOGGLE FILTERS //
 function openFilters() {
-    var x = document.getElementById("filter-toggle-box");
+    var x = document.getElementById('filter-toggle-box');
     var currentDisplay = window.getComputedStyle(x).display;
-  
-    if (currentDisplay === "none") {
-      x.style.display = "block";
+
+    if (currentDisplay === 'none') {
+        x.style.display = 'block';
     } else {
-      x.style.display = "none";
+        x.style.display = 'none';
     }
-  }
-  
+}
+
 
 //STAT FILTERS//
 document.querySelectorAll('#dropdowns select').forEach(select => {
@@ -178,12 +178,12 @@ function filterButtons() {
 
     buttonData.forEach((btn, index) => {
         let showButton = true;
-        if (damageValue !== "all" && dataSet[index].data[0] !== parseInt(damageValue)) showButton = false;
-        if (durabilityValue !== "all" && dataSet[index].data[1] !== parseInt(durabilityValue)) showButton = false;
-        if (speedValue !== "all" && dataSet[index].data[2] !== parseInt(speedValue)) showButton = false;
-        if (rangeValue !== "all" && dataSet[index].data[3] !== parseInt(rangeValue)) showButton = false;
-        if (controlValue !== "all" && dataSet[index].data[4] !== parseInt(controlValue)) showButton = false;
-        if (supportValue !== "all" && dataSet[index].data[5] !== parseInt(supportValue)) showButton = false;
+        if (damageValue !== 'all' && dataSet[index].data[0] !== parseInt(damageValue)) showButton = false;
+        if (durabilityValue !== 'all' && dataSet[index].data[1] !== parseInt(durabilityValue)) showButton = false;
+        if (speedValue !== 'all' && dataSet[index].data[2] !== parseInt(speedValue)) showButton = false;
+        if (rangeValue !== 'all' && dataSet[index].data[3] !== parseInt(rangeValue)) showButton = false;
+        if (controlValue !== 'all' && dataSet[index].data[4] !== parseInt(controlValue)) showButton = false;
+        if (supportValue !== 'all' && dataSet[index].data[5] !== parseInt(supportValue)) showButton = false;
 
         const button = document.getElementById(btn.id);
         if (showButton) {
@@ -194,6 +194,52 @@ function filterButtons() {
     });
 }
 
+
+//AFFIL PICKER//
+document.getElementById('affiliations').addEventListener('change', function () {
+    const selectedAffil = this.value;
+    const allButtons = document.querySelectorAll('#buttonContainer .lgd-btn');
+
+    allButtons.forEach((btn) => {
+        const datasetItem = dataSet.find(d => d.id === btn.id);
+        if (!datasetItem) return;
+
+        if (selectedAffil === 'all') {
+            btn.classList.remove('hiddenaffil');
+        } else {
+            const matches = datasetItem.affil.includes(parseInt(selectedAffil));
+            btn.classList.toggle('hiddenaffil', !matches);
+        }
+    });
+});
+
+
+
+// // ROLE FILTERS //
+
+// function roleCheck(clickedId) {
+//     const buttons = document.querySelectorAll('#buttonContainer button');
+  
+//     buttons.forEach((button, index) => {
+//       const dataset = myChart.data.datasets[index];
+//       if (!dataset || !Array.isArray(dataset.roles)) {
+//         button.classList.add('hidden3');
+//         return;
+//       }
+  
+//       const matches = dataset.roles.includes(clickedId);
+  
+//       if (!matches) {
+//         button.classList.add('hidden3');
+//       } else {
+//         button.classList.remove('hidden3');
+//       }
+//     });
+//   }
+  
+  
+
+
 // WRITEUPS //
 
 document.querySelectorAll('.lgd-btn').forEach(button => {
@@ -202,7 +248,7 @@ document.querySelectorAll('.lgd-btn').forEach(button => {
         const datasetEntry = dataSet.find(ds => ds.id === id);
         const writeupContainer = document.querySelector('#drawer .writeup');
         const existingWriteup = writeupContainer.querySelector(`#writeup-${id}`);
-        document.querySelector( '.writenull' ).style.display = 'none';
+        document.querySelector('.writenull').style.display = 'none';
 
         if (datasetEntry && datasetEntry.writeup) {
             if (existingWriteup) {
@@ -228,7 +274,7 @@ document.getElementById('resetData').addEventListener('click', () => {
     myChart.update();
 
     const allButtons = document.querySelectorAll('#buttonContainer button');
-    allButtons.forEach(button => button.classList.remove('selected', 'hidden2', 'hidden'));
+    allButtons.forEach(button => button.classList.remove('selected', 'hidden2', 'hidden', 'hidden3', 'hiddenaffil'));
 
     const dropdowns = document.querySelectorAll('.filter-dropdown');
     dropdowns.forEach(dropdown => {
@@ -236,23 +282,22 @@ document.getElementById('resetData').addEventListener('click', () => {
     });
 
     document.querySelector('#drawer .writeup').innerHTML = '';
-    document.querySelector( '.writenull' ).style.display = 'block';
+    document.querySelector('.writenull').style.display = 'block';
 
     filterButtons();
 });
 
 // SIDE DRAWER WITH WRITEUPS //
-
 function openNav() {
-    if (document.getElementById("drawer").style.width != "350px") {
-        document.getElementById("drawer").style.width = "350px";
-    } else (document.getElementById("drawer").style.width = "0");
-    
+    if (document.getElementById('drawer').style.width != '350px') {
+        document.getElementById('drawer').style.width = '350px';
+    } else (document.getElementById('drawer').style.width = '0');
+
 }
 
 function closeNav() {
-    document.getElementById("drawer").style.width = "0";
-} 
+    document.getElementById('drawer').style.width = '0';
+}
 
 
 

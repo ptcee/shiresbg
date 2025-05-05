@@ -4,6 +4,7 @@ let dataSet = [
         label: 'Abomination (5)',
         hidden: true,
         data: [4, 4, 4, 2, 3, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(0, 102, 24, 0.2)',
         borderColor: 'rgb(50, 226, 91)',
@@ -12,6 +13,7 @@ let dataSet = [
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(50, 226, 91)',
         writeup: 'Abomination is gross.',
+        role: ['role-brawl',]
     },
 
     {
@@ -19,6 +21,7 @@ let dataSet = [
         label: 'Agent Venom (4)',
         hidden: true,
         data: [4, 3, 3, 4, 3, 1],
+        affil: [11, 26],
         fill: true,
         backgroundColor: 'rgba(20, 0, 133, 0.2)',
         borderColor: 'rgb(147, 128, 255)',
@@ -34,6 +37,7 @@ let dataSet = [
         label: 'Amazing Spiderman (5)',
         hidden: true,
         data: [3, 5, 5, 2, 2, 4],
+        affil: [10, 26],
         fill: true,
         backgroundColor: 'rgba(158, 0, 0, 0.2)',
         borderColor: 'rgb(255, 15, 15)',
@@ -42,13 +46,15 @@ let dataSet = [
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(255, 15, 15)',
         writeup: 'He\'s Spider-man, except extra amazing.',
-
+        role: ['role-brawl', 'role-extract',],
     },
 
     {
+        id: 'a1',
         label: 'Ancient One (4)',
         hidden: true,
         data: [4, 3, 3, 2, 4, 1],
+        affil: [7],
         fill: true,
         backgroundColor: 'rgba(223, 201, 1, 0.2)',
         borderColor: 'rgb(223, 201, 1)',
@@ -59,9 +65,11 @@ let dataSet = [
     },
 
     {
+        id: 'angl',
         label: 'Angel (3)',
         hidden: true,
         data: [2, 2, 4, 3, 3, 1],
+        affil: [20, 23],
         fill: true,
         backgroundColor: 'rgba(35, 117, 123, 0.2)',
         borderColor: 'rgb(0, 228, 245)',
@@ -72,9 +80,11 @@ let dataSet = [
     },
 
     {
+        id: 'angla',
         label: 'Angela (5)',
         hidden: true,
         data: [4, 3, 4, 3, 1, 1],
+        affil: [2, 11],
         fill: true,
         backgroundColor: 'rgba(98, 70, 14, 0.2)',
         borderColor: 'rgb(209, 173, 102)',
@@ -85,9 +95,11 @@ let dataSet = [
     },
 
     {
+        id: 'ant',
         label: 'Ant-Man (3)',
         hidden: true,
         data: [3, 2, 1, 1, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(235, 74, 0, 0.2)',
         borderColor: 'rgb(235, 74, 0)',
@@ -98,9 +110,11 @@ let dataSet = [
     },
 
     {
+        id: 'apoc',
         label: 'Apocalypse (6)',
         hidden: true,
         data: [4, 5, 3, 3, 1, 4],
+        affil: [20],
         fill: true,
         backgroundColor: 'rgba(44, 76, 144, 0.2)',
         borderColor: 'rgb(96, 131, 205)',
@@ -111,9 +125,11 @@ let dataSet = [
     },
 
     {
+        id: 'arcangl',
         label: 'Archangel (4)',
         hidden: true,
         data: [4, 2, 4, 3, 1, 1],
+        affil: [20, 23],
         fill: true,
         backgroundColor: 'rgba(32, 114, 162, 0.2)',
         borderColor: 'rgb(101, 183, 230)',
@@ -124,9 +140,11 @@ let dataSet = [
     },
 
     {
+        id: 'arnim',
         label: 'Arnim Zola (3)',
         hidden: true,
         data: [3, 2, 1, 4, 3, 3],
+        affil: [13],
         fill: true,
         backgroundColor: 'rgba(182, 139, 53, 0.2)',
         borderColor: 'rgb(167, 106, 1)',
@@ -137,9 +155,11 @@ let dataSet = [
     },
 
     {
+        id: 'avlch',
         label: 'Avalanche (?)',
         hidden: true,
         data: [0, 0, 0, 0, 0, 0],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(90, 16, 132, 0.2)',
         borderColor: 'rgb(172, 57, 239)',
@@ -150,9 +170,11 @@ let dataSet = [
     },
 
     {
+        id: 'zemo4',
         label: 'Baron Zemo (4)',
         hidden: true,
         data: [4, 2, 3, 3, 1, 4],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(182, 53, 165, 0.2)',
         borderColor: 'rgb(135, 13, 112)',
@@ -163,9 +185,11 @@ let dataSet = [
     },
 
     {
+        id: 'mordo',
         label: 'Baron Mordo (3)',
         hidden: true,
         data: [3, 2, 4, 4, 2, 4],
+        affil: [7],
         fill: true,
         backgroundColor: 'rgba(53, 64, 182, 0.2)',
         borderColor: 'rgb(12, 38, 233)',
@@ -176,9 +200,11 @@ let dataSet = [
     },
 
     {
+        id: 'strck',
         label: 'Baron Strucker (3)',
         hidden: true,
         data: [3, 3, 2, 3, 1, 4],
+        affil: [13],
         fill: true,
         backgroundColor: 'rgba(53, 182, 57, 0.2)',
         borderColor: 'rgb(39, 172, 6)',
@@ -189,9 +215,11 @@ let dataSet = [
     },
 
     {
+        id: 'zemo3',
         label: 'Baron Zemo (3)',
         hidden: true,
         data: [4, 3, 5, 4, 1, 4],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(180, 53, 182, 0.2)',
         borderColor: 'rgb(159, 30, 156)',
@@ -202,9 +230,11 @@ let dataSet = [
     },
 
     {
+        id: 'beast',
         label: 'Beast (3)',
         hidden: true,
         data: [2, 3, 4, 2, 4, 1],
+        affil: [20, 23],
         fill: true,
         backgroundColor: 'rgba(53, 119, 182, 0.2)',
         borderColor: 'rgb(11, 108, 177)',
@@ -215,9 +245,11 @@ let dataSet = [
     },
 
     {
+        id: 'brb',
         label: 'Beta Ray Bill (4)',
         hidden: true,
         data: [2, 5, 3, 3, 4, 1],
+        affil: [2, 11],
         fill: true,
         backgroundColor: 'rgba(182, 72, 53, 0.2)',
         borderColor: 'rgb(168, 21, 21)',
@@ -228,9 +260,11 @@ let dataSet = [
     },
 
     {
+        id: 'bshp',
         label: 'Bishop (4)',
         hidden: true,
         data: [4, 2, 3, 3, 4, 1],
+        affil: [25, 23],
         fill: true,
         backgroundColor: 'rgba(180, 182, 53, 0.2)',
         borderColor: 'rgb(168, 146, 0)',
@@ -241,9 +275,11 @@ let dataSet = [
     },
 
     {
+        id: 'bb5',
         label: 'Black Bolt (5)',
         hidden: true,
         data: [5, 4, 2, 4, 2, 3],
+        affil: [14],
         fill: true,
         backgroundColor: 'rgba(68, 53, 182, 0.2)',
         borderColor: 'rgb(41, 44, 106)',
@@ -254,9 +290,11 @@ let dataSet = [
     },
 
     {
+        id: 'cat',
         label: 'Black Cat (3)',
         hidden: true,
         data: [2, 4, 4, 2, 4, 1],
+        affil: [8, 26],
         fill: true,
         backgroundColor: 'rgba(118, 116, 134, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -267,9 +305,11 @@ let dataSet = [
     },
 
     {
+        id: 'bdwarf',
         label: 'Black Dwarf (4)',
         hidden: true,
         data: [3, 5, 2, 2, 4, 4],
+        affil: [4],
         fill: true,
         backgroundColor: 'rgba(116, 134, 118, 0.2)',
         borderColor: 'rgb(106, 129, 109)',
@@ -280,9 +320,11 @@ let dataSet = [
     },
 
     {
+        id: 'bpant4',
         label: 'Black Panther (4)',
         hidden: true,
         data: [4, 4, 3, 2, 4, 1],
+        affil: [3, 24],
         fill: true,
         backgroundColor: 'rgba(126, 116, 134, 0.2)',
         borderColor: 'rgb(97, 83, 110)',
@@ -293,9 +335,11 @@ let dataSet = [
     },
 
     {
+        id: 'bast',
         label: 'Bast Panther (3)',
         hidden: true,
         data: [3, 3, 4, 2, 1, 1],
+        affil: [24],
         fill: true,
         backgroundColor: 'rgba(93, 27, 147, 0.2)',
         borderColor: 'rgb(172, 57, 239)',
@@ -306,9 +350,11 @@ let dataSet = [
     },
 
     {
+        id: 'bswan',
         label: 'Black Swan (4)',
         hidden: true,
         data: [4, 3, 2, 2, 2, 1],
+        affil: [4],
         fill: true,
         backgroundColor: 'rgba(27, 147, 89, 0.2)',
         borderColor: 'rgb(82, 99, 107)',
@@ -319,9 +365,11 @@ let dataSet = [
     },
 
     {
+        id: 'bwid2',
         label: 'Black Widow (2)',
         hidden: true,
         data: [2, 3, 4, 2, 2, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(147, 27, 89, 0.2)',
         borderColor: 'rgb(136, 58, 79)',
@@ -332,9 +380,11 @@ let dataSet = [
     },
 
     {
+        id: 'bwid3',
         label: 'Black Widow (3)',
         hidden: true,
         data: [3, 2, 2, 3, 2, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(147, 27, 59, 0.2)',
         borderColor: 'rgb(152, 37, 67)',
@@ -345,9 +395,11 @@ let dataSet = [
     },
 
     {
+        id: 'blade',
         label: 'Blade (4)',
         hidden: true,
         data: [3, 3, 3, 3, 1, 1],
+        affil: [16],
         fill: true,
         backgroundColor: 'rgba(147, 89, 27, 0.2)',
         borderColor: 'rgb(179, 96, 41)',
@@ -358,9 +410,11 @@ let dataSet = [
     },
 
     {
+        id: 'bmrvl',
         label: 'Blue Marvel (?)',
         hidden: true,
         data: [0, 0, 0, 0, 0, 0],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(31, 27, 147, 0.2)',
         borderColor: 'rgb(41, 52, 179)',
@@ -371,9 +425,11 @@ let dataSet = [
     },
 
     {
+        id: 'bob',
         label: 'Bob (2)',
         hidden: true,
         data: [3, 4, 3, 3, 1, 1],
+        affil: [13],
         fill: true,
         backgroundColor: 'rgba(27, 147, 37, 0.2)',
         borderColor: 'rgb(105, 179, 41)',
@@ -384,9 +440,11 @@ let dataSet = [
     },
 
     {
+        id: 'bullseye',
         label: 'Bullseye (2)',
         hidden: true,
         data: [3, 2, 3, 4, 1, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(27, 121, 147, 0.2)',
         borderColor: 'rgb(92, 117, 114)',
@@ -397,9 +455,11 @@ let dataSet = [
     },
 
     {
+        id: 'cbl',
         label: 'Cable (5)',
         hidden: true,
         data: [5, 3, 2, 5, 1, 3],
+        affil: [25, 23],
         fill: true,
         backgroundColor: 'rgba(147, 145, 27, 0.2)',
         borderColor: 'rgb(216, 219, 0)',
@@ -410,9 +470,11 @@ let dataSet = [
     },
 
     {
+        id: 'sam',
         label: 'Cap (Sam) (3)',
         hidden: true,
         data: [2, 3, 4, 4, 4, 3],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(147, 27, 27, 0.2)',
         borderColor: 'rgb(219, 0, 0)',
@@ -423,9 +485,11 @@ let dataSet = [
     },
 
     {
+        id: 'cap2',
         label: 'Cap (Steve) (4)',
         hidden: true,
         data: [2, 4, 2, 4, 3, 4],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(27, 75, 147, 0.2)',
         borderColor: 'rgb(0, 113, 219)',
@@ -436,9 +500,11 @@ let dataSet = [
     },
 
     {
+        id: 'cap3',
         label: 'Cap (1st Avenger) (4)',
         hidden: true,
         data: [3, 3, 3, 3, 3, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(27, 121, 147, 0.2)',
         borderColor: 'rgb(75, 116, 155)',
@@ -449,9 +515,11 @@ let dataSet = [
     },
 
     {
+        id: 'capmrvl4',
         label: 'Capn Marvel (4)',
         hidden: true,
         data: [4, 3, 2, 4, 4, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(147, 107, 27, 0.2)',
         borderColor: 'rgb(235, 121, 0)',
@@ -462,9 +530,11 @@ let dataSet = [
     },
 
     {
+        id: 'capmrvl5',
         label: 'Cosmic Capn (5)',
         hidden: true,
         data: [4, 4, 3, 3, 4, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(27, 147, 145, 0.2)',
         borderColor: 'rgb(0, 184, 235)',
@@ -475,9 +545,11 @@ let dataSet = [
     },
 
     {
+        id: 'crng',
         label: 'Carnage (4)',
         hidden: true,
         data: [2, 2, 4, 3, 1, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(147, 55, 27, 0.2)',
         borderColor: 'rgb(189, 28, 0)',
@@ -488,9 +560,11 @@ let dataSet = [
     },
 
     {
+        id: 'cassnova',
         label: 'Cassandra Nova (5)',
         hidden: true,
         data: [3, 3, 2, 3, 4, 1],
+        affil: [6, 8],
         fill: true,
         backgroundColor: 'rgba(147, 97, 27, 0.2)',
         borderColor: 'rgb(109, 61, 23)',
@@ -501,9 +575,11 @@ let dataSet = [
     },
 
     {
+        id: 'clea',
         label: 'Clea (3)',
         hidden: true,
         data: [2, 1, 2, 3, 2, 3],
+        affil: [7],
         fill: true,
         backgroundColor: 'rgba(121, 27, 147, 0.2)',
         borderColor: 'rgb(95, 17, 151)',
@@ -514,9 +590,11 @@ let dataSet = [
     },
 
     {
+        id: 'colo',
         label: 'Colossus (4)',
         hidden: true,
         data: [2, 4, 3, 2, 3, 4],
+        affil: [23, 28],
         fill: true,
         backgroundColor: 'rgba(27, 107, 147, 0.2)',
         borderColor: 'rgb(96, 107, 138)',
@@ -527,9 +605,11 @@ let dataSet = [
     },
 
     {
+        id: 'corvus',
         label: 'Corvus Glaive (4)',
         hidden: true,
         data: [4, 3, 3, 3, 1, 1],
+        affil: [4],
         fill: true,
         backgroundColor: 'rgba(27, 107, 147, 0.2)',
         borderColor: 'rgb(64, 78, 114)',
@@ -540,9 +620,11 @@ let dataSet = [
     },
 
     {
+        id: 'cgr',
         label: 'Cosmic Ghost Rider (6)',
         hidden: true,
         data: [5, 4, 3, 4, 3, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(27, 147, 97, 0.2)',
         borderColor: 'rgb(9, 129, 127)',
@@ -553,9 +635,11 @@ let dataSet = [
     },
 
     {
+        id: 'crimd',
         label: 'Crimson Dynamo (4)',
         hidden: true,
         data: [3, 4, 2, 4, 3, 4],
+        affil: [27],
         fill: true,
         backgroundColor: 'rgba(147, 27, 55, 0.2)',
         borderColor: 'rgb(189, 0, 38)',
@@ -566,9 +650,11 @@ let dataSet = [
     },
 
     {
+        id: 'xbone1',
         label: 'Crossbones (3)',
         hidden: true,
         data: [2, 3, 1, 2, 3, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(110, 78, 86, 0.2)',
         borderColor: 'rgb(112, 76, 84)',
@@ -579,9 +665,11 @@ let dataSet = [
     },
 
     {
+        id: 'xbone2',
         label: 'Crossbones, Merc (3)',
         hidden: true,
         data: [3, 3, 2, 3, 2, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(127, 72, 85, 0.2)',
         borderColor: 'rgb(129, 50, 66)',
@@ -592,9 +680,11 @@ let dataSet = [
     },
 
     {
+        id: 'crystl',
         label: 'Crystal (3)',
         hidden: true,
         data: [3, 2, 4, 4, 3, 1],
+        affil: [14],
         fill: true,
         backgroundColor: 'rgba(109, 127, 72, 0.2)',
         borderColor: 'rgb(153, 141, 30)',
@@ -605,9 +695,11 @@ let dataSet = [
     },
 
     {
+        id: 'cyc',
         label: 'Cyclops (4)',
         hidden: true,
         data: [4, 3, 2, 4, 4, 4],
+        affil: [23],
         fill: true,
         backgroundColor: 'rgba(127, 124, 72, 0.2)',
         borderColor: 'rgb(214, 193, 0)',
@@ -618,9 +710,11 @@ let dataSet = [
     },
 
     {
+        id: 'dd',
         label: 'Daredevil (4)',
         hidden: true,
         data: [3, 3, 3, 3, 3, 1],
+        affil: [10, 26],
         fill: true,
         backgroundColor: 'rgba(127, 76, 72, 0.2)',
         borderColor: 'rgb(147, 21, 21)',
@@ -631,9 +725,11 @@ let dataSet = [
     },
 
     {
+        id: 'drkstr',
         label: 'Darkstar (3)',
         hidden: true,
         data: [2, 2, 3, 4, 1, 3],
+        affil: [27],
         fill: true,
         backgroundColor: 'rgba(127, 115, 72, 0.2)',
         borderColor: 'rgb(190, 166, 9)',
@@ -644,9 +740,11 @@ let dataSet = [
     },
 
     {
+        id: 'dpool',
         label: 'Deadpool (3)',
         hidden: true,
         data: [3, 3, 2, 4, 2, 1],
+        affil: [3, 25],
         fill: true,
         backgroundColor: 'rgba(135, 33, 33, 0.2)',
         borderColor: 'rgb(190, 9, 9)',
@@ -657,9 +755,11 @@ let dataSet = [
     },
 
     {
+        id: 'ock4',
         label: 'Doc Ock, Scientist (4)',
         hidden: true,
         data: [3, 2, 3, 3, 3, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(33, 135, 36, 0.2)',
         borderColor: 'rgb(60, 168, 21)',
@@ -670,9 +770,11 @@ let dataSet = [
     },
 
     {
+        id: 'ock3',
         label: 'Doc Ock (3)',
         hidden: true,
         data: [2, 2, 3, 3, 3, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(33, 135, 36, 0.2)',
         borderColor: 'rgb(21, 168, 38)',
@@ -683,9 +785,11 @@ let dataSet = [
     },
 
     {
+        id: 'strng',
         label: 'Dr Strange (5)',
         hidden: true,
         data: [2, 2, 3, 4, 4, 4],
+        affil: [7, 10],
         fill: true,
         backgroundColor: 'rgba(33, 113, 135, 0.2)',
         borderColor: 'rgb(26, 99, 234)',
@@ -696,9 +800,11 @@ let dataSet = [
     },
 
     {
+        id: 'strgsprm',
         label: 'Dr Supreme Strange (5)',
         hidden: true,
         data: [4, 3, 3, 4, 4, 1],
+        affil: [7, 10],
         fill: true,
         backgroundColor: 'rgba(135, 60, 33, 0.2)',
         borderColor: 'rgb(234, 75, 26)',
@@ -709,9 +815,11 @@ let dataSet = [
     },
 
     {
+        id: 'voodoo',
         label: 'Dr Voodoo (4)',
         hidden: true,
         data: [3, 3, 3, 3, 4, 1],
+        affil: [7],
         fill: true,
         backgroundColor: 'rgba(86, 33, 135, 0.2)',
         borderColor: 'rgb(130, 44, 201)',
@@ -722,9 +830,11 @@ let dataSet = [
     },
 
     {
+        id: 'dmno',
         label: 'Domino (3)',
         hidden: true,
         data: [4, 3, 2, 3, 2, 1],
+        affil: [25, 28],
         fill: true,
         backgroundColor: 'rgba(86, 33, 135, 0.2)',
         borderColor: 'rgb(172, 57, 239)',
@@ -735,9 +845,11 @@ let dataSet = [
     },
 
     {
+        id: 'dorm',
         label: 'Dormammu (8)',
         hidden: true,
         data: [4, 4, 2, 4, 3, 1],
+        affil: [9],
         fill: true,
         backgroundColor: 'rgba(86, 33, 135, 0.2)',
         borderColor: 'rgb(129, 40, 230)',
@@ -748,9 +860,11 @@ let dataSet = [
     },
 
     {
+        id: 'drac',
         label: 'Dracula (5)',
         hidden: true,
         data: [5, 4, 2, 2, 3, 2],
+        affil: [22],
         fill: true,
         backgroundColor: 'rgba(135, 60, 33, 0.2)',
         borderColor: 'rgb(215, 40, 40)',
@@ -761,9 +875,11 @@ let dataSet = [
     },
 
     {
+        id: 'drax',
         label: 'Drax the Destroyer (3)',
         hidden: true,
         data: [2, 3, 2, 2, 2, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(33, 135, 33, 0.2)',
         borderColor: 'rgb(51, 136, 43)',
@@ -774,9 +890,11 @@ let dataSet = [
     },
 
     {
+        id: 'maw',
         label: 'Ebony Maw (5)',
         hidden: true,
         data: [4, 2, 2, 4, 4, 1],
+        affil: [4],
         fill: true,
         backgroundColor: 'rgba(33, 101, 135, 0.2)',
         borderColor: 'rgb(43, 86, 136)',
@@ -787,9 +905,11 @@ let dataSet = [
     },
 
     {
+        id: 'echo',
         label: 'Echo (?)',
         hidden: true,
         data: [0, 0, 0, 0, 0, 0],
+        affil: [10],
         fill: true,
         backgroundColor: 'rgba(98, 33, 135, 0.2)',
         borderColor: 'rgb(172, 57, 239)',
@@ -800,9 +920,11 @@ let dataSet = [
     },
 
     {
+        id: 'elctro',
         label: 'Electro (4)',
         hidden: true,
         data: [0, 0, 0, 0, 0, 0],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(129, 135, 33, 0.2)',
         borderColor: 'rgb(208, 196, 27)',
@@ -813,9 +935,11 @@ let dataSet = [
     },
 
     {
+        id: 'elktra',
         label: 'Elektra (4)',
         hidden: true,
         data: [3, 2, 2, 2, 1, 1],
+        affil: [10],
         fill: true,
         backgroundColor: 'rgba(135, 33, 33, 0.2)',
         borderColor: 'rgb(208, 27, 48)',
@@ -826,9 +950,11 @@ let dataSet = [
     },
 
     {
+        id: 'elsa',
         label: 'Elsa Bloodstone (4)',
         hidden: true,
         data: [4, 2, 3, 4, 3, 1],
+        affil: [16],
         fill: true,
         backgroundColor: 'rgba(135, 33, 33, 0.2)',
         borderColor: 'rgb(133, 133, 133)',
@@ -839,9 +965,11 @@ let dataSet = [
     },
 
     {
+        id: 'emma',
         label: 'Emma Frost (4)',
         hidden: true,
         data: [3, 2, 2, 4, 4, 3],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(33, 101, 135, 0.2)',
         borderColor: 'rgb(49, 129, 185)',
@@ -852,9 +980,11 @@ let dataSet = [
     },
 
     {
+        id: 'encht',
         label: 'Enchantress (4)',
         hidden: true,
         data: [3, 2, 2, 3, 4, 1],
+        affil: [2],
         fill: true,
         backgroundColor: 'rgba(36, 135, 33, 0.2)',
         borderColor: 'rgb(54, 185, 49)',
@@ -865,9 +995,11 @@ let dataSet = [
     },
 
     {
+        id: 'exods',
         label: 'Exodus (5)',
         hidden: true,
         data: [4, 4, 3, 3, 3, 3],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(33, 74, 135, 0.2)',
         borderColor: 'rgb(76, 49, 185)',
@@ -878,9 +1010,11 @@ let dataSet = [
     },
 
     {
+        id: 'frank',
         label: 'Frankenstein (4)',
         hidden: true,
         data: [3, 4, 3, 2, 2, 1],
+        affil: [16],
         fill: true,
         backgroundColor: 'rgba(33, 135, 45, 0.2)',
         borderColor: 'rgb(100, 175, 18)',
@@ -891,9 +1025,11 @@ let dataSet = [
     },
 
     {
+        id: 'gmbt',
         label: 'Gambit (3)',
         hidden: true,
         data: [4, 2, 2, 3, 2, 1],
+        affil: [23, 20],
         fill: true,
         backgroundColor: 'rgba(134, 33, 135, 0.2)',
         borderColor: 'rgb(196, 19, 216)',
@@ -904,9 +1040,11 @@ let dataSet = [
     },
 
     {
+        id: 'gmra',
         label: 'Gamora (4)',
         hidden: true,
         data: [4, 2, 5, 2, 1, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(33, 135, 53, 0.2)',
         borderColor: 'rgb(19, 216, 71)',
@@ -917,9 +1055,11 @@ let dataSet = [
     },
 
     {
+        id: 'gr',
         label: 'Ghost Rider (5)',
         hidden: true,
         data: [4, 3, 4, 3, 4, 3],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(135, 101, 33, 0.2)',
         borderColor: 'rgb(216, 121, 19)',
@@ -930,9 +1070,11 @@ let dataSet = [
     },
 
     {
+        id: 'gwen',
         label: 'Ghost-Spider (3)',
         hidden: true,
         data: [2, 2, 3, 4, 5, 5],
+        affil: [26],
         fill: true,
         backgroundColor: 'rgba(33, 135, 122, 0.2)',
         borderColor: 'rgb(19, 203, 216)',
@@ -943,9 +1085,11 @@ let dataSet = [
     },
 
     {
+        id: 'glad',
         label: 'Gladiator (6)',
         hidden: true,
         data: [4, 5, 3, 3, 3, 1],
+        affil: [29],
         fill: true,
         backgroundColor: 'rgba(33, 53, 135, 0.2)',
         borderColor: 'rgb(19, 42, 216)',
@@ -956,9 +1100,11 @@ let dataSet = [
     },
 
     {
+        id: 'gorg',
         label: 'Gorgon (3)',
         hidden: true,
         data: [3, 3, 3, 3, 2, 4],
+        affil: [14],
         fill: true,
         backgroundColor: 'rgba(135, 81, 33, 0.2)',
         borderColor: 'rgb(155, 116, 23)',
@@ -969,9 +1115,11 @@ let dataSet = [
     },
 
     {
+        id: 'gobbo',
         label: 'Green Goblin (4)',
         hidden: true,
         data: [4, 3, 3, 4, 3, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(33, 135, 36, 0.2)',
         borderColor: 'rgb(23, 155, 34)',
@@ -982,9 +1130,11 @@ let dataSet = [
     },
 
     {
+        id: 'groot',
         label: 'Groot (3)',
         hidden: true,
         data: [2, 4, 2, 3, 1, 3],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(135, 77, 33, 0.2)',
         borderColor: 'rgb(155, 91, 23)',
@@ -995,9 +1145,11 @@ let dataSet = [
     },
 
     {
+        id: 'gwenom',
         label: 'Gwenom (4)',
         hidden: true,
         data: [3, 3, 3, 3, 4, 3],
+        affil: [26],
         fill: true,
         backgroundColor: 'rgba(33, 135, 113, 0.2)',
         borderColor: 'rgb(23, 153, 155)',
@@ -1008,9 +1160,11 @@ let dataSet = [
     },
 
     {
+        id: 'gpool',
         label: 'Gwenpool (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(134, 33, 135, 0.2)',
         borderColor: 'rgb(186, 18, 174)',
@@ -1021,9 +1175,11 @@ let dataSet = [
     },
 
     {
+        id: 'hwkeye',
         label: 'Hawkeye (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1034,9 +1190,11 @@ let dataSet = [
     },
 
     {
+        id: 'hmdall',
         label: 'Heimdall (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1047,9 +1205,11 @@ let dataSet = [
     },
 
     {
+        id: 'helaquee',
         label: 'Hela, Queen of Hel (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [2],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1060,9 +1220,11 @@ let dataSet = [
     },
 
     {
+        id: 'honeybad',
         label: 'Honey Badger (2)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [25],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1073,9 +1235,11 @@ let dataSet = [
     },
 
     {
+        id: 'hood',
         label: 'Hood (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1086,9 +1250,11 @@ let dataSet = [
     },
 
     {
+        id: 'hulk',
         label: 'Hulk (6)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1099,9 +1265,11 @@ let dataSet = [
     },
 
     {
+        id: 'hulkbust',
         label: 'Hulkbuster (6)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1112,9 +1280,11 @@ let dataSet = [
     },
 
     {
+        id: 'iceman',
         label: 'Iceman (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [20, 23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1125,9 +1295,11 @@ let dataSet = [
     },
 
     {
+        id: 'ironman4',
         label: 'Invincible Iron Man (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1138,9 +1310,11 @@ let dataSet = [
     },
 
     {
+        id: 'ironfist',
         label: 'Iron Fist (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1151,9 +1325,11 @@ let dataSet = [
     },
 
     {
+        id: 'ironman3',
         label: 'Iron Man (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1164,9 +1340,11 @@ let dataSet = [
     },
 
     {
+        id: 'jeangrey',
         label: 'Jean Grey (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1177,9 +1355,11 @@ let dataSet = [
     },
 
     {
+        id: 'juggs',
         label: 'Juggernaut (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1190,9 +1370,11 @@ let dataSet = [
     },
 
     {
+        id: 'karnak',
         label: 'Karnak (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1203,9 +1385,11 @@ let dataSet = [
     },
 
     {
+        id: 'killmong',
         label: 'Killmonger (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [8, 24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1216,9 +1400,11 @@ let dataSet = [
     },
 
     {
+        id: 'killsurper',
         label: 'Killmonger, Usurper (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [8, 24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1229,9 +1415,11 @@ let dataSet = [
     },
 
     {
+        id: 'kingbb',
         label: 'King Black Bolt (6)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1242,9 +1430,11 @@ let dataSet = [
     },
 
     {
+        id: 'kingtchalla',
         label: 'King T\'Challa (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1255,9 +1445,11 @@ let dataSet = [
     },
 
     {
+        id: 'kingpin',
         label: 'Kingpin (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [8, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1268,9 +1460,11 @@ let dataSet = [
     },
 
     {
+        id: 'klaw',
         label: 'Klaw (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [13],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1281,9 +1475,11 @@ let dataSet = [
     },
 
     {
+        id: 'kraven',
         label: 'Kraven the Hunter (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1294,9 +1490,11 @@ let dataSet = [
     },
 
     {
+        id: 'ladymstr',
         label: 'Lady Mastermind (?)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1307,9 +1505,11 @@ let dataSet = [
     },
 
     {
+        id: 'ladysif',
         label: 'Lady Sif (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [2],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1320,9 +1520,11 @@ let dataSet = [
     },
 
     {
+        id: 'lizard',
         label: 'Lizard (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1333,9 +1535,11 @@ let dataSet = [
     },
 
     {
+        id: 'lockjaw',
         label: 'Lockjaw (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1346,9 +1550,11 @@ let dataSet = [
     },
 
     {
+        id: 'logan',
         label: 'Logan the Wolverine (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [25],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1359,9 +1565,11 @@ let dataSet = [
     },
 
     {
+        id: 'lokigod',
         label: 'Loki God of Mischief (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [2],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1372,9 +1580,11 @@ let dataSet = [
     },
 
     {
+        id: 'lokiprin',
         label: 'Loki Prince of Lies (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [2],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1385,9 +1595,11 @@ let dataSet = [
     },
 
     {
+        id: 'lukecage',
         label: 'Luke Cage (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1398,9 +1610,11 @@ let dataSet = [
     },
 
     {
+        id: 'modok',
         label: 'MODOK (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [6, 8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1411,9 +1625,11 @@ let dataSet = [
     },
 
     {
+        id: 'modoksup',
         label: 'MODOK Supreme (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [6, 8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1424,9 +1640,11 @@ let dataSet = [
     },
 
     {
+        id: 'magik',
         label: 'Magik (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [17, 20],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1437,9 +1655,11 @@ let dataSet = [
     },
 
     {
+        id: 'magneto',
         label: 'Magneto (6)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1450,9 +1670,11 @@ let dataSet = [
     },
 
     {
+        id: 'malekith',
         label: 'Malekith (7)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [6],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1463,9 +1685,11 @@ let dataSet = [
     },
 
     {
+        id: 'manthing',
         label: 'Man-Thing (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [16],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1476,9 +1700,11 @@ let dataSet = [
     },
 
     {
+        id: 'maverick',
         label: 'Maverick (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [25],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1489,9 +1715,11 @@ let dataSet = [
     },
 
     {
+        id: 'maximus',
         label: 'Maximus the Mad (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1502,9 +1730,11 @@ let dataSet = [
     },
 
     {
+        id: 'medusa',
         label: 'Medusa (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1515,9 +1745,11 @@ let dataSet = [
     },
 
     {
+        id: 'mephisto',
         label: 'Mephisto (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [15],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1528,9 +1760,11 @@ let dataSet = [
     },
 
     {
+        id: 'mrsini',
         label: 'Mr Sinister (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [6],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1541,9 +1775,11 @@ let dataSet = [
     },
 
     {
+        id: 'moonknt',
         label: 'Moon Knight (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [10, 26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1554,9 +1790,11 @@ let dataSet = [
     },
 
     {
+        id: 'msmarvel',
         label: 'Ms Marvel (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3, 14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1567,9 +1805,11 @@ let dataSet = [
     },
 
     {
+        id: 'mysterio',
         label: 'Mysterio (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1580,9 +1820,11 @@ let dataSet = [
     },
 
     {
+        id: 'mystique',
         label: 'Mystique (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1593,9 +1835,11 @@ let dataSet = [
     },
 
     {
+        id: 'mbaku',
         label: 'M\'Baku (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1606,9 +1850,11 @@ let dataSet = [
     },
 
     {
+        id: 'namor',
         label: 'Namor (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1619,9 +1865,11 @@ let dataSet = [
     },
 
     {
+        id: 'nebula',
         label: 'Nebula (2)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1632,9 +1880,11 @@ let dataSet = [
     },
 
     {
+        id: 'nickfuryjr',
         label: 'Nick Fury Jr (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1645,9 +1895,11 @@ let dataSet = [
     },
 
     {
+        id: 'nickfury',
         label: 'Nick Fury + Commandos (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1658,9 +1910,11 @@ let dataSet = [
     },
 
     {
+        id: 'nightcra',
         label: 'Nightcrawler (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1671,9 +1925,11 @@ let dataSet = [
     },
 
     {
+        id: 'nova',
         label: 'Nova (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1684,9 +1940,11 @@ let dataSet = [
     },
 
     {
+        id: 'nkantu',
         label: 'N\Kantu, Mummy (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [16],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1697,9 +1955,11 @@ let dataSet = [
     },
 
     {
+        id: 'okoye',
         label: 'Okoye (2)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1710,9 +1970,11 @@ let dataSet = [
     },
 
     {
+        id: 'omegared',
         label: 'Omega Red (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1723,9 +1985,11 @@ let dataSet = [
     },
 
     {
+        id: 'phoenix',
         label: 'Phoenix (6)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1736,9 +2000,11 @@ let dataSet = [
     },
 
     {
+        id: 'profx',
         label: 'Prof X (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1749,9 +2015,11 @@ let dataSet = [
     },
 
     {
+        id: 'prwlr',
         label: 'Prowler (?)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1762,9 +2030,11 @@ let dataSet = [
     },
 
     {
+        id: 'proximam',
         label: 'Proxima Mid (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [4],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1775,9 +2045,11 @@ let dataSet = [
     },
 
     {
+        id: 'psylocke',
         label: 'Psylocke (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [28, 25, 23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1788,9 +2060,11 @@ let dataSet = [
     },
 
     {
+        id: 'punisher',
         label: 'Punisher (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1801,9 +2075,11 @@ let dataSet = [
     },
 
     {
+        id: 'pyro',
         label: 'Pyro (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1814,9 +2090,11 @@ let dataSet = [
     },
 
     {
+        id: 'quicksil',
         label: 'Quicksilver (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1827,9 +2105,11 @@ let dataSet = [
     },
 
     {
+        id: 'redguard',
         label: 'Red Guardian (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [27],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1840,9 +2120,11 @@ let dataSet = [
     },
 
     {
+        id: 'redskull1',
         label: 'Red Skull (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [13],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1853,9 +2135,11 @@ let dataSet = [
     },
 
     {
+        id: 'redskull2',
         label: 'Red Skull, Hydra (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [13],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1866,9 +2150,11 @@ let dataSet = [
     },
 
     {
+        id: 'redskull3',
         label: 'Red Skull, World (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [13],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1879,9 +2165,11 @@ let dataSet = [
     },
 
     {
+        id: 'rhino',
         label: 'Rhino (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1892,9 +2180,11 @@ let dataSet = [
     },
 
     {
+        id: 'rocket',
         label: 'Rocket (2)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1905,9 +2195,11 @@ let dataSet = [
     },
 
     {
+        id: 'rogue',
         label: 'Rogue (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5, 23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1918,9 +2210,11 @@ let dataSet = [
     },
 
     {
+        id: 'ronan',
         label: 'Ronan (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1931,9 +2225,11 @@ let dataSet = [
     },
 
     {
+        id: 'ronin',
         label: 'Ronin (?)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [10, 8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1944,9 +2240,11 @@ let dataSet = [
     },
 
     {
+        id: 'sabretoo',
         label: 'Sabretooth (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5, 25],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1957,9 +2255,11 @@ let dataSet = [
     },
 
     {
+        id: 'sabreapex',
         label: 'Sabretooth, Apex (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5, 25],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1970,9 +2270,11 @@ let dataSet = [
     },
 
     {
+        id: 'sandman',
         label: 'Sandman (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1983,9 +2285,11 @@ let dataSet = [
     },
 
     {
+        id: 'scarletsp',
         label: 'Scarlet Spidey (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -1996,9 +2300,11 @@ let dataSet = [
     },
 
     {
+        id: 'scarletw',
         label: 'Scarlet Witch (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2009,9 +2315,11 @@ let dataSet = [
     },
 
     {
+        id: 'sentinel',
         label: 'Sentinel MK4 (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [19],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2022,9 +2330,11 @@ let dataSet = [
     },
 
     {
+        id: 'sentprime',
         label: 'Sentinal Prime (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [19],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2035,9 +2345,11 @@ let dataSet = [
     },
 
     {
+        id: 'shdowking',
         label: 'Shadow King (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2048,9 +2360,11 @@ let dataSet = [
     },
 
     {
+        id: 'shdowcat',
         label: 'Shadowcat (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2061,9 +2375,11 @@ let dataSet = [
     },
 
     {
+        id: 'sldd',
         label: 'Shadowland DD (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2074,9 +2390,11 @@ let dataSet = [
     },
 
     {
+        id: 'shang',
         label: 'Shang-Chi (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2087,9 +2405,11 @@ let dataSet = [
     },
 
     {
+        id: 'shehulk',
         label: 'She-Hulk (6)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [1],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2100,9 +2420,11 @@ let dataSet = [
     },
 
     {
+        id: 'shocker',
         label: 'Shocker (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2113,9 +2435,11 @@ let dataSet = [
     },
 
     {
+        id: 'shuri',
         label: 'Shuri (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2126,9 +2450,11 @@ let dataSet = [
     },
 
     {
+        id: 'silk',
         label: 'Silk (?)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2139,9 +2465,11 @@ let dataSet = [
     },
 
     {
+        id: 'slvrsabl',
         label: 'Silver Sable (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2152,9 +2480,11 @@ let dataSet = [
     },
 
     {
+        id: 'sin',
         label: 'Sin (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2165,9 +2495,11 @@ let dataSet = [
     },
 
     {
+        id: 'skurge',
         label: 'Skurge (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [2],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2178,9 +2510,11 @@ let dataSet = [
     },
 
     {
+        id: 'ssm',
         label: 'Spectacular Spidey (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2191,9 +2525,11 @@ let dataSet = [
     },
 
     {
+        id: 'spectrum',
         label: 'Spectrum (?)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2204,9 +2540,11 @@ let dataSet = [
     },
 
     {
+        id: 'spham',
         label: 'Spider-Ham (2)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2217,9 +2555,11 @@ let dataSet = [
     },
 
     {
+        id: 'smcore',
         label: 'Spidey (Peter) (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2230,9 +2570,11 @@ let dataSet = [
     },
 
     {
+        id: 'spmiles',
         label: 'Spidey (Miles) (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26, 3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2243,9 +2585,11 @@ let dataSet = [
     },
 
     {
+        id: 'sp2099',
         label: 'Spidey 2099 (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2256,9 +2600,11 @@ let dataSet = [
     },
 
     {
+        id: 'spnoir',
         label: 'Spidey Noir (?)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2269,9 +2615,11 @@ let dataSet = [
     },
 
     {
+        id: 'spwmn',
         label: 'Spidey Woman (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2282,9 +2630,11 @@ let dataSet = [
     },
 
     {
+        id: 'sqrlgirl',
         label: 'Squirrel Girl (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2295,9 +2645,11 @@ let dataSet = [
     },
 
     {
+        id: 'starlord',
         label: 'Star-Lord (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2308,9 +2660,11 @@ let dataSet = [
     },
 
     {
+        id: 'steverog',
         label: 'Steve Rogers, Cap (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2321,9 +2675,11 @@ let dataSet = [
     },
 
     {
+        id: 'storm',
         label: 'Storm (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [23, 24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2334,9 +2690,11 @@ let dataSet = [
     },
 
     {
+        id: 'sunspot',
         label: 'Sunspot (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [17],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2347,9 +2705,11 @@ let dataSet = [
     },
 
     {
+        id: 'sprgiant',
         label: 'Supergiant (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [4],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2360,9 +2720,11 @@ let dataSet = [
     },
 
     {
+        id: 'taskmast',
         label: 'Taskmaster (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [29],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2373,9 +2735,11 @@ let dataSet = [
     },
 
     {
+        id: 'thanos',
         label: 'Thanos (6)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [4],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2386,9 +2750,11 @@ let dataSet = [
     },
 
     {
+        id: 'bwid4',
         label: 'Black Widow, The (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2399,9 +2765,11 @@ let dataSet = [
     },
 
     {
+        id: 'blob',
         label: 'Blob, The (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2412,9 +2780,11 @@ let dataSet = [
     },
 
     {
+        id: 'ihulk',
         label: 'iHulk, The (7)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3, 16],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2425,9 +2795,11 @@ let dataSet = [
     },
 
     {
+        id: 'thorjane',
         label: 'Mighty Thor, The (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [2, 3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2438,9 +2810,11 @@ let dataSet = [
     },
 
     {
+        id: 'ogtorch',
         label: 'OG Torch, The (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2451,9 +2825,11 @@ let dataSet = [
     },
 
     {
+        id: 'wreckcrew',
         label: 'Wrecking Crew, The (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2464,9 +2840,11 @@ let dataSet = [
     },
 
     {
+        id: 'thor2',
         label: 'Thor, Hero (6)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [2, 3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2477,9 +2855,11 @@ let dataSet = [
     },
 
     {
+        id: 'thor1',
         label: 'Thor, Prince (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [2, 3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2490,9 +2870,11 @@ let dataSet = [
     },
 
     {
+        id: 'tigra',
         label: 'Tigra (?)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2503,9 +2885,11 @@ let dataSet = [
     },
 
     {
+        id: 'toad',
         label: 'Toad (2)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2516,9 +2900,11 @@ let dataSet = [
     },
 
     {
+        id: 'ulik',
         label: 'Ulik (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [2],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2529,9 +2915,11 @@ let dataSet = [
     },
 
     {
+        id: 'ultmiles',
         label: 'Ult Spidey (?)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2542,9 +2930,11 @@ let dataSet = [
     },
 
     {
+        id: 'ultron',
         label: 'Ultron (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [6],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2555,9 +2945,11 @@ let dataSet = [
     },
 
     {
+        id: 'ultyrant',
         label: 'Ultron, Tyrant (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [6],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2568,9 +2960,11 @@ let dataSet = [
     },
 
     {
+        id: 'ursamajo',
         label: 'Ursa Major (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [27],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2581,9 +2975,11 @@ let dataSet = [
     },
 
     {
+        id: 'valkyrie',
         label: 'Valkyrie (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [2],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2594,9 +2990,11 @@ let dataSet = [
     },
 
     {
+        id: 'venom',
         label: 'Venom (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [21, 26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2607,9 +3005,11 @@ let dataSet = [
     },
 
     {
+        id: 'viper',
         label: 'Viper (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2620,9 +3020,11 @@ let dataSet = [
     },
 
     {
+        id: 'vision',
         label: 'Vision (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2633,9 +3035,11 @@ let dataSet = [
     },
 
     {
+        id: 'vulture',
         label: 'Vulture (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2646,9 +3050,11 @@ let dataSet = [
     },
 
     {
+        id: 'warmachi',
         label: 'War Machine (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2659,9 +3065,11 @@ let dataSet = [
     },
 
     {
+        id: 'warlock',
         label: 'Warlock (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [17],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2672,9 +3080,11 @@ let dataSet = [
     },
 
     {
+        id: 'wasp',
         label: 'Wasp (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2685,9 +3095,11 @@ let dataSet = [
     },
 
     {
+        id: 'weaponx',
         label: 'Weapon X (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [25], 
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2698,9 +3110,11 @@ let dataSet = [
     },
 
     {
+        id: 'werewolf',
         label: 'Werewolf (5)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [16],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2711,9 +3125,11 @@ let dataSet = [
     },
 
     {
+        id: 'bucky1',
         label: 'Winter Soldier (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [29, 3, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2724,9 +3140,11 @@ let dataSet = [
     },
 
     {
+        id: 'bucky2',
         label: 'Winter Soldier, Op (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [29, 3, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2737,9 +3155,11 @@ let dataSet = [
     },
 
     {
+        id: 'wolvie',
         label: 'Wolverine (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [25, 23, 28],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2750,9 +3170,11 @@ let dataSet = [
     },
 
     {
+        id: 'wong',
         label: 'Wong (2)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [7],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2763,9 +3185,11 @@ let dataSet = [
     },
 
     {
+        id: 'x23',
         label: 'X-23 (3)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [3, 25, 28],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
@@ -2776,9 +3200,11 @@ let dataSet = [
     },
 
     {
+        id: 'yondu',
         label: 'Yondu (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
+        affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
         borderColor: 'rgb(105, 105, 105)',
