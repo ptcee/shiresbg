@@ -61,7 +61,7 @@ var myChart = new Chart(ctx, {
         },
         elements: {
             point: {
-                radius: 2,
+                radius: 7,
                 hoverRadius: 2,
             },
             line: {
