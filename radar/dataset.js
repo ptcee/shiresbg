@@ -1332,7 +1332,7 @@ let dataSet = [
         id: 'hwkeye',
         label: 'Hawkeye (3)',
         hidden: true,
-        data: [3, 2, 3, 5, 2, 1],
+        data: [4, 2, 3, 5, 2, 1],
         affil: [3, 10, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1340,14 +1340,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 4],
     },
 
     {
         id: 'hmdall',
         label: 'Heimdall (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 2, 2, 2, 4, 4],
         affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1355,14 +1357,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [11, 10],
     },
 
     {
         id: 'helaquee',
         label: 'Hela, Queen of Hel (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3, 3, 4, 2, 1],
         affil: [2],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1370,14 +1374,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
     },
 
     {
         id: 'honeybad',
         label: 'Honey Badger (2)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 2, 2, 2, 4, 4],
         affil: [20, 23, 25, 28],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1385,14 +1391,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [7, 10],
     },
 
     {
         id: 'hood',
         label: 'Hood (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3, 2, 3, 2, 3],
         affil: [6, 8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1400,14 +1408,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 11],
     },
 
     {
         id: 'hulk',
         label: 'Hulk (6)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 4, 3, 2, 5, 1],
         affil: [3, 10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1415,14 +1425,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 10],
     },
 
     {
         id: 'hulkbust',
         label: 'Hulkbuster (6)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3, 4, 3, 5, 1],
         affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1430,14 +1442,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [10],
     },
 
     {
         id: 'iceman',
         label: 'Iceman (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 2, 3, 3, 4, 3],
         affil: [20, 23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1445,14 +1459,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [11, 10],
     },
 
     {
         id: 'ironman4',
         label: 'Invincible Iron Man (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 4, 2, 4, 3, 1],
         affil: [18, 3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1460,14 +1476,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 6],
     },
 
     {
         id: 'ironfist',
         label: 'Iron Fist (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3, 3, 3, 4, 1],
         affil: [3, 10, 16],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1475,14 +1493,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 10],
     },
 
     {
         id: 'ironman3',
         label: 'Iron Man (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 4, 2, 4, 3, 1],
         affil: [3, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1490,14 +1510,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 10],
     },
 
     {
         id: 'jeangrey',
         label: 'Jean Grey (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 2, 2, 4, 3, 4],
         affil: [23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1505,14 +1527,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [11, 4],
     },
 
     {
         id: 'juggs',
         label: 'Juggernaut (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 5, 5, 2, 3, 1],
         affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1520,14 +1544,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1, 6],
     },
 
     {
         id: 'karnak',
         label: 'Karnak (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3, 2, 2, 3, 3],
         affil: [14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1535,14 +1561,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Karnak only brawls in 1v1 situations.</p>',
+        role: [5, 4],
     },
 
     {
         id: 'killmong',
         label: 'Killmonger (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [5, 2, 3, 2, 3, 1],
         affil: [6, 8, 24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1550,14 +1578,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [3],
     },
 
     {
         id: 'killsurper',
         label: 'Killmonger, Usurper (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3, 3, 3, 2, 1],
         affil: [8, 24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1565,14 +1595,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5],
     },
 
     {
         id: 'kingbb',
         label: 'King Black Bolt (6)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 4, 3, 4, 3, 3],
         affil: [14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1580,14 +1612,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5],
     },
 
     {
         id: 'kingtchalla',
         label: 'King T\'Challa (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [5, 2, 3, 3, 3, 1],
         affil: [3, 24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1595,14 +1629,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [3],
     },
 
     {
         id: 'kingpin',
         label: 'Kingpin (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 4, 2, 3, 4, 1],
         affil: [8, 6, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1610,14 +1646,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [6, 10],
     },
 
     {
         id: 'klaw',
         label: 'Klaw (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 4, 2, 3, 3, 1],
         affil: [6, 8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1625,14 +1663,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 10],
     },
 
     {
         id: 'kraven',
         label: 'Kraven the Hunter (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 2, 3, 3, 2, 4],
         affil: [8, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1640,7 +1680,9 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 11],
     },
 
     {
@@ -1662,7 +1704,7 @@ let dataSet = [
         id: 'ladysif',
         label: 'Lady Sif (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 4, 4, 2, 3, 1],
         affil: [2],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1670,14 +1712,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 10],
     },
 
     {
         id: 'lizard',
         label: 'Lizard (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 4, 3, 3, 3, 1],
         affil: [21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1685,14 +1729,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1, 6, 2],
     },
 
     {
         id: 'lockjaw',
         label: 'Lockjaw (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 3, 2, 2, 2, 5],
         affil: [14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1700,14 +1746,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [11],
     },
 
     {
         id: 'logan',
         label: 'Logan the Wolverine (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [5, 3, 3, 3, 2, 1],
         affil: [25, 23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1715,14 +1763,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5],
     },
 
     {
         id: 'lokigod',
         label: 'Loki God of Mischief (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3, 2, 3, 5, 1],
         affil: [2, 6],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1730,14 +1780,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [10],
     },
 
     {
         id: 'lokiprin',
         label: 'Loki Prince of Lies (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 4, 3, 3, 4, 3],
         affil: [2, 8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1745,14 +1797,16 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [10, 6],
     },
 
     {
         id: 'lukecage',
         label: 'Luke Cage (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 4, 2, 2, 3, 4],
         affil: [3, 10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1760,7 +1814,9 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [7, 6],
     },
 
     {
