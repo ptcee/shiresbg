@@ -665,6 +665,10 @@ p {
   margin-top: 10px;
 }
 
+#affildropdown, #dropdowns, #roles {
+  margin: 10px;
+}
+
 #rolepicker  {
   background-color: #912d74;
 }
