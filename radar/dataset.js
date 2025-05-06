@@ -1043,7 +1043,7 @@ let dataSet = [
         id: 'elctro',
         label: 'Electro (4)',
         hidden: true,
-        data: [0, 0, 0, 0, 0, 0],
+        data: [3, 3, 3, 3, 3, 3],
         affil: [8, 21],
         fill: true,
         backgroundColor: 'rgba(129, 135, 33, 0.2)',
