@@ -46,7 +46,7 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(255, 15, 15)',
-        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: ASM is also very good on P2F secures.</p>',
         role: [1, 11],
     },
 
@@ -320,7 +320,7 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(41, 44, 106)',
-        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Black Bolt is a Bodyguard on his front side and a Tank on his backside.</p>',
         role: [8, 6, 4],
     },
 
