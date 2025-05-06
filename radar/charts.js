@@ -322,7 +322,3 @@ function openNav() {
 function closeNav() {
     document.getElementById('drawer').style.width = '0';
 }
-
-
-
-
