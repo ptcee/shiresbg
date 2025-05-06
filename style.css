@@ -725,6 +725,8 @@ select:focus {
 .writeblock p {
   color: #474747;
   margin: 0;  
+  line-height: 22px;
+  margin-bottom: 10px;
 }
 
 .prole {
