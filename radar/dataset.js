@@ -1697,7 +1697,9 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)'',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1],
     },
 
     {
