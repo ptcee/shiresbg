@@ -4,11 +4,12 @@ $(document).ready(function () {
         { label: "Spideys", className: "pat" },
         { label: "Apocalypse", className: "chris" },
         { label: "Black Order", className: "chadd" },
-        { label: "Guardians", className: "josh" },
+        { label: "Asgavengers", className: "josh" },
         { label: "Sinister 6", className: "bren" },
         { label: "A-Force", className: "mark" },
         { label: "X-Men", className: "eric" },
         { label: "X-Force", className: "gini" },
+        { label: "Weapon X", className: "worb" },
         { label: "Uncontrolled", className: "none" }
     ];    
 

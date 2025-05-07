@@ -1,12 +1,13 @@
 :root {
   --mike: rgb(206, 24, 60);
   --chris: rgb(31, 68, 142);
-  --josh: rgb(122, 0, 199);
+  --josh: rgb(121, 1, 161);
   --pat: rgb(141, 11, 2);
   --chadd: rgb(0, 0, 0);
   --bren: rgb(110, 189, 0);
   --mark: rgb(124, 61, 10);
   --eric: rgb(255, 102, 0);
+  --worb: rgb(148, 45, 217);
   --gini: rgb(155, 128, 7);
 
   --none: rgb(137, 137, 137);
@@ -126,48 +127,34 @@ p {
 .shadm {
   background-color: rgb(164, 19, 48);
 }
-
-/* Mike */
 .shadc {
   background-color: rgb(18, 41, 88);
 }
-
-/* Chris */
 .shadj {
   background-color: rgb(71, 0, 115);
 }
-
-/* Josh */
 .shadp {
   background-color: rgb(84, 7, 1);
 }
-
-/* Pat */
 .shadd {
   background-color: rgb(4, 1, 54);
 }
-
-/* Chadd */
 .shadb {
   background-color: rgb(61, 104, 1);
 }
-
-/* Bren */
 .shadpc {
   background-color: rgb(64, 31, 5);
 }
-
-/* Mark */
 .shade {
   background-color: rgb(128, 51, 0);
 }
-
-/* Eric */
+.shadw {
+  background-color: rgb(85, 25, 124);
+}
 .shadnone {
   background-color: rgb(101, 101, 101);
 }
 
-/* None */
 
 .color-dropdown {
   position: absolute;
@@ -315,6 +302,10 @@ p {
 
 .gini {
   background-color: var(--gini);
+}
+
+.worb {
+  background-color: var(--worb);
 }
 
 .none {

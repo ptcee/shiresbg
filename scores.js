@@ -9,6 +9,7 @@ $(document).ready(function () {
         { name: 'Mark', className: 'mark' },
         { name: 'Eric', className: 'eric' },
         { name: 'Gini', className: 'gini' },
+        { name: 'Worb', className: 'worb' },
     ];
 
     counts.forEach(function(player) {
