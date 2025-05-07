@@ -127,30 +127,39 @@ p {
 .shadm {
   background-color: rgb(164, 19, 48);
 }
+
 .shadc {
   background-color: rgb(18, 41, 88);
 }
+
 .shadj {
   background-color: rgb(71, 0, 115);
 }
+
 .shadp {
   background-color: rgb(84, 7, 1);
 }
+
 .shadd {
   background-color: rgb(4, 1, 54);
 }
+
 .shadb {
   background-color: rgb(61, 104, 1);
 }
+
 .shadpc {
   background-color: rgb(64, 31, 5);
 }
+
 .shade {
   background-color: rgb(128, 51, 0);
 }
+
 .shadw {
   background-color: rgb(85, 25, 124);
 }
+
 .shadnone {
   background-color: rgb(101, 101, 101);
 }
@@ -652,16 +661,18 @@ p {
   background-color: rgb(16, 141, 213);
 }
 
-#affiliations  {
+#affiliations {
   background-color: #206b3a;
   margin-top: 10px;
 }
 
-#affildropdown, #dropdowns, #roles {
+#affildropdown,
+#dropdowns,
+#roles {
   margin: 10px;
 }
 
-#rolepicker  {
+#rolepicker {
   background-color: #912d74;
 }
 
@@ -673,13 +684,13 @@ button.selected {
 }
 
 select {
-border: none;
-background-color: #a55c03;
-color: #c4c4c4;
-border-radius: 5px;
-padding: 1px 7px;
-font-family: "Palanquin", serif;
-font-weight: 800;
+  border: none;
+  background-color: #a55c03;
+  color: #c4c4c4;
+  border-radius: 5px;
+  padding: 1px 7px;
+  font-family: "Palanquin", serif;
+  font-weight: 800;
 }
 
 select:focus {
@@ -694,7 +705,8 @@ select:focus {
   margin-right: 10px;
 }
 
-.writeblock, .writenull {
+.writeblock,
+.writenull {
   background: #d4d4d4;
   color: #000;
   padding: 10px;
@@ -716,7 +728,7 @@ select:focus {
 
 .writeblock p {
   color: #474747;
-  margin: 0;  
+  margin: 0;
   line-height: 22px;
   margin-bottom: 10px;
 }
@@ -739,15 +751,37 @@ select:focus {
 }
 
 .filtertog-btn {
-background-color: #189d1f !important;
+  background-color: #189d1f !important;
 }
 
-a:link {color: orange;}
-a:visited {color: darkgoldenrod;}
-a:hover {color: yellow;}
-a:active {color: orange;}
-a {text-decoration: none; font-weight: bolder;}
-.shout {font-size: .8rem; font-style: oblique; width: 45%; margin: 0 0 20px 0; line-height: 15px;}
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: darkgoldenrod;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: orange;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.shout {
+  font-size: .8rem;
+  font-style: oblique;
+  width: 45%;
+  margin: 0 0 20px 0;
+  line-height: 15px;
+}
 
 /* SIDE DRAWER */
 .info-drawer {
@@ -809,12 +843,24 @@ a {text-decoration: none; font-weight: bolder;}
     width: 100vw;
   }
 
-  .shout {width: 80%;}
+  .shout {
+    width: 80%;
+  }
 
   #filters {
     padding: 5px;
   }
 
-  .info-drawer {padding-top: 48px;}
-  .info-drawer a {font-size: 18px;}
+  .info-drawer {
+    padding-top: 48px;
+  }
+
+  .info-drawer a {
+    font-size: 18px;
+  }
+
+  .buttons-top {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
