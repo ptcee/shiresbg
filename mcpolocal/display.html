@@ -81,12 +81,19 @@
   renderDisplay(state);
 
   // Live update
-  window.addEventListener('storage', (event) => {
-    if (event.key === 'mcpoState') {
-      const updatedState = JSON.parse(event.newValue || '[]');
-      renderDisplay(updatedState);
-    }
-  });
+  let previousJSON = '';
+
+function pollForChanges() {
+  const newJSON = localStorage.getItem('mcpoState');
+  if (newJSON !== previousJSON) {
+    previousJSON = newJSON;
+    const updatedState = JSON.parse(newJSON || '[]');
+    renderDisplay(updatedState);
+  }
+}
+
+setInterval(pollForChanges, 1000); // Check every second
+
 </script>
 
 </body>
