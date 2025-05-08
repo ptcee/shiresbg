@@ -1,0 +1,183 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+h3 {
+    margin: 0;
+}
+
+#controls {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: center;
+    gap: 5px;
+}
+
+#container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#left,
+#right {
+    width: 442px;
+    min-height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 1080px;
+    overflow-y: auto;
+}
+
+#right {
+    align-items: flex-end;
+}
+
+.character-wrapper {
+    margin-bottom: 5px;
+    display: flex;
+  }
+  
+  .character {
+    width: 275px;
+    height: 100px; 
+    padding: 8px;
+    border: 6px solid green;
+    border-radius: 8px;
+    background-color: rgba(92, 92, 92, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+.character.flipped {
+    border-color: red;
+    background-color: rgba(92, 92, 92, 0.5);
+}
+
+.bar-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 36px;
+}
+
+.bar-label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+button {
+    margin: 2px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+#controls select {
+    color: #ffffff;
+    background-color: #505050;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    padding: 1px 7px;
+    font-family: "Palanquin", serif;
+}
+
+.side-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 116px;
+}
+
+.side-buttons button {
+    border: none;
+}
+
+.side-buttons button:last-child {
+    background-color: #2957ff;
+    color: #fff;
+}
+
+
+.left-buttons {
+    margin-right: 8px;
+}
+
+.right-buttons {
+    margin-left: 8px;
+}
+
+.health-bar,
+.power-bar {
+    height: 15px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.health-bar {
+    background-color: darkred;
+}
+
+.power-bar {
+    background-color: darkgreen;
+}
+
+.block-container {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.block {
+    width: 15px;
+    height: 15px;
+}
+
+#powerPhaseBtn {
+    background-color: #1ab240;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    padding: 1px 7px;
+    font-family: "Palanquin", serif;
+}
+
+.button-group {
+    gap: 2px;
+    margin: 2px 0;
+  }
+  
+  .bar-container {
+    margin-top: 5px;
+  }
+  
+  
+  .button-group button {
+    padding: 3px 6px;
+    border: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .button-group.red button {
+    background-color: #b21a1a;
+  }
+  
+  .button-group.green button {
+    background-color: #1ab240;
+  }
+
+  .button-group button:hover {
+    filter: brightness(1.2);
+  }

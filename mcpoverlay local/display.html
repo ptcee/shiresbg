@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>MCPo OBS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="left"></div>
+        <div id="right"></div>
+    </div>
+
+    <script src="../radar/dataset.js"></script>
+    <script>
+        const state = JSON.parse(localStorage.getItem('mcpoState') || '[]');
+        const leftSide = document.getElementById('left');
+        const rightSide = document.getElementById('right');
+
+        state.forEach(entry => {
+            const data = dataSet.find(c => c.id === entry.id);
+            if (!data) return;
+
+            const wrapper = document.createElement('div');
+            wrapper.className = 'character-wrapper';
+
+            const charDiv = document.createElement('div');
+            charDiv.className = 'character';
+            if (entry.flipped) charDiv.classList.add('flipped');
+
+            const label = document.createElement('h3');
+            label.textContent = data.label;
+            label.style.margin = 0;
+
+            const healthBar = createBar('HEALTH', entry.health, 'darkred');
+            const powerBar = createBar('POWER', entry.power, 'darkgreen');
+
+            charDiv.append(label, healthBar, powerBar);
+            wrapper.appendChild(charDiv);
+
+            if (entry.side === 'left') leftSide.appendChild(wrapper);
+            else rightSide.appendChild(wrapper);
+        });
+
+        function createBar(label, count, color) {
+            const container = document.createElement('div');
+            container.className = 'bar-container';
+
+            const labelDiv = document.createElement('div');
+            labelDiv.className = 'bar-label';
+            labelDiv.textContent = `${label} (${count})`;
+
+            const blockWrap = document.createElement('div');
+            blockWrap.className = 'block-container';
+            for (let i = 0; i < count; i++) {
+                const block = document.createElement('div');
+                block.className = 'block';
+                block.style.backgroundColor = color;
+                blockWrap.appendChild(block);
+            }
+
+            container.append(labelDiv, blockWrap);
+            return container;
+        }
+    </script>
+</body>
+
+</html>
