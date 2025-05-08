@@ -154,6 +154,26 @@ function addCharacter(side) {
     });
   };
 
+  document.getElementById('updateDisplayBtn').onclick = () => {
+    const leftWrappers = document.getElementById('left').querySelectorAll('.character-wrapper');
+    const rightWrappers = document.getElementById('right').querySelectorAll('.character-wrapper');
+    
+    const collect = (wrappers, side) => Array.from(wrappers).map(w => {
+      const label = w.querySelector('h3')?.textContent;
+      const id = dataSet.find(c => label.includes(c.label.split(' ')[0]))?.id;
+  
+      const healthCount = w.querySelectorAll('.bar-container')[0].querySelectorAll('.block').length;
+      const powerCount = w.querySelectorAll('.bar-container')[1].querySelectorAll('.block').length;
+      const flipped = w.querySelector('.character')?.classList.contains('flipped');
+  
+      return { id, side, health: healthCount, power: powerCount, flipped };
+    });
+  
+    const state = [...collect(leftWrappers, 'left'), ...collect(rightWrappers, 'right')];
+    localStorage.setItem('mcpoState', JSON.stringify(state));
+  };
+  
+
   function syncToLocalStorage() {
     const state = [];
     document.querySelectorAll('.character-wrapper').forEach(wrapper => {

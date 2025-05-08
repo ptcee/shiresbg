@@ -20,57 +20,75 @@
     </div>
 
     <script src="../radar/dataset.js"></script>
-    <script>
-        const state = JSON.parse(localStorage.getItem('mcpoState') || '[]');
-        const leftSide = document.getElementById('left');
-        const rightSide = document.getElementById('right');
+       <script src="dataset.js"></script>
+<script>
+  const leftSide = document.getElementById('left');
+  const rightSide = document.getElementById('right');
 
-        state.forEach(entry => {
-            const data = dataSet.find(c => c.id === entry.id);
-            if (!data) return;
+  function renderDisplay(state) {
+    leftSide.innerHTML = '';
+    rightSide.innerHTML = '';
 
-            const wrapper = document.createElement('div');
-            wrapper.className = 'character-wrapper';
+    state.forEach(entry => {
+      const data = dataSet.find(c => c.id === entry.id);
+      if (!data) return;
 
-            const charDiv = document.createElement('div');
-            charDiv.className = 'character';
-            if (entry.flipped) charDiv.classList.add('flipped');
+      const wrapper = document.createElement('div');
+      wrapper.className = 'character-wrapper';
 
-            const label = document.createElement('h3');
-            label.textContent = data.label;
-            label.style.margin = 0;
+      const charDiv = document.createElement('div');
+      charDiv.className = 'character';
+      if (entry.flipped) charDiv.classList.add('flipped');
 
-            const healthBar = createBar('HEALTH', entry.health, 'darkred');
-            const powerBar = createBar('POWER', entry.power, 'darkgreen');
+      const label = document.createElement('h3');
+      label.textContent = data.label;
+      label.style.margin = 0;
 
-            charDiv.append(label, healthBar, powerBar);
-            wrapper.appendChild(charDiv);
+      const healthBar = createBar('HEALTH', entry.health, 'darkred');
+      const powerBar = createBar('POWER', entry.power, 'darkgreen');
 
-            if (entry.side === 'left') leftSide.appendChild(wrapper);
-            else rightSide.appendChild(wrapper);
-        });
+      charDiv.append(label, healthBar, powerBar);
+      wrapper.appendChild(charDiv);
 
-        function createBar(label, count, color) {
-            const container = document.createElement('div');
-            container.className = 'bar-container';
+      if (entry.side === 'left') leftSide.appendChild(wrapper);
+      else rightSide.appendChild(wrapper);
+    });
+  }
 
-            const labelDiv = document.createElement('div');
-            labelDiv.className = 'bar-label';
-            labelDiv.textContent = `${label} (${count})`;
+  function createBar(label, count, color) {
+    const container = document.createElement('div');
+    container.className = 'bar-container';
 
-            const blockWrap = document.createElement('div');
-            blockWrap.className = 'block-container';
-            for (let i = 0; i < count; i++) {
-                const block = document.createElement('div');
-                block.className = 'block';
-                block.style.backgroundColor = color;
-                blockWrap.appendChild(block);
-            }
+    const labelDiv = document.createElement('div');
+    labelDiv.className = 'bar-label';
+    labelDiv.textContent = `${label} (${count})`;
 
-            container.append(labelDiv, blockWrap);
-            return container;
-        }
-    </script>
+    const blockWrap = document.createElement('div');
+    blockWrap.className = 'block-container';
+    for (let i = 0; i < count; i++) {
+      const block = document.createElement('div');
+      block.className = 'block';
+      block.style.backgroundColor = color;
+      blockWrap.appendChild(block);
+    }
+
+    container.append(labelDiv, blockWrap);
+    return container;
+  }
+
+  // Initial load
+  const state = JSON.parse(localStorage.getItem('mcpoState') || '[]');
+  renderDisplay(state);
+
+  // Live update
+  window.addEventListener('storage', (event) => {
+    if (event.key === 'mcpoState') {
+      const updatedState = JSON.parse(event.newValue || '[]');
+      renderDisplay(updatedState);
+    }
+  });
+</script>
+
 </body>
 
 </html>
