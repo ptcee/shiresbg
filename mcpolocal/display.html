@@ -20,81 +20,94 @@
     </div>
 
     <script src="../radar/dataset.js"></script>
-       <script src="dataset.js"></script>
-<script>
-  const leftSide = document.getElementById('left');
-  const rightSide = document.getElementById('right');
+    <script src="dataset.js"></script>
+    <script>
+        const leftSide = document.getElementById('left');
+        const rightSide = document.getElementById('right');
 
-  function renderDisplay(state) {
-    leftSide.innerHTML = '';
-    rightSide.innerHTML = '';
+        function renderDisplay(state) {
+            leftSide.innerHTML = '';
+            rightSide.innerHTML = '';
 
-    state.forEach(entry => {
-      const data = dataSet.find(c => c.id === entry.id);
-      if (!data) return;
+            state.forEach(entry => {
+                const data = dataSet.find(c => c.id === entry.id);
+                if (!data) return;
 
-      const wrapper = document.createElement('div');
-      wrapper.className = 'character-wrapper';
+                const wrapper = document.createElement('div');
+                wrapper.className = 'character-wrapper';
 
-      const charDiv = document.createElement('div');
-      charDiv.className = 'character';
-      if (entry.flipped) charDiv.classList.add('flipped');
+                const charDiv = document.createElement('div');
+                charDiv.className = 'character';
+                if (entry.flipped) charDiv.classList.add('flipped');
 
-      const label = document.createElement('h3');
-      label.textContent = data.label;
-      label.style.margin = 0;
+                const label = document.createElement('h3');
+                label.textContent = data.label;
+                label.style.margin = 0;
 
-      const healthBar = createBar('HEALTH', entry.health, 'darkred');
-      const powerBar = createBar('POWER', entry.power, 'darkgreen');
+                const healthBar = createBar('HEALTH', entry.health, 'red');
+                const powerBar = createBar('POWER', entry.power, 'green');
 
-      charDiv.append(label, healthBar, powerBar);
-      wrapper.appendChild(charDiv);
+                charDiv.append(label, healthBar, powerBar);
+                wrapper.appendChild(charDiv);
 
-      if (entry.side === 'left') leftSide.appendChild(wrapper);
-      else rightSide.appendChild(wrapper);
-    });
-  }
+                if (entry.side === 'left') leftSide.appendChild(wrapper);
+                else rightSide.appendChild(wrapper);
+            });
+        }
 
-  function createBar(label, count, color) {
-    const container = document.createElement('div');
-    container.className = 'bar-container';
+        function createBar(label, count, color) {
+            const container = document.createElement('div');
+            container.className = 'bar-container';
 
-    const labelDiv = document.createElement('div');
-    labelDiv.className = 'bar-label';
-    labelDiv.textContent = `${label} (${count})`;
+            const labelDiv = document.createElement('div');
+            labelDiv.className = 'bar-label';
+            labelDiv.textContent = `${label} (${count})`;
 
-    const blockWrap = document.createElement('div');
-    blockWrap.className = 'block-container';
-    for (let i = 0; i < count; i++) {
-      const block = document.createElement('div');
-      block.className = 'block';
-      block.style.backgroundColor = color;
-      blockWrap.appendChild(block);
-    }
+            const blockWrap = document.createElement('div');
+            blockWrap.className = 'block-container';
+            for (let i = 0; i < count; i++) {
+                const block = document.createElement('div');
+                block.className = 'block';
+                block.style.backgroundColor = color;
+                blockWrap.appendChild(block);
+            }
 
-    container.append(labelDiv, blockWrap);
-    return container;
-  }
+            container.append(labelDiv, blockWrap);
+            return container;
+        }
 
-  // Initial load
-  const state = JSON.parse(localStorage.getItem('mcpoState') || '[]');
-  renderDisplay(state);
+        // Initial load
+        const state = JSON.parse(localStorage.getItem('mcpoState') || '[]');
+        renderDisplay(state);
 
-  // Live update
-  let previousJSON = '';
+        let lastRefreshSignal = localStorage.getItem('refreshSignal') || 0;
 
-function pollForChanges() {
-  const newJSON = localStorage.getItem('mcpoState');
-  if (newJSON !== previousJSON) {
-    previousJSON = newJSON;
-    const updatedState = JSON.parse(newJSON || '[]');
-    renderDisplay(updatedState);
-  }
-}
+        function checkForRefreshSignal() {
+            const refreshSignal = localStorage.getItem('refreshSignal');
+            if (refreshSignal !== lastRefreshSignal) {
+                lastRefreshSignal = refreshSignal;
+                const updatedState = JSON.parse(localStorage.getItem('mcpoState') || '[]');
+                renderDisplay(updatedState); 
+            }
+        }
 
-setInterval(pollForChanges, 1000); // Check every second
+        setInterval(checkForRefreshSignal, 1000);
 
-</script>
+        // Live update
+        let previousJSON = '';
+
+        function pollForChanges() {
+            const newJSON = localStorage.getItem('mcpoState');
+            if (newJSON !== previousJSON) {
+                previousJSON = newJSON;
+                const updatedState = JSON.parse(newJSON || '[]');
+                renderDisplay(updatedState);
+            }
+        }
+
+        setInterval(pollForChanges, 1000);
+
+    </script>
 
 </body>
 
