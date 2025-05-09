@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MCPo Controls</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="scorecontrol">
+    <form action="#">
+      <div id="playercontrols">
+      <div id="p1">
+        <input type="text" id="p1name" name="p1name">
+        <select id="p1affil">
+          <option value="all">Affiliation</option>
+          <option value="1">A-Force</option>
+          <option value="2">Asgard</option>
+          <option value="3">Avengers</option>
+          <option value="4">Black Order</option>
+          <option value="5">Brotherhood</option>
+          <option value="6">Cabal</option>
+          <option value="7">Convocation</option>
+          <option value="8">Criminal Syndicate</option>
+          <option value="9">Dark Dimension</option>
+          <option value="10">Defenders</option>
+          <option value="11">Guardians</option>
+          <option value="12">Hellfire Club</option>
+          <option value="13">Hydra</option>
+          <option value="14">Inhumans</option>
+          <option value="15">Legion of Lost</option>
+          <option value="16">Midnight Sons</option>
+          <option value="17">New Mutants</option>
+          <option value="18">SHIELD</option>
+          <option value="19">Sentinels</option>
+          <option value="20">Apocalypse</option>
+          <option value="21">Spider Foes</option>
+          <option value="22">Thralls of Drac</option>
+          <option value="23">Uncanny X-Men</option>
+          <option value="24">Wakanda</option>
+          <option value="25">Weapon-X</option>
+          <option value="26">Web Warriors</option>
+          <option value="27">Winter Guard</option>
+          <option value="28">X-Force</option>
+          <option value="29">Unaffiliated</option>
+        </select>
+        <div id="p1score">0</div>
+        <div id="p1scorebuttons">
+          <button type="button" id="p1plus">+</button>
+          <button type="button" id="p1minus">−</button>
+        </div>
+      </div>
+
+      <div id="p2">
+        <input type="text" id="p2name" name="p2name">
+        <select id="p2affil">
+          <option value="all">Affiliation</option>
+          <option value="1">A-Force</option>
+          <option value="2">Asgard</option>
+          <option value="3">Avengers</option>
+          <option value="4">Black Order</option>
+          <option value="5">Brotherhood</option>
+          <option value="6">Cabal</option>
+          <option value="7">Convocation</option>
+          <option value="8">Criminal Syndicate</option>
+          <option value="9">Dark Dimension</option>
+          <option value="10">Defenders</option>
+          <option value="11">Guardians</option>
+          <option value="12">Hellfire Club</option>
+          <option value="13">Hydra</option>
+          <option value="14">Inhumans</option>
+          <option value="15">Legion of Lost</option>
+          <option value="16">Midnight Sons</option>
+          <option value="17">New Mutants</option>
+          <option value="18">SHIELD</option>
+          <option value="19">Sentinels</option>
+          <option value="20">Apocalypse</option>
+          <option value="21">Spider Foes</option>
+          <option value="22">Thralls of Drac</option>
+          <option value="23">Uncanny X-Men</option>
+          <option value="24">Wakanda</option>
+          <option value="25">Weapon-X</option>
+          <option value="26">Web Warriors</option>
+          <option value="27">Winter Guard</option>
+          <option value="28">X-Force</option>
+          <option value="29">Unaffiliated</option>
+        </select>
+        <div id="p2score">0</div>
+        <div id="p2scorebuttons">
+          <button type="button" id="p2plus">+</button>
+          <button type="button" id="p2minus">−</button>
+        </div>
+      </div></div>
+
+      <div id="crisis">
+        <select name="extract" id="extractselect"></select>
+        <select name="secure" id="secureselect"></select>
+      </div>
+
+      <div id="roundbox">
+        <select id="round">
+          <option value="1">Round 1</option>
+          <option value="2">Round 2</option>
+          <option value="3">Round 3</option>
+          <option value="4">Round 4</option>
+          <option value="5">Round 5</option>
+          <option value="6">Round 6</option>
+          <option value="7">Round 7</option>
+          <option value="8">Round 8</option>
+        </select>
+      </div>
+    </form>
+  </div>
+
+
+  <div id="controls">
+    <button id="addLeft">Add Left</button>
+    <select id="characterSelect"></select>
+    <button id="addRight">Add Right</button>
+    <button id="powerPhaseBtn">Power Phase</button>
+    <button id="updateBtn">Update</button>
+  </div>
+  <div id="container">
+    <div id="left"></div>
+    <div id="right"></div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+  </script>
+  <script src="dataset.js"></script>
+  <script src="script.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+}
+
+#scoreboard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.playeraffilbox {
+  display: flex;
+  flex-direction: column;
+}
+
+#left,
+#right {
+  box-sizing: border-box;
+  width: 25%;
+  height: 114px;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.59);
+  padding: 10px;
+}
+
+#left {
+  border-radius: 15px 0px 0px 0px;
+}
+
+#right {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 0px 15px 0px 0px;
+}
+
+#center {
+  text-align: center;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.59);
+  padding: 10px;
+}
+
+#p1nameDisplay, #p2nameDisplay {
+  font-size: 2rem;
+  font-family: "Palanquin", serif;
+}
+
+#p1scoreDisplay,
+#p2scoreDisplay {
+  font-size: 3rem;
+  margin: 0 10px;
+  background-color: rgba(250, 146, 0, 0.75);
+  border-radius: 100px;
+  color: white;
+  padding: 5px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#roundDisplay {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+#crisisDisplay {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.ex {
+  background-color: rgba(250, 0, 0, 0.59);
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.sec {
+  background-color:  rgba(0, 133, 250, 0.59);
+  color: #fff;
+  padding: 5px;
+  
+}
