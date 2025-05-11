@@ -3103,7 +3103,7 @@ let dataSet = [
         id: 'steverog',
         label: 'Steve Rogers, Cap (4)',
         hidden: true,
-        data: [3, 3, 3, 3, ,2 1],
+        data: [3, 3, 3, 3, 2, 1],
         affil: [18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
