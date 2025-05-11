@@ -6,6 +6,7 @@ let dataSet = [
         data: [4, 4, 4, 2, 3, 1],
         affil: [8, 13],
         fill: true,
+        portrait: '/img/abomPort.png',
         backgroundColor: 'rgba(0, 102, 24, 0.2)',
         borderColor: 'rgb(50, 226, 91)',
         pointBackgroundColor: 'rgb(50, 226, 91)',
@@ -14,6 +15,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(50, 226, 91)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 7,
     },
 
     {
@@ -31,6 +33,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(147, 128, 255)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 6,
     },
 
     {
@@ -40,6 +43,7 @@ let dataSet = [
         data: [3, 5, 5, 2, 2, 4],
         affil: [10, 26],
         fill: true,
+        portrait: '/img/asmPort.png',
         backgroundColor: 'rgba(158, 0, 0, 0.2)',
         borderColor: 'rgb(255, 15, 15)',
         pointBackgroundColor: 'rgb(255, 15, 15)',
@@ -48,6 +52,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(255, 15, 15)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: ASM is also very good on P2F secures.</p>',
         role: [1, 11],
+        hp: 6,
     },
 
     {
@@ -65,6 +70,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(223, 201, 1)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 6,
     },
 
     {
@@ -82,6 +88,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(0, 228, 245)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
+        hp: 5,
     },
 
     {
@@ -99,7 +106,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(209, 173, 102)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 4],
-        
+        hp: 6,
     },
 
     {
@@ -117,6 +124,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(235, 74, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2],
+        hp: 5,
     },
 
     {
@@ -134,6 +142,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(96, 131, 205)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 6],
+        hp: 7,
     },
 
     {
@@ -151,6 +160,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(101, 183, 230)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 5,
     },
 
     {
@@ -168,6 +178,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(167, 106, 1)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 11],
+        hp: 6,
     },
 
     {
@@ -185,6 +196,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(172, 57, 239)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 5,
     },
 
     {
@@ -202,6 +214,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(135, 13, 112)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 4],
+        hp: 5,
         
     },
 
@@ -220,6 +233,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(12, 38, 233)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 1],
+        hp: 6,
     },
 
     {
@@ -237,6 +251,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(39, 172, 6)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
+        hp: 5,
     },
 
     {
@@ -254,6 +269,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(159, 30, 156)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 4, 11],
+        hp: 5,
     },
 
     {
@@ -271,6 +287,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(11, 108, 177)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
+        hp: 6,
     },
 
     {
@@ -288,6 +305,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(168, 21, 21)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2, 6],
+        hp: 6,
     },
 
     {
@@ -305,6 +323,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(168, 146, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 2],
+        hp: 6,
     },
 
     {
@@ -322,6 +341,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(41, 44, 106)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Black Bolt is a Bodyguard on his front side and a Tank on his backside.</p>',
         role: [8, 6, 4],
+        hp: 6,
     },
 
     {
@@ -339,6 +359,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(105, 105, 105)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 10],
+        hp: 5,
     },
 
     {
@@ -356,6 +377,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(106, 129, 109)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 6, 7],
+        hp: 6,
     },
 
     {
@@ -373,6 +395,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(97, 83, 110)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 2],
+        hp: 6,
     },
 
     {
@@ -390,6 +413,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(172, 57, 239)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 4],
+        hp: 5,
     },
 
     {
@@ -407,6 +431,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(82, 99, 107)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 6,
     },
 
     {
@@ -424,6 +449,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(136, 58, 79)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
+        hp: 4,
     },
 
     {
@@ -441,6 +467,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(152, 37, 67)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 5,
     },
 
     {
@@ -458,6 +485,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(179, 96, 41)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 6,
         
     },
 
@@ -475,7 +503,8 @@ let dataSet = [
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(41, 52, 179)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
-        role: [5],        
+        role: [5],
+        hp: 5,     
     },
 
     {
@@ -493,6 +522,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(105, 179, 41)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [7, 4],
+        hp: 3,
     },
 
     {
@@ -510,6 +540,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(92, 117, 114)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
+        hp: 5,
     },
 
     {
@@ -527,6 +558,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(216, 219, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 11],
+        hp: 7,
     },
 
     {
@@ -544,6 +576,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(219, 0, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
+        hp: 5,
     },
 
     {
@@ -561,6 +594,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(0, 113, 219)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [8, 6],
+        hp: 5,
     },
 
     {
@@ -578,6 +612,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(75, 116, 155)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 6,
     },
 
     {
@@ -595,6 +630,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(235, 121, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 9, 2],
+        hp: 6,
     },
 
     {
@@ -612,6 +648,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(0, 184, 235)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 4],
+        hp: 7,
     },
 
     {
@@ -629,6 +666,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(189, 28, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3, 1],
+        hp: 7,
     },
 
     {
@@ -646,6 +684,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(109, 61, 23)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
+        hp: 7,
     },
 
     {
@@ -663,6 +702,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(95, 17, 151)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
+        hp: 5,
     },
 
     {
@@ -680,6 +720,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(96, 107, 138)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [8, 6, 2],
+        hp: 6,
     },
 
     {
@@ -697,6 +738,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(64, 78, 114)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 6,
     },
 
     {
@@ -714,6 +756,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(9, 129, 127)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 9,
     },
 
     {
@@ -731,6 +774,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(189, 0, 38)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 11],
+        hp: 6,
     },
 
     {
@@ -748,6 +792,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(112, 76, 84)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2],
+        hp: 6,
     },
 
     {
@@ -765,6 +810,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(129, 50, 66)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 2],
+        hp: 6,
     },
 
     {
@@ -782,6 +828,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(153, 141, 30)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10, 4],
+        hp: 5,
     },
 
     {
@@ -799,6 +846,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(214, 193, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10, 11],
+        hp: 6,
     },
 
     {
@@ -816,6 +864,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(147, 21, 21)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 1],
+        hp: 5,
     },
 
     {
@@ -833,6 +882,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(190, 166, 9)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
+        hp: 5,
     },
 
     {
@@ -850,6 +900,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(190, 9, 9)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 4,
     },
 
     {
@@ -867,6 +918,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(60, 168, 21)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
+        hp: 6,
     },
 
     {
@@ -884,6 +936,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(21, 168, 38)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
+        hp: 5,
     },
 
     {
@@ -901,6 +954,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(26, 99, 234)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 2],
+        hp: 6,
     },
 
     {
@@ -918,6 +972,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(234, 75, 26)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
+        hp: 6,
     },
 
     {
@@ -935,6 +990,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(130, 44, 201)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 10],
+        hp: 6,
     },
 
     {
@@ -952,6 +1008,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(172, 57, 239)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 5,
     },
 
     {
@@ -969,6 +1026,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(129, 40, 230)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
+        hp: 10,
     },
 
     {
@@ -986,6 +1044,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(215, 40, 40)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 7,
     },
 
     {
@@ -1003,6 +1062,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(51, 136, 43)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6],
+        hp: 6,
     },
 
     {
@@ -1020,6 +1080,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(43, 86, 136)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 9, 10],
+        hp: 7,
     },
 
     {
@@ -1037,13 +1098,14 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(172, 57, 239)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
+        hp: 5,
     },
 
     {
         id: 'elctro',
         label: 'Electro (4)',
         hidden: true,
-        data: [3, 3, 3, 3, 3, 3],
+        data: [0, 0, 0, 0, 0, 0],
         affil: [8, 21],
         fill: true,
         backgroundColor: 'rgba(129, 135, 33, 0.2)',
@@ -1054,6 +1116,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(208, 196, 27)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 6,
     },
 
     {
@@ -1071,6 +1134,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(208, 27, 48)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 6,
     },
 
     {
@@ -1088,6 +1152,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(133, 133, 133)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 9, 10],
+        hp: 6,
     },
 
     {
@@ -1105,6 +1170,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(49, 129, 185)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4, 10],
+        hp: 6,
     },
 
     {
@@ -1122,6 +1188,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(54, 185, 49)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
+        hp: 6,
     },
 
     {
@@ -1139,6 +1206,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(76, 49, 185)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10, 11],
+        hp: 7,
     },
 
     {
@@ -1156,6 +1224,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(100, 175, 18)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 7,
     },
 
     {
@@ -1173,6 +1242,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(196, 19, 216)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 5,
     },
 
     {
@@ -1190,6 +1260,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(19, 216, 71)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 1],
+        hp: 6,
     },
 
     {
@@ -1207,6 +1278,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(216, 121, 19)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
+        hp: 8,
     },
 
     {
@@ -1224,6 +1296,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(19, 203, 216)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10, 11],
+        hp: 5,
     },
 
     {
@@ -1241,6 +1314,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(19, 42, 216)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 9,
     },
 
     {
@@ -1258,6 +1332,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(155, 116, 23)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 7],
+        hp: 6,
     },
 
     {
@@ -1275,6 +1350,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(23, 155, 34)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
+        hp: 7,
     },
 
     {
@@ -1292,6 +1368,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(155, 91, 23)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6],
+        hp: 7,
     },
 
     {
@@ -1309,6 +1386,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(23, 153, 155)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 5],
+        hp: 6,
     },
 
     {
@@ -1326,6 +1404,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(186, 18, 174)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 6,
     },
 
     {
@@ -1343,6 +1422,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(112, 25, 174)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
+        hp: 4,
     },
 
     {
@@ -1360,6 +1440,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(174, 137, 25)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 10],
+        hp: 6,
     },
 
     {
@@ -1377,6 +1458,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(19, 150, 43)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 6,
     },
 
     {
@@ -1394,6 +1476,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(206, 210, 4)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [7, 10],
+        hp: 5,
     },
 
     {
@@ -1411,6 +1494,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(210, 4, 49)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 11],
+        hp: 5,
     },
 
     {
@@ -1428,6 +1512,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(59, 243, 18)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
+        hp: 20,
     },
 
     {
@@ -1445,6 +1530,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(243, 96, 18)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
+        hp: 13,
     },
 
     {
@@ -1462,6 +1548,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(18, 216, 243)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 10],
+        hp: 5,
     },
 
     {
@@ -1479,6 +1566,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(243, 108, 18)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 6],
+        hp: 6,
     },
 
     {
@@ -1496,6 +1584,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(243, 156, 18)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
+        hp: 5,
     },
 
     {
@@ -1513,6 +1602,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(228, 116, 12)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10],
+        hp: 5,
     },
 
     {
@@ -1530,6 +1620,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(255, 126, 41)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 4],
+        hp: 6,
     },
 
     {
@@ -1547,6 +1638,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(185, 74, 34)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 6],
+        hp: 8,
     },
 
     {
@@ -1564,6 +1656,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(107, 34, 185)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Karnak only brawls in 1v1 situations.</p>',
         role: [5, 4],
+        hp: 5,
     },
 
     {
@@ -1581,6 +1674,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(34, 185, 122)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3],
+        hp: 6,
     },
 
     {
@@ -1598,6 +1692,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(6, 204, 208)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 6,
     },
 
     {
@@ -1615,6 +1710,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(62, 90, 187)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 7,
     },
 
     {
@@ -1632,6 +1728,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(148, 0, 240)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3],
+        hp: 7,
     },
 
     {
@@ -1649,6 +1746,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(156, 156, 156)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 10],
+        hp: 7,
     },
 
     {
@@ -1666,6 +1764,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(196, 23, 124)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
+        hp: 7,
     },
 
     {
@@ -1683,6 +1782,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(240, 204, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 11],
+        hp: 5,
     },
 
     {
@@ -1700,6 +1800,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(105, 105, 105)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
+        hp: 6,
     },
 
     {
@@ -1717,6 +1818,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(240, 0, 52)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
+        hp: 6,
     },
 
     {
@@ -1734,6 +1836,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(160, 240, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 6, 2],
+        hp: 6,
     },
 
     {
@@ -1751,6 +1854,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(240, 192, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
+        hp: 6,
     },
 
     {
@@ -1768,6 +1872,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(240, 160, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 6,
     },
 
     {
@@ -1785,6 +1890,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(0, 240, 64)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
+        hp: 5,
     },
 
     {
@@ -1802,6 +1908,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(0, 240, 140)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10, 6],
+        hp: 7,
     },
 
     {
@@ -1819,6 +1926,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(191, 106, 8)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [7, 6],
+        hp: 6,
     },
 
     {
@@ -1836,6 +1944,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(235, 5, 208)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
+        hp: 10,
     },
 
     {
@@ -1853,6 +1962,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(138, 15, 124)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Beware of the fact that his Durability comes from redirecting attacks into allies.</p>',
         role: [5],
+        hp: 7,
     },
 
     {
@@ -1870,6 +1980,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(178, 206, 18)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 5,
     },
 
     {
@@ -1887,6 +1998,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(173, 11, 148)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 6,
     },
 
     {
@@ -1904,6 +2016,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(11, 132, 173)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 9,
     },
 
     {
@@ -1921,6 +2034,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(174, 193, 26)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 11],
+        hp: 6,
     },
 
     {
@@ -1938,6 +2052,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(224, 221, 16)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Maverick is better described as a Generalist.</p>',
         role: [5],
+        hp: 5,
     },
 
     {
@@ -1955,6 +2070,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(16, 165, 224)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10, 11],
+        hp: 6,
     },
 
     {
@@ -1972,6 +2088,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(224, 16, 155)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 4],
+        hp: 6,
     },
 
     {
@@ -1989,6 +2106,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(224, 16, 16)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Like MODOK his durability comes from redirecting attacks to allies.</p>',
         role: [5],
+        hp: 7,
     },
 
     {
@@ -2006,6 +2124,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(224, 16, 82)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 6],
+        hp: 6,
     },
 
     {
@@ -2023,6 +2142,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(145, 145, 145)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 1],
+        hp: 5,
     },
 
     {
@@ -2040,6 +2160,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(34, 73, 247)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
+        hp: 5,
     },
 
     {
@@ -2057,6 +2178,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(19, 201, 101)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
+        hp: 6,
     },
 
     {
@@ -2074,6 +2196,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(19, 91, 201)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
+        hp: 5,
     },
 
     {
@@ -2091,6 +2214,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(91, 68, 11)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
+        hp: 7,
     },
 
     {
@@ -2108,6 +2232,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(30, 179, 50)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
+        hp: 7,
     },
 
     {
@@ -2125,6 +2250,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(80, 59, 216)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 4,
     },
 
     {
@@ -2142,6 +2268,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(120, 120, 120)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
+        hp: 6,
     },
 
     {
@@ -2159,6 +2286,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(143, 121, 97)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4, 11],
+        hp: 5,
     },
 
     {
@@ -2176,6 +2304,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(46, 68, 209)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 1],
+        hp: 6,
     },
 
     {
@@ -2193,6 +2322,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(228, 155, 37)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10, 2],
+        hp: 7,
     },
 
     {
@@ -2210,6 +2340,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(155, 158, 112)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 6],
+        hp: 5,
     },
 
     {
@@ -2227,6 +2358,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(222, 171, 18)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [8],
+        hp: 4,
     },
 
     {
@@ -2244,6 +2376,7 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(222, 45, 18)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 5],
+        hp: 6,
     },
 
     {
@@ -2258,7 +2391,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(73, 171, 38)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(73, 171, 38)'
+        pointHoverBorderColor: 'rgb(73, 171, 38)',
+        hp: 7,
     },
 
     {
@@ -2273,7 +2407,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(184, 166, 97)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(184, 166, 97)'
+        pointHoverBorderColor: 'rgb(184, 166, 97)',
+        hp: 6,
     },
 
     {
@@ -2288,7 +2423,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(112, 45, 185)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(112, 45, 185)'
+        pointHoverBorderColor: 'rgb(112, 45, 185)',
+        hp: 6,
     },
 
     {
@@ -2303,7 +2439,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(60, 71, 144)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(60, 71, 144)'
+        pointHoverBorderColor: 'rgb(60, 71, 144)',
+        hp: 5,
     },
 
     {
@@ -2318,7 +2455,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(179, 8, 247)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(179, 8, 247)'
+        pointHoverBorderColor: 'rgb(179, 8, 247)',
+        hp: 6,
     },
 
     {
@@ -2333,7 +2471,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(92, 92, 92)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(92, 92, 92)'
+        pointHoverBorderColor: 'rgb(92, 92, 92)',
+        hp: 6,
     },
 
     {
@@ -2348,7 +2487,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(204, 71, 0)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(204, 71, 0)'
+        pointHoverBorderColor: 'rgb(204, 71, 0)',
+        hp: 5,
     },
 
     {
@@ -2363,7 +2503,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(79, 145, 186)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(79, 145, 186)'
+        pointHoverBorderColor: 'rgb(79, 145, 186)',
+        hp: 5,
     },
 
     {
@@ -2378,7 +2519,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(180, 39, 77)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(180, 39, 77)'
+        pointHoverBorderColor: 'rgb(180, 39, 77)',
+        hp: 5,
     },
 
     {
@@ -2393,7 +2535,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(180, 39, 39)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(180, 39, 39)'
+        pointHoverBorderColor: 'rgb(180, 39, 39)',
+        hp: 6,
     },
 
     {
@@ -2408,7 +2551,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(203, 21, 21)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(203, 21, 21)'
+        pointHoverBorderColor: 'rgb(203, 21, 21)',
+        hp: 7,
     },
 
     {
@@ -2423,7 +2567,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(187, 2, 2)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(187, 2, 2)'
+        pointHoverBorderColor: 'rgb(187, 2, 2)',
+        hp: 6,
     },
 
     {
@@ -2438,7 +2583,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        hp: 7,
     },
 
     {
@@ -2453,7 +2599,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(134, 88, 24)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(134, 88, 24)'
+        pointHoverBorderColor: 'rgb(134, 88, 24)',
+        hp: 3,
     },
 
     {
@@ -2468,7 +2615,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(21, 147, 55)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(21, 147, 55)'
+        pointHoverBorderColor: 'rgb(21, 147, 55)',
+        hp: 6,
     },
 
     {
@@ -2483,7 +2631,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(30, 60, 194)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(30, 60, 194)'
+        pointHoverBorderColor: 'rgb(30, 60, 194)',
+        hp: 7,
     },
 
     {
@@ -2498,7 +2647,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(194, 191, 30)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(194, 191, 30)'
+        pointHoverBorderColor: 'rgb(194, 191, 30)',
+        hp: 6,
     },
 
     {
@@ -2513,7 +2663,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(194, 140, 30)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(194, 140, 30)'
+        pointHoverBorderColor: 'rgb(194, 140, 30)',
+        hp: 6,
     },
 
     {
@@ -2528,7 +2679,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(189, 110, 0)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(189, 110, 0)'
+        pointHoverBorderColor: 'rgb(189, 110, 0)',
+        hp: 7,
     },
 
     {
@@ -2543,7 +2695,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(184, 149, 61)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(184, 149, 61)'
+        pointHoverBorderColor: 'rgb(184, 149, 61)',
+        hp: 6,
     },
 
     {
@@ -2558,7 +2711,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(61, 78, 184)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(61, 78, 184)'
+        pointHoverBorderColor: 'rgb(61, 78, 184)',
+        hp: 6,
     },
 
     {
@@ -2573,7 +2727,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(187, 37, 77)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(187, 37, 77)'
+        pointHoverBorderColor: 'rgb(187, 37, 77)',
+        hp: 6,
     },
 
     {
@@ -2588,7 +2743,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(37, 105, 187)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(37, 105, 187)'
+        pointHoverBorderColor: 'rgb(37, 105, 187)',
+        hp: 7,
     },
 
     {
@@ -2603,7 +2759,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(141, 84, 160)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(141, 84, 160)'
+        pointHoverBorderColor: 'rgb(141, 84, 160)',
+        hp: 10,
     },
 
     {
@@ -2618,7 +2775,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(184, 20, 181)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(184, 20, 181)'
+        pointHoverBorderColor: 'rgb(184, 20, 181)',
+        hp: 6,
     },
 
     {
@@ -2633,7 +2791,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(218, 186, 7)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(218, 186, 7)'
+        pointHoverBorderColor: 'rgb(218, 186, 7)',
+        hp: 5,
     },
 
     {
@@ -2648,7 +2807,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(151, 59, 59)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(151, 59, 59)'
+        pointHoverBorderColor: 'rgb(151, 59, 59)',
+        hp: 6,
     },
 
     {
@@ -2663,7 +2823,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(191, 34, 34)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(191, 34, 34)'
+        pointHoverBorderColor: 'rgb(191, 34, 34)',
+        hp: 5,
     },
 
     {
@@ -2678,7 +2839,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(72, 173, 67)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(72, 173, 67)'
+        pointHoverBorderColor: 'rgb(72, 173, 67)',
+        hp: 20,
     },
 
     {
@@ -2693,7 +2855,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(174, 172, 61)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(174, 172, 61)'
+        pointHoverBorderColor: 'rgb(174, 172, 61)',
+        hp: 5,
     },
 
     {
@@ -2708,7 +2871,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(37, 141, 193)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(37, 141, 193)'
+        pointHoverBorderColor: 'rgb(37, 141, 193)',
+        hp: 5,
     },
 
     {
@@ -2723,7 +2887,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(158, 31, 31)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(158, 31, 31)'
+        pointHoverBorderColor: 'rgb(158, 31, 31)',
+        hp: 6,
     },
 
     {
@@ -2738,7 +2903,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(112, 112, 112)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(112, 112, 112)'
+        pointHoverBorderColor: 'rgb(112, 112, 112)',
+        hp: 5,
     },
 
     {
@@ -2753,7 +2919,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(204, 49, 25)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(204, 49, 25)'
+        pointHoverBorderColor: 'rgb(204, 49, 25)',
+        hp: 4,
     },
 
     {
@@ -2768,7 +2935,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(25, 97, 204)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(25, 97, 204)'
+        pointHoverBorderColor: 'rgb(25, 97, 204)',
+        hp: 6,
     },
 
     {
@@ -2783,7 +2951,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(204, 25, 25)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(204, 25, 25)'
+        pointHoverBorderColor: 'rgb(204, 25, 25)',
+        hp: 5,
     },
 
     {
@@ -2798,7 +2967,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        hp: 6,
     },
 
     {
@@ -2813,7 +2983,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(204, 49, 25)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(204, 49, 25)'
+        pointHoverBorderColor: 'rgb(204, 49, 25)',
+        hp: 3,
     },
 
     {
@@ -2828,7 +2999,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(204, 25, 40)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(204, 25, 40)'
+        pointHoverBorderColor: 'rgb(204, 25, 40)',
+        hp: 6,
     },
 
     {
@@ -2843,7 +3015,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(163, 25, 25)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(163, 25, 25)'
+        pointHoverBorderColor: 'rgb(163, 25, 25)',
+        hp: 5,
     },
 
     {
@@ -2858,7 +3031,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(42, 70, 172)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(42, 70, 172)'
+        pointHoverBorderColor: 'rgb(42, 70, 172)',
+        hp: 7,
     },
 
     {
@@ -2873,7 +3047,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(94, 94, 94)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(94, 94, 94)'
+        pointHoverBorderColor: 'rgb(94, 94, 94)',
+        hp: 6,
     },
 
     {
@@ -2888,7 +3063,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(205, 161, 29)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(205, 161, 29)'
+        pointHoverBorderColor: 'rgb(205, 161, 29)',
+        hp: 6,
     },
 
     {
@@ -2903,7 +3079,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(182, 129, 22)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(182, 129, 22)'
+        pointHoverBorderColor: 'rgb(182, 129, 22)',
+        hp: 6,
     },
 
     {
@@ -2918,7 +3095,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(182, 73, 22)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(182, 73, 22)'
+        pointHoverBorderColor: 'rgb(182, 73, 22)',
+        hp: 6,
     },
 
     {
@@ -2933,7 +3111,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(34, 115, 236)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(34, 115, 236)'
+        pointHoverBorderColor: 'rgb(34, 115, 236)',
+        hp: 6,
     },
 
     {
@@ -2948,7 +3127,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(204, 141, 15)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(204, 141, 15)'
+        pointHoverBorderColor: 'rgb(204, 141, 15)',
+        hp: 5,
     },
 
     {
@@ -2963,7 +3143,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(194, 20, 20)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(194, 20, 20)'
+        pointHoverBorderColor: 'rgb(194, 20, 20)',
+        hp: 6,
     },
 
     {
@@ -2978,7 +3159,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(27, 135, 161)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(27, 135, 161)'
+        pointHoverBorderColor: 'rgb(27, 135, 161)',
+        hp: 5,
     },
 
     {
@@ -2993,7 +3175,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(221, 119, 3)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(221, 119, 3)'
+        pointHoverBorderColor: 'rgb(221, 119, 3)',
+        hp: 6,
     },
 
     {
@@ -3008,7 +3191,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(135, 82, 173)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(135, 82, 173)'
+        pointHoverBorderColor: 'rgb(135, 82, 173)',
+        hp: 8,
     },
 
     {
@@ -3023,7 +3207,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(159, 25, 25)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(159, 25, 25)'
+        pointHoverBorderColor: 'rgb(159, 25, 25)',
+        hp: 6,
     },
 
     {
@@ -3038,7 +3223,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(25, 49, 159)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(25, 49, 159)'
+        pointHoverBorderColor: 'rgb(25, 49, 159)',
+        hp: 6,
     },
 
     {
@@ -3053,7 +3239,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(80, 191, 49)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(80, 191, 49)'
+        pointHoverBorderColor: 'rgb(80, 191, 49)',
+        hp: 15,
     },
 
     {
@@ -3068,7 +3255,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(182, 27, 81)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(182, 27, 81)'
+        pointHoverBorderColor: 'rgb(182, 27, 81)',
+        hp: 8,
     },
 
     {
@@ -3083,7 +3271,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(159, 51, 35)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(159, 51, 35)'
+        pointHoverBorderColor: 'rgb(159, 51, 35)',
+        hp: 5,
     },
 
     {
@@ -3098,7 +3287,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(35, 159, 62)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(35, 159, 62)'
+        pointHoverBorderColor: 'rgb(35, 159, 62)',
+        hp: 6,
     },
 
     {
@@ -3113,7 +3303,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(195, 51, 29)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(195, 51, 29)'
+        pointHoverBorderColor: 'rgb(195, 51, 29)',
+        hp: 9,
     },
 
     {
@@ -3128,7 +3319,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(183, 6, 6)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(183, 6, 6)'
+        pointHoverBorderColor: 'rgb(183, 6, 6)',
+        hp: 7,
     },
 
     {
@@ -3143,7 +3335,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(183, 109, 6)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(183, 109, 6)'
+        pointHoverBorderColor: 'rgb(183, 109, 6)',
+        hp: 6,
     },
 
     {
@@ -3158,7 +3351,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(149, 166, 23)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(149, 166, 23)'
+        pointHoverBorderColor: 'rgb(149, 166, 23)',
+        hp: 4,
     },
 
     {
@@ -3173,7 +3367,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(23, 166, 87)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(23, 166, 87)'
+        pointHoverBorderColor: 'rgb(23, 166, 87)',
+        hp: 7,
     },
 
     {
@@ -3188,7 +3383,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(182, 59, 2)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(182, 59, 2)'
+        pointHoverBorderColor: 'rgb(182, 59, 2)',
+        hp: 6,
     },
 
     {
@@ -3203,7 +3399,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(120, 120, 120)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(120, 120, 120)'
+        pointHoverBorderColor: 'rgb(120, 120, 120)',
+        hp: 6,
     },
 
     {
@@ -3218,7 +3415,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(105, 105, 105)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(105, 105, 105)'
+        pointHoverBorderColor: 'rgb(105, 105, 105)',
+        hp: 8,
     },
 
     {
@@ -3233,7 +3431,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(145, 90, 54)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(145, 90, 54)'
+        pointHoverBorderColor: 'rgb(145, 90, 54)',
+        hp: 7,
     },
 
     {
@@ -3248,7 +3447,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(25, 109, 200)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(25, 109, 200)'
+        pointHoverBorderColor: 'rgb(25, 109, 200)',
+        hp: 6,
     },
 
     {
@@ -3263,7 +3463,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(101, 157, 98)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(101, 157, 98)'
+        pointHoverBorderColor: 'rgb(101, 157, 98)',
+        hp: 7,
     },
 
     {
@@ -3278,7 +3479,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(62, 178, 56)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(62, 178, 56)'
+        pointHoverBorderColor: 'rgb(62, 178, 56)',
+        hp: 5,
     },
 
     {
@@ -3293,7 +3495,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(56, 178, 132)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(56, 178, 132)'
+        pointHoverBorderColor: 'rgb(56, 178, 132)',
+        hp: 6,
     },
 
     {
@@ -3308,7 +3511,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(13, 191, 61)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(13, 191, 61)'
+        pointHoverBorderColor: 'rgb(13, 191, 61)',
+        hp: 5,
     },
 
     {
@@ -3323,7 +3527,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(115, 94, 94)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(115, 94, 94)'
+        pointHoverBorderColor: 'rgb(115, 94, 94)',
+        hp: 5,
     },
 
     {
@@ -3338,7 +3543,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(151, 135, 68)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(151, 135, 68)'
+        pointHoverBorderColor: 'rgb(151, 135, 68)',
+        hp: 5,
     },
 
     {
@@ -3353,7 +3559,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(186, 151, 13)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(186, 151, 13)'
+        pointHoverBorderColor: 'rgb(186, 151, 13)',
+        hp: 5,
     },
 
     {
@@ -3368,7 +3575,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(173, 67, 67)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(173, 67, 67)'
+        pointHoverBorderColor: 'rgb(173, 67, 67)',
+        hp: 5,
     },
 
     {
@@ -3383,7 +3591,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(139, 84, 39)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(139, 84, 39)'
+        pointHoverBorderColor: 'rgb(139, 84, 39)',
+        hp: 7,
     },
 
     {
@@ -3398,7 +3607,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(158, 66, 66)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(158, 66, 66)'
+        pointHoverBorderColor: 'rgb(158, 66, 66)',
+        hp: 5,
     },
 
     {
@@ -3413,7 +3623,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(146, 38, 38)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(146, 38, 38)'
+        pointHoverBorderColor: 'rgb(146, 38, 38)',
+        hp: 6,
     },
 
     {
@@ -3428,7 +3639,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(186, 153, 23)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(186, 153, 23)'
+        pointHoverBorderColor: 'rgb(186, 153, 23)',
+        hp: 7,
     },
 
     {
@@ -3443,7 +3655,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(163, 46, 114)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(163, 46, 114)'
+        pointHoverBorderColor: 'rgb(163, 46, 114)',
+        hp: 4,
     },
 
     {
@@ -3458,7 +3671,8 @@ let dataSet = [
         pointBackgroundColor: 'rgb(92, 92, 92)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(92, 92, 92)'
+        pointHoverBorderColor: 'rgb(92, 92, 92)',
+        hp: 5,
     },
 
     {
@@ -3473,6 +3687,7 @@ let dataSet = [
         pointBackgroundColor: 'rgb(208, 17, 77)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(208, 17, 77)'
+        pointHoverBorderColor: 'rgb(208, 17, 77)',
+        hp: 6,
     },
 ]
