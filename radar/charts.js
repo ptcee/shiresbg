@@ -249,7 +249,7 @@ document.getElementById('rolepicker').addEventListener('change', function () {
     const allButtons = document.querySelectorAll('#buttonContainer .lgd-btn');
 
     allButtons.forEach((btn) => {
-        const datasetItem = dataSet.find(d => d.id === btn.id);
+        const datasetItem = data.datasets.find(d => d.id === btn.id);
         if (!datasetItem) return;
 
         if (selectedRole === 'all') {
@@ -260,7 +260,6 @@ document.getElementById('rolepicker').addEventListener('change', function () {
         }
     });
 });
-
 
 
 
@@ -355,6 +354,7 @@ function openNav() {
     const drawer = document.getElementById('drawer');
     if (drawer.style.width !== '350px') {
         drawer.style.width = '350px';
+
         setTimeout(() => {
             document.addEventListener('click', handleClickOutside);
         }, 0);
