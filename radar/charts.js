@@ -286,15 +286,24 @@ document.querySelectorAll('.lgd-btn').forEach(button => {
             if (existingWriteup) {
                 writeupContainer.removeChild(existingWriteup);
             } else {
+                const datasetIndex = data.datasets.findIndex(ds => ds.id === id);
                 const div = document.createElement('div');
                 div.id = `writeup-${id}`;
                 div.className = 'writeblock';
+                
+                if (datasetIndex !== -1) {
+                    div.style.borderColor = data.datasets[datasetIndex].pointBackgroundColor;
+                    div.style.borderStyle = 'solid';
+                    div.style.borderWidth = '2px';
+                }
+
                 div.innerHTML = processedWriteup;
                 writeupContainer.appendChild(div);
             }
         }
     });
 });
+
 
 function updateRoleChart() {
     const counts = new Array(Object.keys(roleMap).length).fill(0);

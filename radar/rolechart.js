@@ -5,7 +5,7 @@ const roleChartData = {
     datasets: [{
         label: 'Role Count',
         data: new Array(Object.keys(roleMap).length).fill(0),
-        backgroundColor: ['rgba(224, 0, 0, 0.5)', 'rgba(0, 11, 224, 0.5)', 'rgba(11, 224, 0, 0.5)', 'rgba(0, 209, 224, 0.5)', 'rgba(224, 180, 0, 0.5)', 'rgba(150, 0, 224, 0.5)', 'rgba(224, 0, 191, 0.5)', 'rgba(224, 90, 0, 0.5)', 'rgba(90, 224, 0, 0.5)', 'rgba(190, 64, 221, 0.5)', 'rgba(221, 64, 64, 0.5)'],
+        backgroundColor: ['rgba(224, 0, 0, 0.5)', 'rgba(0, 11, 224, 0.5)', 'rgba(11, 224, 0, 0.5)', 'rgba(0, 209, 224, 0.5)', 'rgba(224, 180, 0, 0.5)', 'rgba(150, 0, 224, 0.5)', 'rgba(224, 0, 191, 0.5)', 'rgba(224, 90, 0, 0.5)', 'rgba(90, 224, 0, 0.5)', 'rgba(190, 64, 221, 0.5)', 'rgba(221, 64, 190, 0.5)'],
         borderColor: ['rgba(224, 0, 0)', 'rgba(0, 11, 224)', 'rgba(11, 224, 0)', 'rgba(0, 209, 224)', 'rgba(224, 180, 0)', 'rgba(150, 0, 224)', 'rgba(224, 0, 191)', 'rgba(224, 90, 0)', 'rgba(90, 224, 0)', 'rgba(190, 64, 221)', 'rgba(221, 64, 64)'],
         borderWidth: 1
     }]
