@@ -1,3 +1,54 @@
+const roleMap = {
+    1: 'Extract Runner',
+    2: 'Secure Specialist',
+    3: 'Glass Canon',
+    4: 'Damage Dealer',
+    5: 'Brawler',
+    6: 'Tank',
+    7: 'Taunt',
+    8: 'Bodyguard',
+    9: 'Backpoint Squatter',
+    10: 'Control',
+    11: 'Support'
+};
+
+let filters = [
+    { id: 'tag-a', label: 'A', class: 'filter' },
+    { id: 'tag-b', label: 'B', class: 'filter' },
+    { id: 'tag-c', label: 'C', class: 'filter' },
+    { id: 'tag-d', label: 'D', class: 'filter' },
+    { id: 'tag-e', label: 'E', class: 'filter' },
+    { id: 'tag-f', label: 'F', class: 'filter' },
+    { id: 'tag-g', label: 'G', class: 'filter' },
+    { id: 'tag-h', label: 'H', class: 'filter' },
+    { id: 'tag-i', label: 'I', class: 'filter' },
+    { id: 'tag-j', label: 'J', class: 'filter' },
+    { id: 'tag-k', label: 'K', class: 'filter' },
+    { id: 'tag-l', label: 'L', class: 'filter' },
+    { id: 'tag-m', label: 'M', class: 'filter' },
+    { id: 'tag-n', label: 'N', class: 'filter' },
+    { id: 'tag-o', label: 'O', class: 'filter' },
+    { id: 'tag-p', label: 'P', class: 'filter' },
+    { id: 'tag-q', label: 'Q', class: 'filter' },
+    { id: 'tag-r', label: 'R', class: 'filter' },
+    { id: 'tag-s', label: 'S', class: 'filter' },
+    { id: 'tag-t', label: 'T', class: 'filter' },
+    { id: 'tag-u', label: 'U', class: 'filter' },
+    { id: 'tag-v', label: 'V', class: 'filter' },
+    { id: 'tag-w', label: 'W', class: 'filter' },
+    { id: 'tag-x', label: 'X', class: 'filter' },
+    { id: 'tag-y', label: 'Y', class: 'filter' },
+    { id: 'threat-2', label: 'Threat 2', class: 'filter' },
+    { id: 'threat-3', label: 'Threat 3', class: 'filter' },
+    { id: 'threat-4', label: 'Threat 4', class: 'filter' },
+    { id: 'threat-5', label: 'Threat 5', class: 'filter' },
+    { id: 'threat-6', label: 'Threat 6', class: 'filter' },
+    { id: 'threat-4', label: 'Threat 7', class: 'filter' },
+    { id: 'threat-8', label: 'Threat 8', class: 'filter' },
+    { id: 'show-all', label: 'Show All', class: 'filter' }
+];
+
+
 let dataSet = [
     {
         id: 'abom',

@@ -20,6 +20,11 @@
 
         <div id="drawer" class="info-drawer">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+<div id="barbox">
+                <canvas id="roleChart"></canvas>
+            </div>
+
             <div class="writenull">Select characters to view info about them here.</div>
             <div class="writeup"></div>
         </div>
@@ -28,10 +33,9 @@
             <p class="shout">Shout out to Soren from Germany for the data. Find excellent articles and in-depth
                 breakdowns of these stats on <a href="https://sgprotocol.blogspot.com/" target="_blank">his site
                     here.</a></p>
-            
 
-                <canvas id="charts"></canvas>
-                <div id="activeCharacters"></div>
+            <canvas id="charts"></canvas>
+            <div id="activeCharacters"></div>
 
             <div class="util">
                 <button id="resetData" class="filter">Reset</button>
@@ -154,8 +158,8 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="dataset.js"></script>
     <script src="buttondata.js"></script>
-    <script src="filters.js"></script>
     <script src="charts.js"></script>
+    <script src="rolechart.js"></script>
 </body>
 
 </html>

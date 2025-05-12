@@ -74,6 +74,8 @@ var myChart = new Chart(ctx, {
 
 });
 
+
+
 // CHARACTER LEGEND BUTTONS //
 const container = document.getElementById('buttonContainer');
 
@@ -84,6 +86,7 @@ buttonData.forEach((btn, index) => {
     button.addEventListener('click', () => {
         toggleData(index);
         button.classList.toggle('selected');
+        updateRoleChart();
     });
     container.appendChild(button);
 });
@@ -97,7 +100,6 @@ elements.forEach((element, index) => {
         element.innerText = data.datasets[index].label;
     }
 });
-
 
 function toggleData(value) {
     const visData = myChart.isDatasetVisible(value);
@@ -126,6 +128,7 @@ function toggleData(value) {
             activeCharacters.appendChild(tag);
         }
     }
+    updateRoleChart();
 }
 
 
@@ -257,25 +260,11 @@ document.getElementById('rolepicker').addEventListener('change', function () {
         }
     });
 });
-  
-  
+
+
 
 
 // WRITEUPS //
-const roleMap = {
-    1: 'Extract Runner',
-    2: 'Secure Specialist',
-    3: 'Glass Canon',
-    4: 'Damage Dealer',
-    5: 'Brawler',
-    6: 'Tank',
-    7: 'Taunt',
-    8: 'Bodyguard',
-    9: 'Backpoint Squatter',
-    10: 'Control',
-    11: 'Support'
-};
-
 document.querySelectorAll('.lgd-btn').forEach(button => {
     button.addEventListener('click', () => {
         const id = button.id;
@@ -308,6 +297,30 @@ document.querySelectorAll('.lgd-btn').forEach(button => {
     });
 });
 
+function updateRoleChart() {
+    const counts = new Array(Object.keys(roleMap).length).fill(0);
+
+    myChart.data.datasets.forEach((dataset, index) => {
+        const meta = myChart.getDatasetMeta(index);
+        const button = document.getElementById(dataset.id);
+
+        if (!meta.hidden && button && button.classList.contains('selected')) {
+            const roles = dataSet[index].role;
+
+            if (Array.isArray(roles)) {
+                roles.forEach(role => {
+                    if (counts[role - 1] !== undefined) {
+                        counts[role - 1]++;
+                    }
+                });
+            }
+        }
+    });
+
+    roleChart.data.datasets[0].data = counts;
+    roleChart.update();
+}
+
 
 
 
@@ -326,6 +339,9 @@ document.getElementById('resetData').addEventListener('click', () => {
     dropdowns.forEach(dropdown => {
         dropdown.value = 'all';
     });
+
+    roleChartData.datasets[0].data = new Array(Object.keys(roleMap).length).fill(0);
+    roleChart.update();
 
     document.getElementById('activeCharacters').innerHTML = '';
     document.querySelector('#drawer .writeup').innerHTML = '';
