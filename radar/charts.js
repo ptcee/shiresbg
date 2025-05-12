@@ -45,7 +45,7 @@ var myChart = new Chart(ctx, {
                 min: 0,
                 max: 5,
                 ticks: {
-                    stepSize: 1,
+                    stepSize: 0.5,
                     color: 'rgb(199, 199, 199)',
                     backdropColor: '#363636',
                     font: {
