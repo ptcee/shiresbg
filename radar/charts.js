@@ -352,12 +352,26 @@ document.getElementById('resetData').addEventListener('click', () => {
 
 // SIDE DRAWER WITH WRITEUPS //
 function openNav() {
-    if (document.getElementById('drawer').style.width != '350px') {
-        document.getElementById('drawer').style.width = '350px';
-    } else (document.getElementById('drawer').style.width = '0');
-
+    const drawer = document.getElementById('drawer');
+    if (drawer.style.width !== '350px') {
+        drawer.style.width = '350px';
+        setTimeout(() => {
+            document.addEventListener('click', handleClickOutside);
+        }, 0);
+    } else {
+        drawer.style.width = '0';
+        document.removeEventListener('click', handleClickOutside);
+    }
 }
 
 function closeNav() {
     document.getElementById('drawer').style.width = '0';
+    document.removeEventListener('click', handleClickOutside);
+}
+
+function handleClickOutside(event) {
+    const drawer = document.getElementById('drawer');
+    if (!drawer.contains(event.target)) {
+        closeNav();
+    }
 }
