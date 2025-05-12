@@ -67,6 +67,8 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        card: 'https://www.jarvis-protocol.com/characters/abomination',
+        mct: '01620101',
     },
 
     {
@@ -85,6 +87,8 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        card: 'https://www.jarvis-protocol.com/characters/agent-venom',
+        mct: '01000101',
     },
 
     {
@@ -104,6 +108,8 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: ASM is also very good on P2F secures.</p>',
         role: [1, 11],
         hp: 6,
+        card: 'https://www.jarvis-protocol.com/characters/amazing-spider-man',
+        mct: '00370101',
     },
 
     {
@@ -122,6 +128,9 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '00640101',
+        
+        
     },
 
     {
@@ -140,6 +149,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 5,
+        mct: '01520101',
     },
 
     {
@@ -158,6 +168,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 4],
         hp: 6,
+        mct: '00280101',
     },
 
     {
@@ -176,6 +187,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2],
         hp: 5,
+        mct: '00260101',
     },
 
     {
@@ -194,6 +206,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 6],
         hp: 7,
+        mct: '01070101',
     },
 
     {
@@ -212,6 +225,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '01520102',
     },
 
     {
@@ -230,6 +244,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 11],
         hp: 6,
+        mct: '00760101',
     },
 
     {
@@ -248,6 +263,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '01730101',
     },
 
     {
@@ -266,6 +282,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 4],
         hp: 5,
+        mct: '01430101',
         
     },
 
@@ -285,6 +302,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 1],
         hp: 6,
+        mct: '00640102',
     },
 
     {
@@ -303,6 +321,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
         hp: 5,
+        mct: '00760102',
     },
 
     {
@@ -321,6 +340,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 4, 11],
         hp: 5,
+        mct: '00010101',
     },
 
     {
@@ -339,6 +359,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
         hp: 6,
+        mct: '00430101',
     },
 
     {
@@ -357,6 +378,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2, 6],
         hp: 6,
+        mct: '01300101',
     },
 
     {
@@ -375,6 +397,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 2],
         hp: 6,
+        mct: '01120101',
     },
 
     {
@@ -393,6 +416,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Black Bolt is a Bodyguard on his front side and a Tank on his backside.</p>',
         role: [8, 6, 4],
         hp: 6,
+        mct: '00340101',
     },
 
     {
@@ -411,6 +435,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 10],
         hp: 5,
+        mct: '00370102',
     },
 
     {
@@ -429,6 +454,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 6, 7],
         hp: 6,
+        mct: '00190101',
     },
 
     {
@@ -447,6 +473,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 2],
         hp: 6,
+        mct: '00070101',
     },
 
     {
@@ -465,6 +492,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 4],
         hp: 5,
+        mct: '01580101',
     },
 
     {
@@ -483,6 +511,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00810101',
     },
 
     {
@@ -501,6 +530,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 4,
+        mct: '00010102',
     },
 
     {
@@ -519,6 +549,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '00240101',
     },
 
     {
@@ -537,6 +568,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00480101',
         
     },
 
@@ -574,6 +606,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [7, 4],
         hp: 3,
+        mct: '00450101',
     },
 
     {
@@ -592,6 +625,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 5,
+        mct: '00300101',
     },
 
     {
@@ -610,6 +644,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 11],
         hp: 7,
+        mct: '00470101',
     },
 
     {
@@ -628,6 +663,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
         hp: 5,
+        mct: '00380101',
     },
 
     {
@@ -646,6 +682,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [8, 6],
         hp: 5,
+        mct: '00010103',
     },
 
     {
@@ -664,6 +701,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '01430102',
     },
 
     {
@@ -682,6 +720,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 9, 2],
         hp: 6,
+        mct: '00010104',
     },
 
     {
@@ -700,6 +739,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 4],
         hp: 7,
+        mct: '01430103',
     },
 
     {
@@ -718,6 +758,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3, 1],
         hp: 7,
+        mct: '00500101',
     },
 
     {
@@ -736,6 +777,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
         hp: 7,
+        mct: '00530101',
     },
 
     {
@@ -754,6 +796,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
         hp: 5,
+        mct: '00670101',
     },
 
     {
@@ -772,6 +815,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [8, 6, 2],
         hp: 6,
+        mct: '00570101',
     },
 
     {
@@ -790,6 +834,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00150101',
     },
 
     {
@@ -808,6 +853,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 9,
+        mct: '00900101',
     },
 
     {
@@ -826,6 +872,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 11],
         hp: 6,
+        mct: '00880101',
     },
 
     {
@@ -844,6 +891,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2],
         hp: 6,
+        mct: '00010105',
     },
 
     {
@@ -862,6 +910,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 2],
         hp: 6,
+        mct: '01430104',
     },
 
     {
@@ -880,6 +929,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10, 4],
         hp: 5,
+        mct: '00350101',
     },
 
     {
@@ -898,6 +948,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10, 11],
         hp: 6,
+        mct: '00410101',
     },
 
     {
@@ -916,6 +967,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 1],
         hp: 5,
+        mct: '00300102',
     },
 
     {
@@ -934,6 +986,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
         hp: 5,
+        mct: '00880102',
     },
 
     {
@@ -952,6 +1005,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 4,
+        mct: '00450102',
     },
 
     {
@@ -970,6 +1024,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
         hp: 6,
+        mct: '01430105',
     },
 
     {
@@ -988,6 +1043,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
         hp: 5,
+        mct: '00010106',
     },
 
     {
@@ -1006,6 +1062,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 2],
         hp: 6,
+        mct: '00230101',
     },
 
     {
@@ -1024,6 +1081,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
         hp: 6,
+        mct: '00670102',
     },
 
     {
@@ -1042,6 +1100,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 10],
         hp: 6,
+        mct: '00650101',
     },
 
     {
@@ -1060,6 +1119,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '00470102',
     },
 
     {
@@ -1078,6 +1138,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 10,
+        mct: '00330101',
     },
 
     {
@@ -1096,6 +1157,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '02450101',
     },
 
     {
@@ -1114,6 +1176,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6],
         hp: 6,
+        mct: '00200101',
     },
 
     {
@@ -1132,6 +1195,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 9, 10],
         hp: 7,
+        mct: '00190102',
     },
 
     {
@@ -1168,6 +1232,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '01560101',
     },
 
     {
@@ -1186,6 +1251,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00790101',
     },
 
     {
@@ -1204,6 +1270,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 9, 10],
         hp: 6,
+        mct: '01860101',
     },
 
     {
@@ -1222,6 +1289,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4, 10],
         hp: 6,
+        mct: '01030101',
     },
 
     {
@@ -1240,6 +1308,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
         hp: 6,
+        mct: '00280102',
     },
 
     {
@@ -1258,6 +1327,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10, 11],
         hp: 7,
+        mct: '01730102',
     },
 
     {
@@ -1276,6 +1346,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '02450102',
     },
 
     {
@@ -1294,6 +1365,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '00600101',
     },
 
     {
@@ -1312,6 +1384,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 1],
         hp: 6,
+        mct: '00160101',
     },
 
     {
@@ -1330,6 +1403,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 8,
+        mct: '00270101',
     },
 
     {
@@ -1348,6 +1422,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10, 11],
         hp: 5,
+        mct: '00100101',
     },
 
     {
@@ -1366,6 +1441,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 9,
+        mct: '20130101',
     },
 
     {
@@ -1384,6 +1460,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 7],
         hp: 6,
+        mct: '01660101',
     },
 
     {
@@ -1402,6 +1479,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 7,
+        mct: '00210101',
     },
 
     {
@@ -1420,6 +1498,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6],
         hp: 7,
+        mct: '00170101',
     },
 
     {
@@ -1438,6 +1517,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 5],
         hp: 6,
+        mct: '01550101',
     },
 
     {
@@ -1456,6 +1536,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '01370101',
     },
 
     {
@@ -1474,6 +1555,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 4,
+        mct: '00240102',
     },
 
     {
@@ -1492,6 +1574,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 10],
         hp: 6,
+        mct: '01020101',
     },
 
     {
@@ -1510,6 +1593,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00120101',
     },
 
     {
@@ -1528,6 +1612,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [7, 10],
         hp: 5,
+        mct: '00710101',
     },
 
     {
@@ -1546,6 +1631,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 11],
         hp: 5,
+        mct: '00650102',
     },
 
     {
@@ -1564,6 +1650,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 20,
+        mct: '00040101',
     },
 
     {
@@ -1582,6 +1669,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
         hp: 13,
+        mct: '00520101',
     },
 
     {
@@ -1600,6 +1688,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 10],
         hp: 5,
+        mct: '00960101',
     },
 
     {
@@ -1618,6 +1707,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 6],
         hp: 6,
+        mct: '001430106',
     },
 
     {
@@ -1636,6 +1726,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 5,
+        mct: '00490101',
     },
 
     {
@@ -1654,6 +1745,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10],
         hp: 5,
+        mct: '00010107',
     },
 
     {
@@ -1672,6 +1764,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 4],
         hp: 6,
+        mct: '00530102',
     },
 
     {
@@ -1690,6 +1783,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 6],
         hp: 8,
+        mct: '00560101',
     },
 
     {
@@ -1708,6 +1802,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Karnak only brawls in 1v1 situations.</p>',
         role: [5, 4],
         hp: 5,
+        mct: '01660102',
     },
 
     {
@@ -1726,6 +1821,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3],
         hp: 6,
+        mct: '00070102',
     },
 
     {
@@ -1744,6 +1840,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '10040101',
     },
 
     {
@@ -1762,6 +1859,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '01660103',
     },
 
     {
@@ -1780,6 +1878,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3],
         hp: 7,
+        mct: '10040102',
     },
 
     {
@@ -1798,6 +1897,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 10],
         hp: 7,
+        mct: '00290101',
     },
 
     {
@@ -1816,6 +1916,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 7,
+        mct: '01160101',
     },
 
     {
@@ -1834,6 +1935,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 11],
         hp: 5,
+        mct: '00580101',
     },
 
     {
@@ -1870,6 +1972,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 6,
+        mct: '00910101',
     },
 
     {
@@ -1888,6 +1991,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 6, 2],
         hp: 6,
+        mct: '00580102',
     },
 
     {
@@ -1906,6 +2010,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
         hp: 6,
+        mct: '00350102',
     },
 
     {
@@ -1924,6 +2029,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '10030101',
     },
 
     {
@@ -1942,6 +2048,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
         hp: 5,
+        mct: '00120102',
     },
 
     {
@@ -1960,6 +2067,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10, 6],
         hp: 7,
+        mct: '00910102',
     },
 
     {
@@ -1978,6 +2086,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [7, 6],
         hp: 6,
+        mct: '00490102',
     },
 
     {
@@ -1996,6 +2105,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
         hp: 10,
+        mct: '00050101',
     },
 
     {
@@ -2014,6 +2124,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Beware of the fact that his Durability comes from redirecting attacks into allies.</p>',
         role: [5],
         hp: 7,
+        mct: '01450101',
     },
 
     {
@@ -2032,6 +2143,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '00570102',
     },
 
     {
@@ -2050,6 +2162,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '00420101',
     },
 
     {
@@ -2068,6 +2181,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 9,
+        mct: '00930101',
     },
 
     {
@@ -2086,6 +2200,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 11],
         hp: 6,
+        mct: '01860102',
     },
 
     {
@@ -2104,6 +2219,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Maverick is better described as a Generalist.</p>',
         role: [5],
         hp: 5,
+        mct: '01090101',
     },
 
     {
@@ -2122,6 +2238,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10, 11],
         hp: 6,
+        mct: '01660104',
     },
 
     {
@@ -2140,6 +2257,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 4],
         hp: 6,
+        mct: '00340102',
     },
 
     {
@@ -2158,6 +2276,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Like MODOK his durability comes from redirecting attacks to allies.</p>',
         role: [5],
         hp: 7,
+        mct: '00660101',
     },
 
     {
@@ -2176,6 +2295,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 6],
         hp: 6,
+        mct: '00460101',
     },
 
     {
@@ -2194,6 +2314,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 1],
         hp: 5,
+        mct: '00480102',
     },
 
     {
@@ -2212,6 +2333,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
         hp: 5,
+        mct: '00620101',
     },
 
     {
@@ -2230,6 +2352,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
         hp: 6,
+        mct: '00500102',
     },
 
     {
@@ -2248,6 +2371,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 5,
+        mct: '00430102',
     },
 
     {
@@ -2266,6 +2390,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '01160102',
     },
 
     {
@@ -2284,6 +2409,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
         hp: 7,
+        mct: '01580102',
     },
 
     {
@@ -2302,6 +2428,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 4,
+        mct: '00160102',
     },
 
     {
@@ -2320,6 +2447,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00550101',
     },
 
     {
@@ -2338,6 +2466,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4, 11],
         hp: 5,
+        mct: '00750101',
     },
 
     {
@@ -2356,6 +2485,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 1],
         hp: 6,
+        mct: '01120102',
     },
 
     {
@@ -2374,6 +2504,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10, 2],
         hp: 7,
+        mct: '01260101',
     },
 
     {
@@ -2392,6 +2523,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 6],
         hp: 5,
+        mct: '02450103',
     },
 
     {
@@ -2410,6 +2542,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [8],
         hp: 4,
+        mct: '00080101',
     },
 
     {
@@ -2428,6 +2561,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 5],
         hp: 6,
+        mct: '00540101',
     },
 
     {
@@ -2446,6 +2580,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Phoenix Unleashed is only Damage Dealer.</p>',
         role: [4, 10, 11],
         hp: 7,
+        mct: '00830101',
     },
 
     {
@@ -2464,6 +2599,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 11],
         hp: 6,
+        mct: '01510101',
     },
 
     {
@@ -2500,6 +2636,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 1],
         hp: 5,
+        mct: '00150102',
     },
 
     {
@@ -2518,6 +2655,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '01030102',
     },
 
     {
@@ -2536,6 +2674,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00320101',
     },
 
     {
@@ -2554,6 +2693,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
         hp: 5,
+        mct: '00820101',
     },
 
     {
@@ -2572,6 +2712,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 5,
+        mct: '00630101',
     },
 
     {
@@ -2590,6 +2731,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 2],
         hp: 5,
+        mct: '00890101',
     },
 
     {
@@ -2608,6 +2750,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 11],
         hp: 6,
+        mct: '00010108',
     },
 
     {
@@ -2626,6 +2769,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3],
         hp: 7,
+        mct: '00740101',
     },
 
     {
@@ -2644,6 +2788,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10, 11],
         hp: 6,
+        mct: '01430107',
     },
 
     {
@@ -2662,6 +2807,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 6],
         hp: 7,
+        mct: '00980101',
     },
 
     {
@@ -2680,6 +2826,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 9],
         hp: 3,
+        mct: '00170102',
     },
 
     {
@@ -2698,6 +2845,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 6,
+        mct: '00600102',
     },
 
     {
@@ -2716,6 +2864,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '00200102',
     },
 
     {
@@ -2752,6 +2901,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 5],
         hp: 6,
+        mct: '00400101',
     },
 
     {
@@ -2770,6 +2920,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 5],
         hp: 7,
+        mct: '10030102',
     },
 
     {
@@ -2788,6 +2939,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 6,
+        mct: '01560102',
     },
 
     {
@@ -2806,6 +2958,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
         hp: 6,
+        mct: '01550102',
     },
 
     {
@@ -2824,6 +2977,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 6,
+        mct: '00630102',
     },
 
     {
@@ -2842,6 +2996,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
         hp: 7,
+        mct: '00510101',
     },
 
     {
@@ -2860,6 +3015,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 2, 10, 11],
         hp: 10,
+        mct: '01600101',
     },
 
     {
@@ -2878,6 +3034,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
         hp: 6,
+        mct: '01510102',
     },
 
     {
@@ -2896,6 +3053,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 11],
         hp: 5,
+        mct: '00960102',
     },
 
     {
@@ -2914,6 +3072,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6],
         hp: 6,
+        mct: '00790102',
     },
 
     {
@@ -2932,6 +3091,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 2, 10],
         hp: 5,
+        mct: '00690101',
     },
 
     {
@@ -2950,6 +3110,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 8, 10],
         hp: 20,
+        mct: '00390101',
     },
 
     {
@@ -2968,6 +3129,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
         hp: 5,
+        mct: '01560103',
     },
 
     {
@@ -2986,6 +3148,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10, 11],
         hp: 5,
+        mct: '00080102',
     },
 
     {
@@ -3022,6 +3185,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10, 11],
         hp: 5,
+        mct: '00690102',
     },
 
     {
@@ -3040,6 +3204,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 4,
+        mct: '00610101',
     },
 
     {
@@ -3058,6 +3223,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 7],
         hp: 6,
+        mct: '01020102',
     },
 
     {
@@ -3076,6 +3242,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
         hp: 5,
+        mct: '01430108',
     },
 
     {
@@ -3112,6 +3279,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: His card doesn\'t really support his role.</p>',
         role: [1],
         hp: 3,
+        mct: '01700102',
     },
 
     {
@@ -3130,6 +3298,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
         hp: 6,
+        mct: '00010109',
     },
 
     {
@@ -3148,6 +3317,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 5,
+        mct: '00100102',
     },
 
     {
@@ -3166,6 +3336,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 2],
         hp: 7,
+        mct: '01690102',
     },
 
     {
@@ -3202,6 +3373,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 6,
+        mct: '01000102',
     },
 
     {
@@ -3220,6 +3392,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
         hp: 6,
+        mct: '01370102',
     },
 
     {
@@ -3238,6 +3411,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 6,
+        mct: '00180101',
     },
 
     {
@@ -3256,6 +3430,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '00770101',
     },
 
     {
@@ -3274,6 +3449,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10],
         hp: 5,
+        mct: '00410102',
     },
 
     {
@@ -3292,6 +3468,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
         hp: 6,
+        mct: '01530101',
     },
 
     {
@@ -3310,6 +3487,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Do not play this model until she is buffed.</p>',
         role: [3],
         hp: 5,
+        mct: '00810102',
     },
 
     {
@@ -3328,6 +3506,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 6],
         hp: 6,
+        mct: '00320102',
     },
 
     {
@@ -3346,6 +3525,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 5, 11],
         hp: 8,
+        mct: '00250107',
     },
 
     {
@@ -3364,6 +3544,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 6,
+        mct: '01430109',
     },
 
     {
@@ -3382,6 +3563,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 10],
         hp: 6,
+        mct: '00820102',
     },
 
     {
@@ -3400,6 +3582,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 15,
+        mct: '01440101',
     },
 
     {
@@ -3418,6 +3601,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 8,
+        mct: '00910103',
     },
 
     {
@@ -3436,6 +3620,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
         hp: 5,
+        mct: '00770102',
     },
 
     {
@@ -3454,6 +3639,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '01620102',
     },
 
     {
@@ -3472,6 +3658,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 9,
+        mct: '00910104',
     },
 
     {
@@ -3490,6 +3677,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 7,
+        mct: '00110101',
     },
 
     {
@@ -3526,6 +3714,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 4,
+        mct: '00420102',
     },
 
     {
@@ -3544,6 +3733,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '01300102',
     },
 
     {
@@ -3580,6 +3770,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 6,
+        mct: '00010110',
     },
 
     {
@@ -3598,6 +3789,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 2, 10],
         hp: 8,
+        mct: '01430110',
     },
 
     {
@@ -3616,6 +3808,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 7,
+        mct: '00890102',
     },
 
     {
@@ -3634,6 +3827,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00110102',
     },
 
     {
@@ -3652,6 +3846,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 2, 10],
         hp: 7,
+        mct: '00090101',
     },
 
     {
@@ -3670,6 +3865,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 5,
+        mct: '00610102',
     },
 
     {
@@ -3688,6 +3884,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
         hp: 6,
+        mct: '00130101',
     },
 
     {
@@ -3706,6 +3903,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
         hp: 5,
+        mct: '01560104',
     },
 
     {
@@ -3724,6 +3922,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6],
         hp: 5,
+        mct: '00380102',
     },
 
     {
@@ -3742,6 +3941,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9],
         hp: 5,
+        mct: '01530102',
     },
 
     {
@@ -3760,6 +3960,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '00260102',
     },
 
     {
@@ -3778,6 +3979,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '01090102',
     },
 
     {
@@ -3796,6 +3998,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 2],
         hp: 7,
+        mct: '02450104',
     },
 
     {
@@ -3814,6 +4017,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 5,
+        mct: '00130102',
     },
 
     {
@@ -3832,6 +4036,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 6,
+        mct: '01430111',
     },
 
     {
@@ -3850,6 +4055,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '00400102',
     },
 
     {
@@ -3868,6 +4074,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 11],
         hp: 4,
+        mct: '00230102',
     },
 
     {
@@ -3886,6 +4093,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '00710102',
     },
 
     {
@@ -3904,5 +4112,6 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 6,
+        mct: '01260102',
     },
 ]

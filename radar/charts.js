@@ -290,19 +290,31 @@ document.querySelectorAll('.lgd-btn').forEach(button => {
                 const div = document.createElement('div');
                 div.id = `writeup-${id}`;
                 div.className = 'writeblock';
-                
+
                 if (datasetIndex !== -1) {
                     div.style.borderColor = data.datasets[datasetIndex].pointBackgroundColor;
                     div.style.borderStyle = 'solid';
-                    div.style.borderWidth = '2px';
+                    div.style.borderWidth = '1px';
                 }
 
                 div.innerHTML = processedWriteup;
+
+                if (datasetEntry.card) {
+                    const cardLink = document.createElement('a');
+                    cardLink.href = datasetEntry.card;
+                    cardLink.textContent = 'View Card on Jarvis';
+                    cardLink.className = 'cardlink';
+                    cardLink.target = '_blank';
+                    cardLink.rel = 'noopener noreferrer';
+                    div.appendChild(cardLink);
+                }
+
                 writeupContainer.appendChild(div);
             }
         }
     });
 });
+
 
 
 function updateRoleChart() {
@@ -328,6 +340,31 @@ function updateRoleChart() {
     roleChart.data.datasets[0].data = counts;
     roleChart.update();
 }
+
+
+// MCT CODE STUFF
+document.getElementById('mct-submit').addEventListener('click', () => {
+    const input = document.getElementById('mct-input').value.trim();
+    if (!input) return;
+
+    const mctCodes = input.split(',').map(code => code.trim());
+
+    document.querySelectorAll('.lgd-btn').forEach(button => {
+        button.classList.remove('selected');
+    });
+
+    data.datasets.forEach(ds => ds.hidden = true);
+
+    mctCodes.forEach(code => {
+        const match = dataSet.find(entry => entry.mct === code);
+        if (match) {
+            const btn = document.getElementById(match.id);
+            if (btn) btn.click(); 
+        }
+    });
+
+    myChart.update();
+});
 
 
 

@@ -802,16 +802,13 @@ a {
 }
 
 .info-drawer a {
-  padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+  font-size: 14px;
+  color: #0bae39;
 }
 
 .info-drawer a:hover {
-  color: #f1f1f1;
+  color: #4daa5e;
 }
 
 .info-drawer .closebtn {
@@ -853,6 +850,25 @@ a {
   align-items: center;
 }
 
+#mct-input-container {
+  margin-top: 4px;
+}
+
+#mct-input-container button:hover {
+  filter: brightness(2.0);
+  box-shadow: inset 0 0 4px #ffffff;
+  transition: filter 0.2s, box-shadow 0.2s;
+}
+
+#mct-input {
+  font-size: 14px;
+  font-family: inherit;
+  background-color: #bebebe;
+  border: 0px;
+  border-radius: 4px;
+  color: #161616;
+  width: 140px;
+}
 
 
 
@@ -892,9 +908,6 @@ a {
     padding-top: 48px;
   }
 
-  .info-drawer a {
-    font-size: 18px;
-  }
 
   .buttons-top {
     flex-wrap: wrap;
