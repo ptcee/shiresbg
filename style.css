@@ -823,6 +823,25 @@ a {
   z-index: 5;
 }
 
+.character-tag {
+    display: inline-flex;
+    align-items: center;
+    margin: 5px 10px 5px 0;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 10px;
+    color: #fff;
+}
+
+.color-box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    border-radius: 10px;
+}
+
+
+
 
 /* Media Queries */
 

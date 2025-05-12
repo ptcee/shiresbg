@@ -12,6 +12,8 @@ Chart.defaults.plugins.legend.labels.textAlign = 'center';
 
 
 let ctx = document.getElementById('charts');
+const activeCharacters = document.getElementById('activeCharacters');
+
 
 const data = {
     labels: [
@@ -33,7 +35,7 @@ var myChart = new Chart(ctx, {
             r: {
                 pointLabels: {
                     font: {
-                        size: 12
+                        size: 8,
                     },
                 },
                 angleLines: {
@@ -61,7 +63,7 @@ var myChart = new Chart(ctx, {
         },
         elements: {
             point: {
-                radius: 7,
+                radius: 5,
                 hoverRadius: 2,
             },
             line: {
@@ -99,14 +101,34 @@ elements.forEach((element, index) => {
 
 function toggleData(value) {
     const visData = myChart.isDatasetVisible(value);
+    const dataset = data.datasets[value];
+    const existingTag = document.getElementById(`tag-${value}`);
+
     if (visData === true) {
         myChart.hide(value);
-    }
-
-    if (visData === false) {
+        if (existingTag) existingTag.remove();
+    } else {
         myChart.show(value);
+        if (!existingTag) {
+            const tag = document.createElement('div');
+            tag.id = `tag-${value}`;
+            tag.className = 'character-tag';
+
+            const colorBox = document.createElement('span');
+            colorBox.className = 'color-box';
+            colorBox.style.backgroundColor = dataset.pointBackgroundColor;
+
+            const label = document.createElement('span');
+            label.innerText = dataset.label;
+
+            tag.appendChild(colorBox);
+            tag.appendChild(label);
+            activeCharacters.appendChild(tag);
+        }
     }
 }
+
+
 
 
 
@@ -305,6 +327,7 @@ document.getElementById('resetData').addEventListener('click', () => {
         dropdown.value = 'all';
     });
 
+    document.getElementById('activeCharacters').innerHTML = '';
     document.querySelector('#drawer .writeup').innerHTML = '';
     document.querySelector('.writenull').style.display = 'block';
 
