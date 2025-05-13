@@ -347,7 +347,7 @@ document.getElementById('mct-submit').addEventListener('click', () => {
     const input = document.getElementById('mct-input').value.trim();
     if (!input) return;
 
-    const mctCodes = input.split(',').map(code => code.trim());
+    const mctCodes = input.split(/[,|]/).map(code => code.trim());
 
     document.querySelectorAll('.lgd-btn').forEach(button => {
         button.classList.remove('selected');
@@ -391,6 +391,7 @@ document.getElementById('resetData').addEventListener('click', () => {
     document.getElementById('activeCharacters').innerHTML = '';
     document.querySelector('#drawer .writeup').innerHTML = '';
     document.querySelector('.writenull').style.display = 'block';
+    document.querySelector('#mct-input').value = '';
 
     filterButtons();
 });
