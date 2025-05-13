@@ -870,7 +870,12 @@ a {
   width: 140px;
 }
 
-
+.barinfo {
+  opacity: 60%;
+  font-size: 0.7rem;
+  padding: 2px;
+  text-align: center;
+}
 
 
 /* Media Queries */
