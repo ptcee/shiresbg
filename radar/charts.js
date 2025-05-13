@@ -275,7 +275,7 @@ document.querySelectorAll('.lgd-btn').forEach(button => {
         if (datasetEntry && datasetEntry.writeup) {
             let processedWriteup = datasetEntry.writeup;
 
-            const cleanLabel = datasetEntry.label.replace(/\s*\([^)]*\)/, '');
+            const cleanLabel = datasetEntry.label;
             processedWriteup = processedWriteup.replace('[l]', cleanLabel);
 
             if (Array.isArray(datasetEntry.role)) {
