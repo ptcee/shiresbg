@@ -21,17 +21,17 @@ const roleChart = new Chart(roleCtx, {
             x: {
                 title: {
                     display: false,
-                    text: 'Roles', 
+                    text: 'Roles',
                     color: '#000',
                     font: {
                         size: 14,
                     }
                 },
                 grid: {
-                    color: 'rgb(219, 219, 219)', 
+                    color: 'rgb(219, 219, 219)',
                 },
                 ticks: {
-                    color: '#000', 
+                    color: '#000',
                     font: {
                         size: 8,
                     }
@@ -47,10 +47,10 @@ const roleChart = new Chart(roleCtx, {
                     }
                 },
                 grid: {
-                    color: 'rgb(219, 219, 219)', 
+                    color: 'rgb(219, 219, 219)',
                 },
                 ticks: {
-                    color: '#000', 
+                    color: '#000',
                     beginAtZero: true,
                     stepSize: 1,
                     font: {
@@ -62,8 +62,34 @@ const roleChart = new Chart(roleCtx, {
         plugins: {
             legend: {
                 display: false,
+            },
+            tooltip: {
+                callbacks: {
+                    afterLabel: function (context) {
+                        const roleIndex = context.dataIndex;
+                        const matchingLabels = [];
+
+                        myChart.data.datasets.forEach((dataset, index) => {
+                            const meta = myChart.getDatasetMeta(index);
+                            const button = document.getElementById(dataset.id);
+
+                            if (!meta.hidden && button && button.classList.contains('selected')) {
+                                const roles = dataSet[index].role;
+
+                                if (Array.isArray(roles) && roles.includes(roleIndex + 1)) {
+                                    matchingLabels.push(dataset.label);
+                                }
+                            }
+                        });
+
+                        return matchingLabels.length > 0 ? matchingLabels : ['No matching entries'];
+                    }
+
+                }
             }
         }
+
+
     }
 });
 
