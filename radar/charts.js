@@ -87,6 +87,7 @@ buttonData.forEach((btn, index) => {
         toggleData(index);
         button.classList.toggle('selected');
         updateRoleChart();
+        updateRadarAverages();
     });
     container.appendChild(button);
 });
@@ -129,10 +130,9 @@ function toggleData(value) {
         }
     }
     updateRoleChart();
+    updateRadarAverages();
+
 }
-
-
-
 
 
 // FILTER BUTTONS //
@@ -341,6 +341,42 @@ function updateRoleChart() {
     roleChart.update();
 }
 
+// STAT AVERAGES
+function updateRadarAverages() {
+    const output = document.getElementById('radarAverages');
+    const selectedButtons = document.querySelectorAll('#buttonContainer .selected');
+
+    const selectedData = Array.from(selectedButtons).map(button => {
+        return dataSet.find(d => d.id === button.id);
+    }).filter(Boolean);
+
+    if (selectedData.length === 0) {
+        output.innerHTML = '<em>No characters selected.</em>';
+        return;
+    }
+
+    const numStats = selectedData[0].data.length;
+    const statSums = new Array(numStats).fill(0);
+
+    selectedData.forEach(dataset => {
+        dataset.data.forEach((val, i) => {
+            statSums[i] += val;
+        });
+    });
+
+    const averages = statSums.map(sum => parseFloat((sum / selectedData.length).toFixed(2)));
+
+    const statLabels = ['Damage', 'Durability', 'Speed', 'Range', 'Control', 'Support'];
+    const avgHTML = averages.map((avg, i) => {
+        return `<div><strong>${statLabels[i]}:</strong> ${avg}</div>`;
+    }).join('');
+
+    output.innerHTML = `
+        <div><strong>Average Stats for ${selectedData.length} Character${selectedData.length > 1 ? 's' : ''}:</strong></div>
+        ${avgHTML}
+    `;
+}
+
 
 // MCT CODE STUFF
 document.getElementById('mct-submit').addEventListener('click', () => {
@@ -359,11 +395,13 @@ document.getElementById('mct-submit').addEventListener('click', () => {
         const match = dataSet.find(entry => entry.mct === code);
         if (match) {
             const btn = document.getElementById(match.id);
-            if (btn) btn.click(); 
+            if (btn) btn.click();
         }
     });
 
     myChart.update();
+    updateRadarAverages();
+
 });
 
 
@@ -387,6 +425,7 @@ document.getElementById('resetData').addEventListener('click', () => {
 
     roleChartData.datasets[0].data = new Array(Object.keys(roleMap).length).fill(0);
     roleChart.update();
+    updateRadarAverages();
 
     document.getElementById('activeCharacters').innerHTML = '';
     document.querySelector('#drawer .writeup').innerHTML = '';

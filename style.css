@@ -877,6 +877,17 @@ a {
   text-align: center;
 }
 
+.avg-display {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 0.8rem;
+  flex-wrap: wrap;
+  line-height: 6px;
+  padding: 10px 0;
+}
+
 
 /* Media Queries */
 
