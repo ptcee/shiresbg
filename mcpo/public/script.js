@@ -49,8 +49,8 @@ function addCharacter(side) {
   let health = char.hp;
   let power = 1;
 
-  const healthBar = createBlockBar("HEALTH", health, 0, 20, "red", val => health = val);
-  const powerBar = createBlockBar("POWER", power, 0, 10, "green", val => power = val);
+  const healthBar = createBlockBar("HEALTH", health, 0, 20, "#eb0000", val => health = val);
+  const powerBar = createBlockBar("POWER", power, 0, 10, "#00eb3f", val => power = val);
 
   charDiv.append(label, healthBar.container, powerBar.container);
   allCharacters.push({ powerBar, updatePower: powerBar.update });
