@@ -31,7 +31,7 @@ function addCharacter(side) {
 
   const charDiv = document.createElement('div');
   charDiv.className = 'character';
-  charDiv.style.backgroundImage = "url(" + char.portrait + ")";
+  charDiv.style.backgroundImage = `url("img/${char.id}.png")`;
 
   const label = document.createElement('h3');
   label.textContent = char.label;
