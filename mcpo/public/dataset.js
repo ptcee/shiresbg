@@ -6,7 +6,6 @@ let dataSet = [
         data: [4, 4, 4, 2, 3, 1],
         affil: [8, 13],
         fill: true,
-        portrait: '/img/abomPort.png',
         backgroundColor: 'rgba(0, 102, 24, 0.2)',
         borderColor: 'rgb(50, 226, 91)',
         pointBackgroundColor: 'rgb(50, 226, 91)',
@@ -16,6 +15,8 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        card: 'https://www.jarvis-protocol.com/characters/abomination',
+        mct: '01620101',
     },
 
     {
@@ -34,6 +35,8 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        card: 'https://www.jarvis-protocol.com/characters/agent-venom',
+        mct: '01000101',
     },
 
     {
@@ -43,7 +46,6 @@ let dataSet = [
         data: [3, 5, 5, 2, 2, 4],
         affil: [10, 26],
         fill: true,
-        portrait: '/img/asmPort.png',
         backgroundColor: 'rgba(158, 0, 0, 0.2)',
         borderColor: 'rgb(255, 15, 15)',
         pointBackgroundColor: 'rgb(255, 15, 15)',
@@ -53,13 +55,15 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: ASM is also very good on P2F secures.</p>',
         role: [1, 11],
         hp: 6,
+        card: 'https://www.jarvis-protocol.com/characters/amazing-spider-man',
+        mct: '00370101',
     },
 
     {
         id: 'a1',
         label: 'Ancient One (4)',
         hidden: true,
-        data: [4, 3, 3, 2, 4, 1],
+        data: [3.5, 3, 2.5, 2, 4, 1],
         affil: [7, 10],
         fill: true,
         backgroundColor: 'rgba(223, 201, 1, 0.2)',
@@ -71,6 +75,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '00640101',  
     },
 
     {
@@ -89,6 +94,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 5,
+        mct: '01520101',
     },
 
     {
@@ -107,6 +113,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 4],
         hp: 6,
+        mct: '00280101',
     },
 
     {
@@ -125,6 +132,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2],
         hp: 5,
+        mct: '00260101',
     },
 
     {
@@ -143,6 +151,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 6],
         hp: 7,
+        mct: '01070101',
     },
 
     {
@@ -161,6 +170,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '01520102',
     },
 
     {
@@ -179,6 +189,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 11],
         hp: 6,
+        mct: '00760101',
     },
 
     {
@@ -197,6 +208,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '01730101',
     },
 
     {
@@ -215,6 +227,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 4],
         hp: 5,
+        mct: '01430101',
         
     },
 
@@ -234,6 +247,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 1],
         hp: 6,
+        mct: '00640102',
     },
 
     {
@@ -252,13 +266,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
         hp: 5,
+        mct: '00760102',
     },
 
     {
         id: 'zemo3',
         label: 'Baron Zemo (3)',
         hidden: true,
-        data: [4, 3, 5, 4, 1, 4],
+        data: [4, 3, 4.5, 4, 1, 4],
         affil: [13, 6],
         fill: true,
         backgroundColor: 'rgba(180, 53, 182, 0.2)',
@@ -270,13 +285,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 4, 11],
         hp: 5,
+        mct: '00010101',
     },
 
     {
         id: 'beast',
         label: 'Beast (3)',
         hidden: true,
-        data: [2, 3, 4, 2, 4, 1],
+        data: [2, 3, 3.5, 2, 4, 1],
         affil: [3, 14, 20, 23],
         fill: true,
         backgroundColor: 'rgba(53, 119, 182, 0.2)',
@@ -288,6 +304,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
         hp: 6,
+        mct: '00430101',
     },
 
     {
@@ -306,6 +323,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2, 6],
         hp: 6,
+        mct: '01300101',
     },
 
     {
@@ -324,13 +342,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 2],
         hp: 6,
+        mct: '01120101',
     },
 
     {
         id: 'bb5',
         label: 'Black Bolt (5)',
         hidden: true,
-        data: [5, 4, 2, 4, 2, 3],
+        data: [4.5, 4, 2.5, 4, 2, 3],
         affil: [14],
         fill: true,
         backgroundColor: 'rgba(68, 53, 182, 0.2)',
@@ -342,13 +361,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Black Bolt is a Bodyguard on his front side and a Tank on his backside.</p>',
         role: [8, 6, 4],
         hp: 6,
+        mct: '00340101',
     },
 
     {
         id: 'cat',
         label: 'Black Cat (3)',
         hidden: true,
-        data: [2, 4, 4, 2, 4, 1],
+        data: [2, 3.5, 4, 2, 4, 1],
         affil: [1, 8, 16, 26],
         fill: true,
         backgroundColor: 'rgba(118, 116, 134, 0.2)',
@@ -360,13 +380,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 10],
         hp: 5,
+        mct: '00370102',
     },
 
     {
         id: 'bdwarf',
         label: 'Black Dwarf (4)',
         hidden: true,
-        data: [3, 5, 2, 2, 4, 4],
+        data: [3, 4.5, 2.5, 2, 4, 4],
         affil: [4],
         fill: true,
         backgroundColor: 'rgba(116, 134, 118, 0.2)',
@@ -378,6 +399,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 6, 7],
         hp: 6,
+        mct: '00190101',
     },
 
     {
@@ -396,13 +418,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 2],
         hp: 6,
+        mct: '00070101',
     },
 
     {
         id: 'bast',
         label: 'Bast Panther (3)',
         hidden: true,
-        data: [3, 3, 4, 2, 1, 1],
+        data: [3, 2.5, 4, 2, 1, 1],
         affil: [3, 10, 16, 24],
         fill: true,
         backgroundColor: 'rgba(93, 27, 147, 0.2)',
@@ -414,6 +437,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 4],
         hp: 5,
+        mct: '01580101',
     },
 
     {
@@ -432,13 +456,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00810101',
     },
 
     {
         id: 'bwid2',
         label: 'Black Widow (2)',
         hidden: true,
-        data: [2, 3, 4, 2, 2, 1],
+        data: [2, 2.5, 3.5, 2, 2, 1],
         affil: [1, 3, 18, 27],
         fill: true,
         backgroundColor: 'rgba(147, 27, 89, 0.2)',
@@ -450,6 +475,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 4,
+        mct: '00010102',
     },
 
     {
@@ -468,13 +494,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '00240101',
     },
 
     {
         id: 'blade',
         label: 'Blade (4)',
         hidden: true,
-        data: [3, 3, 3, 3, 1, 1],
+        data: [3.5, 3, 3, 3, 1, 1],
         affil: [16, 3, 10],
         fill: true,
         backgroundColor: 'rgba(147, 89, 27, 0.2)',
@@ -486,6 +513,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00480101',
         
     },
 
@@ -523,6 +551,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [7, 4],
         hp: 3,
+        mct: '00450101',
     },
 
     {
@@ -541,6 +570,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 5,
+        mct: '00300101',
     },
 
     {
@@ -559,13 +589,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 11],
         hp: 7,
+        mct: '00470101',
     },
 
     {
         id: 'sam',
         label: 'Cap (Sam) (3)',
         hidden: true,
-        data: [2, 3, 4, 4, 4, 3],
+        data: [2, 3, 4, 4, 3.5, 3],
         affil: [3],
         fill: true,
         backgroundColor: 'rgba(147, 27, 27, 0.2)',
@@ -577,6 +608,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
         hp: 5,
+        mct: '00380101',
     },
 
     {
@@ -595,13 +627,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [8, 6],
         hp: 5,
+        mct: '00010103',
     },
 
     {
         id: 'cap3',
         label: 'Cap (1st Avenger) (4)',
         hidden: true,
-        data: [3, 3, 3, 3, 3, 1],
+        data: [3.5, 3, 3, 3, 3, 1],
         affil: [3, 18],
         fill: true,
         backgroundColor: 'rgba(27, 121, 147, 0.2)',
@@ -613,6 +646,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '01430102',
     },
 
     {
@@ -631,6 +665,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 9, 2],
         hp: 6,
+        mct: '00010104',
     },
 
     {
@@ -649,6 +684,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 4],
         hp: 7,
+        mct: '01430103',
     },
 
     {
@@ -667,6 +703,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3, 1],
         hp: 7,
+        mct: '00500101',
     },
 
     {
@@ -685,6 +722,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
         hp: 7,
+        mct: '00530101',
     },
 
     {
@@ -703,6 +741,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
         hp: 5,
+        mct: '00670101',
     },
 
     {
@@ -721,13 +760,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [8, 6, 2],
         hp: 6,
+        mct: '00570101',
     },
 
     {
         id: 'corvus',
         label: 'Corvus Glaive (4)',
         hidden: true,
-        data: [4, 3, 3, 3, 1, 1],
+        data: [4.5, 3, 3, 3, 1, 1],
         affil: [4],
         fill: true,
         backgroundColor: 'rgba(27, 107, 147, 0.2)',
@@ -739,6 +779,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00150101',
     },
 
     {
@@ -757,6 +798,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 9,
+        mct: '00900101',
     },
 
     {
@@ -775,6 +817,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 11],
         hp: 6,
+        mct: '00880101',
     },
 
     {
@@ -793,6 +836,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2],
         hp: 6,
+        mct: '00010105',
     },
 
     {
@@ -811,13 +855,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 2],
         hp: 6,
+        mct: '01430104',
     },
 
     {
         id: 'crystl',
         label: 'Crystal (3)',
         hidden: true,
-        data: [3, 2, 4, 4, 3, 1],
+        data: [3, 2, 3.5, 4, 3, 1],
         affil: [1, 14],
         fill: true,
         backgroundColor: 'rgba(109, 127, 72, 0.2)',
@@ -829,6 +874,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10, 4],
         hp: 5,
+        mct: '00350101',
     },
 
     {
@@ -847,6 +893,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10, 11],
         hp: 6,
+        mct: '00410101',
     },
 
     {
@@ -865,6 +912,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 1],
         hp: 5,
+        mct: '00300102',
     },
 
     {
@@ -883,13 +931,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
         hp: 5,
+        mct: '00880102',
     },
 
     {
         id: 'dpool',
         label: 'Deadpool (3)',
         hidden: true,
-        data: [3, 3, 2, 4, 2, 1],
+        data: [3.5, 3, 2.5, 4, 2, 1],
         affil: [3, 20, 25, 28],
         fill: true,
         backgroundColor: 'rgba(135, 33, 33, 0.2)',
@@ -901,13 +950,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 4,
+        mct: '00450102',
     },
 
     {
         id: 'ock4',
         label: 'Doc Ock, Scientist (4)',
         hidden: true,
-        data: [3, 2, 3, 3, 3, 1],
+        data: [3, 2, 3, 3, 3.5, 1],
         affil: [21],
         fill: true,
         backgroundColor: 'rgba(33, 135, 36, 0.2)',
@@ -919,6 +969,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
         hp: 6,
+        mct: '01430105',
     },
 
     {
@@ -937,6 +988,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
         hp: 5,
+        mct: '00010106',
     },
 
     {
@@ -955,6 +1007,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 2],
         hp: 6,
+        mct: '00230101',
     },
 
     {
@@ -973,6 +1026,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
         hp: 6,
+        mct: '00670102',
     },
 
     {
@@ -991,13 +1045,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 10],
         hp: 6,
+        mct: '00650101',
     },
 
     {
         id: 'dmno',
         label: 'Domino (3)',
         hidden: true,
-        data: [4, 3, 2, 3, 2, 1],
+        data: [4, 3.5, 2, 3, 2, 1],
         affil: [1, 23, 25, 28],
         fill: true,
         backgroundColor: 'rgba(86, 33, 135, 0.2)',
@@ -1009,13 +1064,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '00470102',
     },
 
     {
         id: 'dorm',
         label: 'Dormammu (8)',
         hidden: true,
-        data: [4, 4, 2, 4, 3, 1],
+        data: [4, 4.5, 2.5, 4, 3, 1],
         affil: [9],
         fill: true,
         backgroundColor: 'rgba(86, 33, 135, 0.2)',
@@ -1027,13 +1083,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 10,
+        mct: '00330101',
     },
 
     {
         id: 'drac',
         label: 'Dracula (5)',
         hidden: true,
-        data: [5, 4, 2, 2, 3, 2],
+        data: [5, 4, 2.5, 2, 3, 2],
         affil: [22, 6],
         fill: true,
         backgroundColor: 'rgba(135, 60, 33, 0.2)',
@@ -1045,6 +1102,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '02450101',
     },
 
     {
@@ -1063,6 +1121,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6],
         hp: 6,
+        mct: '00200101',
     },
 
     {
@@ -1081,6 +1140,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 9, 10],
         hp: 7,
+        mct: '00190102',
     },
 
     {
@@ -1105,7 +1165,7 @@ let dataSet = [
         id: 'elctro',
         label: 'Electro (4)',
         hidden: true,
-        data: [0, 0, 0, 0, 0, 0],
+        data: [3, 3, 3, 3, 3, 3],
         affil: [8, 21],
         fill: true,
         backgroundColor: 'rgba(129, 135, 33, 0.2)',
@@ -1117,13 +1177,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '01560101',
     },
 
     {
         id: 'elktra',
         label: 'Elektra (4)',
         hidden: true,
-        data: [3, 2, 2, 2, 1, 1],
+        data: [3, 2, 2.5, 2, 1, 1],
         affil: [8, 10],
         fill: true,
         backgroundColor: 'rgba(135, 33, 33, 0.2)',
@@ -1135,13 +1196,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00790101',
     },
 
     {
         id: 'elsa',
         label: 'Elsa Bloodstone (4)',
         hidden: true,
-        data: [4, 2, 3, 4, 3, 1],
+        data: [3.5, 2, 3, 4, 3, 1],
         affil: [16, 10],
         fill: true,
         backgroundColor: 'rgba(135, 33, 33, 0.2)',
@@ -1153,13 +1215,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 9, 10],
         hp: 6,
+        mct: '01860101',
     },
 
     {
         id: 'emma',
         label: 'Emma Frost (4)',
         hidden: true,
-        data: [3, 2, 2, 4, 4, 3],
+        data: [3.5, 2, 2, 4, 4, 3],
         affil: [5],
         fill: true,
         backgroundColor: 'rgba(33, 101, 135, 0.2)',
@@ -1171,6 +1234,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4, 10],
         hp: 6,
+        mct: '01030101',
     },
 
     {
@@ -1189,6 +1253,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
         hp: 6,
+        mct: '00280102',
     },
 
     {
@@ -1207,6 +1272,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10, 11],
         hp: 7,
+        mct: '01730102',
     },
 
     {
@@ -1225,13 +1291,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '02450102',
     },
 
     {
         id: 'gmbt',
         label: 'Gambit (3)',
         hidden: true,
-        data: [4, 2, 2, 3, 2, 1],
+        data: [4, 2.5, 2, 3, 2, 1],
         affil: [23, 20],
         fill: true,
         backgroundColor: 'rgba(134, 33, 135, 0.2)',
@@ -1243,6 +1310,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '00600101',
     },
 
     {
@@ -1261,13 +1329,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 1],
         hp: 6,
+        mct: '00160101',
     },
 
     {
         id: 'gr',
         label: 'Ghost Rider (5)',
         hidden: true,
-        data: [4, 3, 4, 3, 4, 3],
+        data: [4, 3.5, 4, 3, 4, 3],
         affil: [8],
         fill: true,
         backgroundColor: 'rgba(135, 101, 33, 0.2)',
@@ -1279,6 +1348,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 8,
+        mct: '00270101',
     },
 
     {
@@ -1297,13 +1367,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10, 11],
         hp: 5,
+        mct: '00100101',
     },
 
     {
         id: 'glad',
         label: 'Gladiator (6)',
         hidden: true,
-        data: [4, 5, 3, 3, 3, 1],
+        data: [4.5, 5, 3.5, 3, 3, 1],
         affil: [29],
         fill: true,
         backgroundColor: 'rgba(33, 53, 135, 0.2)',
@@ -1315,6 +1386,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 9,
+        mct: '20130101',
     },
 
     {
@@ -1333,6 +1405,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 7],
         hp: 6,
+        mct: '01660101',
     },
 
     {
@@ -1351,13 +1424,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 7,
+        mct: '00210101',
     },
 
     {
         id: 'groot',
         label: 'Groot (3)',
         hidden: true,
-        data: [2, 4, 2, 3, 1, 3],
+        data: [2, 4, 2, 3, 2.5, 3],
         affil: [11],
         fill: true,
         backgroundColor: 'rgba(135, 77, 33, 0.2)',
@@ -1369,6 +1443,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6],
         hp: 7,
+        mct: '00170101',
     },
 
     {
@@ -1387,13 +1462,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 5],
         hp: 6,
+        mct: '01550101',
     },
 
     {
         id: 'gpool',
         label: 'Gwenpool (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 4, 3, 4, 1, 1],
         affil: [1, 3, 8],
         fill: true,
         backgroundColor: 'rgba(134, 33, 135, 0.2)',
@@ -1405,13 +1481,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '01370101',
     },
 
     {
         id: 'hwkeye',
         label: 'Hawkeye (3)',
         hidden: true,
-        data: [4, 2, 3, 5, 2, 1],
+        data: [3.5, 2, 3, 5, 2, 1],
         affil: [3, 10, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1423,6 +1500,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4],
         hp: 4,
+        mct: '00240102',
     },
 
     {
@@ -1441,6 +1519,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 10],
         hp: 6,
+        mct: '01020101',
     },
 
     {
@@ -1459,6 +1538,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00120101',
     },
 
     {
@@ -1477,6 +1557,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [7, 10],
         hp: 5,
+        mct: '00710101',
     },
 
     {
@@ -1495,6 +1576,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 11],
         hp: 5,
+        mct: '00650102',
     },
 
     {
@@ -1513,13 +1595,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 20,
+        mct: '00040101',
     },
 
     {
         id: 'hulkbust',
         label: 'Hulkbuster (6)',
         hidden: true,
-        data: [3, 3, 4, 3, 5, 1],
+        data: [3.5, 3.5, 4, 3, 5, 1],
         affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1531,6 +1614,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
         hp: 13,
+        mct: '00520101',
     },
 
     {
@@ -1549,6 +1633,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 10],
         hp: 5,
+        mct: '00960101',
     },
 
     {
@@ -1567,6 +1652,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 6],
         hp: 6,
+        mct: '001430106',
     },
 
     {
@@ -1585,6 +1671,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 5,
+        mct: '00490101',
     },
 
     {
@@ -1603,6 +1690,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 10],
         hp: 5,
+        mct: '00010107',
     },
 
     {
@@ -1621,6 +1709,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 4],
         hp: 6,
+        mct: '00530102',
     },
 
     {
@@ -1639,6 +1728,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 6],
         hp: 8,
+        mct: '00560101',
     },
 
     {
@@ -1657,6 +1747,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Karnak only brawls in 1v1 situations.</p>',
         role: [5, 4],
         hp: 5,
+        mct: '01660102',
     },
 
     {
@@ -1675,6 +1766,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3],
         hp: 6,
+        mct: '00070102',
     },
 
     {
@@ -1693,13 +1785,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '10040101',
     },
 
     {
         id: 'kingbb',
         label: 'King Black Bolt (6)',
         hidden: true,
-        data: [4, 4, 3, 4, 3, 3],
+        data: [4.5, 4.5, 3, 4, 3, 3],
         affil: [14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1711,6 +1804,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '01660103',
     },
 
     {
@@ -1729,13 +1823,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3],
         hp: 7,
+        mct: '10040102',
     },
 
     {
         id: 'kingpin',
         label: 'Kingpin (4)',
         hidden: true,
-        data: [2, 4, 2, 3, 4, 1],
+        data: [2, 4.5, 2, 3, 4, 1],
         affil: [8, 6, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1747,6 +1842,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 10],
         hp: 7,
+        mct: '00290101',
     },
 
     {
@@ -1765,13 +1861,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 7,
+        mct: '01160101',
     },
 
     {
         id: 'kraven',
         label: 'Kraven the Hunter (3)',
         hidden: true,
-        data: [4, 2, 3, 3, 2, 4],
+        data: [3.5, 2.5, 3, 3, 2, 4],
         affil: [8, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1783,6 +1880,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 11],
         hp: 5,
+        mct: '00580101',
     },
 
     {
@@ -1819,6 +1917,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 6,
+        mct: '00910101',
     },
 
     {
@@ -1837,6 +1936,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 6, 2],
         hp: 6,
+        mct: '00580102',
     },
 
     {
@@ -1855,13 +1955,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
         hp: 6,
+        mct: '00350102',
     },
 
     {
         id: 'logan',
         label: 'Logan the Wolverine (4)',
         hidden: true,
-        data: [5, 3, 3, 3, 2, 1],
+        data: [5, 3.5, 3, 3, 2, 1],
         affil: [25, 23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1873,6 +1974,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '10030101',
     },
 
     {
@@ -1891,6 +1993,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10],
         hp: 5,
+        mct: '00120102',
     },
 
     {
@@ -1909,6 +2012,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10, 6],
         hp: 7,
+        mct: '00910102',
     },
 
     {
@@ -1927,13 +2031,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [7, 6],
         hp: 6,
+        mct: '00490102',
     },
 
     {
         id: 'modok',
         label: 'MODOK (5)',
         hidden: true,
-        data: [4, 3, 2, 4, 4, 1],
+        data: [4, 3.5, 2, 4, 4, 1],
         affil: [6, 8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1945,6 +2050,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
         hp: 10,
+        mct: '00050101',
     },
 
     {
@@ -1963,13 +2069,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Beware of the fact that his Durability comes from redirecting attacks into allies.</p>',
         role: [5],
         hp: 7,
+        mct: '01450101',
     },
 
     {
         id: 'magik',
         label: 'Magik (3)',
         hidden: true,
-        data: [4, 2, 3, 3, 1, 1],
+        data: [3.5, 2, 3, 3, 1, 1],
         affil: [7, 17, 20, 23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1981,13 +2088,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 5,
+        mct: '00570102',
     },
 
     {
         id: 'magneto',
         label: 'Magneto (6)',
         hidden: true,
-        data: [5, 4, 2, 3, 3, 1],
+        data: [4.5, 4, 2, 3, 3, 1],
         affil: [5, 6, 12],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -1999,6 +2107,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 6,
+        mct: '00420101',
     },
 
     {
@@ -2017,13 +2126,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 9,
+        mct: '00930101',
     },
 
     {
         id: 'manthing',
         label: 'Man-Thing (3)',
         hidden: true,
-        data: [2, 4, 3, 3, 2, 4],
+        data: [2, 4, 2.5, 3, 2, 4],
         affil: [10, 16],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2035,6 +2145,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [6, 11],
         hp: 6,
+        mct: '01860102',
     },
 
     {
@@ -2053,13 +2164,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Maverick is better described as a Generalist.</p>',
         role: [5],
         hp: 5,
+        mct: '01090101',
     },
 
     {
         id: 'maximus',
         label: 'Maximus the Mad (4)',
         hidden: true,
-        data: [3, 2, 2, 4, 4, 4],
+        data: [3.5, 2, 2, 4, 4, 4],
         affil: [14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2071,6 +2183,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [10, 11],
         hp: 6,
+        mct: '01660104',
     },
 
     {
@@ -2089,6 +2202,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 4],
         hp: 6,
+        mct: '00340102',
     },
 
     {
@@ -2107,6 +2221,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Like MODOK his durability comes from redirecting attacks to allies.</p>',
         role: [5],
         hp: 7,
+        mct: '00660101',
     },
 
     {
@@ -2125,6 +2240,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 6],
         hp: 6,
+        mct: '00460101',
     },
 
     {
@@ -2143,13 +2259,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 1],
         hp: 5,
+        mct: '00480102',
     },
 
     {
         id: 'msmarvel',
         label: 'Ms Marvel (3)',
         hidden: true,
-        data: [4, 3, 3, 4, 3, 1],
+        data: [3.5, 3, 3, 4, 3, 1],
         affil: [3, 14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2161,13 +2278,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 10],
         hp: 5,
+        mct: '00620101',
     },
 
     {
         id: 'mysterio',
         label: 'Mysterio (3)',
         hidden: true,
-        data: [2, 3, 1, 3, 4, 1],
+        data: [2, 3.5, 1, 3, 4, 1],
         affil: [6, 8, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2179,6 +2297,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 10],
         hp: 6,
+        mct: '00500102',
     },
 
     {
@@ -2197,13 +2316,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1],
         hp: 5,
+        mct: '00430102',
     },
 
     {
         id: 'mbaku',
         label: 'M\'Baku (4)',
         hidden: true,
-        data: [4, 3, 3, 3, 3, 1],
+        data: [4, 3.5, 3, 3, 3, 1],
         affil: [24, 8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2215,13 +2335,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5],
         hp: 7,
+        mct: '01160102',
     },
 
     {
         id: 'namor',
         label: 'Namor (5)',
         hidden: true,
-        data: [4, 3, 5, 2, 4, 4],
+        data: [4, 3.5, 5, 2, 4, 4],
         affil: [18, 10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2233,6 +2354,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [1, 2],
         hp: 7,
+        mct: '01580102',
     },
 
     {
@@ -2251,6 +2373,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 4,
+        mct: '00160102',
     },
 
     {
@@ -2269,6 +2392,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
         hp: 6,
+        mct: '00550101',
     },
 
     {
@@ -2287,6 +2411,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 4, 11],
         hp: 5,
+        mct: '00750101',
     },
 
     {
@@ -2305,13 +2430,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4, 1],
         hp: 6,
+        mct: '01120102',
     },
 
     {
         id: 'nova',
         label: 'Nova (5)',
         hidden: true,
-        data: [4, 3, 4, 4, 4, 3],
+        data: [4, 3.5, 4, 4, 4, 3],
         affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2323,6 +2449,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10, 2],
         hp: 7,
+        mct: '01260101',
     },
 
     {
@@ -2341,6 +2468,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [9, 6],
         hp: 5,
+        mct: '02450103',
     },
 
     {
@@ -2359,6 +2487,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [8],
         hp: 4,
+        mct: '00080101',
     },
 
     {
@@ -2377,13 +2506,14 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [2, 5],
         hp: 6,
+        mct: '00540101',
     },
 
     {
         id: 'phoenix',
         label: 'Phoenix (6)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3.5, 2, 4, 4, 5],
         affil: [23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2392,14 +2522,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(73, 171, 38)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Phoenix Unleashed is only Damage Dealer.</p>',
+        role: [4, 10, 11],
         hp: 7,
+        mct: '00830101',
     },
 
     {
         id: 'profx',
         label: 'Prof X (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 3.5, 3, 4, 3, 5],
         affil: [23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2408,7 +2541,10 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(184, 166, 97)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 11],
         hp: 6,
+        mct: '01510101',
     },
 
     {
@@ -2424,6 +2560,8 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(112, 45, 185)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5],
         hp: 6,
     },
 
@@ -2431,7 +2569,7 @@ let dataSet = [
         id: 'proximam',
         label: 'Proxima Mid (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 3, 3, 3, 2, 1],
         affil: [4],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2440,14 +2578,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(60, 71, 144)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 1],
         hp: 5,
+        mct: '00150102',
     },
 
     {
         id: 'psylocke',
         label: 'Psylocke (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3.5, 3, 3, 2, 1],
         affil: [12, 20, 23, 28],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2456,14 +2597,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(179, 8, 247)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 6,
+        mct: '01030102',
     },
 
     {
         id: 'punisher',
         label: 'Punisher (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 2, 3, 3, 1, 1],
         affil: [10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2472,14 +2616,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(92, 92, 92)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 6,
+        mct: '00320101',
     },
 
     {
         id: 'pyro',
         label: 'Pyro (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 2, 2, 4, 5, 1],
         affil: [5],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2488,14 +2635,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(204, 71, 0)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [10],
         hp: 5,
+        mct: '00820101',
     },
 
     {
         id: 'quicksil',
         label: 'Quicksilver (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 3.5, 4, 2, 1, 1],
         affil: [3, 5, 14],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2504,14 +2654,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(79, 145, 186)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1],
         hp: 5,
+        mct: '00630101',
     },
 
     {
         id: 'redguard',
         label: 'Red Guardian (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3.5, 2, 4, 3, 1],
         affil: [27],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2520,14 +2673,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(180, 39, 77)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 2],
         hp: 5,
+        mct: '00890101',
     },
 
     {
         id: 'redskull1',
         label: 'Red Skull (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3, 3, 4, 3, 4],
         affil: [6, 13],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2536,14 +2692,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(180, 39, 39)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 11],
         hp: 6,
+        mct: '00010108',
     },
 
     {
         id: 'redskull2',
         label: 'Red Skull, Hydra (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [5, 3.5, 2, 3, 2, 1],
         affil: [6, 13],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2552,14 +2711,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(203, 21, 21)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [3],
         hp: 7,
+        mct: '00740101',
     },
 
     {
         id: 'redskull3',
         label: 'Red Skull, World (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 2.5, 3, 4, 4, 4],
         affil: [6, 13],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2568,14 +2730,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(187, 2, 2)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 10, 11],
         hp: 6,
+        mct: '01430107',
     },
 
     {
         id: 'rhino',
         label: 'Rhino (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 4, 5, 3, 1, 1],
         affil: [8, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2584,14 +2749,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1, 6],
         hp: 7,
+        mct: '00980101',
     },
 
     {
         id: 'rocket',
         label: 'Rocket (2)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 2, 2, 5, 2, 1],
         affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2600,14 +2768,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(134, 88, 24)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 9],
         hp: 3,
+        mct: '00170102',
     },
 
     {
         id: 'rogue',
         label: 'Rogue (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 4, 3, 2, 4, 1],
         affil: [5, 23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2616,14 +2787,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(21, 147, 55)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 10],
         hp: 6,
+        mct: '00600102',
     },
 
     {
         id: 'ronan',
         label: 'Ronan (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3, 2, 4, 3, 1],
         affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2632,7 +2806,10 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(30, 60, 194)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5],
         hp: 7,
+        mct: '00200102',
     },
 
     {
@@ -2648,6 +2825,8 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(194, 191, 30)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5],
         hp: 6,
     },
 
@@ -2655,7 +2834,7 @@ let dataSet = [
         id: 'sabretoo',
         label: 'Sabretooth (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3, 3, 2, 1, 1],
         affil: [5, 6, 20, 28],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2664,14 +2843,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(194, 140, 30)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1, 5],
         hp: 6,
+        mct: '00400101',
     },
 
     {
         id: 'sabreapex',
         label: 'Sabretooth, Apex (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [5, 4, 3, 2, 3, 1],
         affil: [5, 25],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2680,14 +2862,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(189, 110, 0)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [2, 5],
         hp: 7,
+        mct: '10030102',
     },
 
     {
         id: 'sandman',
         label: 'Sandman (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3, 2, 3, 4, 1],
         affil: [8, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2696,14 +2881,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(184, 149, 61)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 10],
         hp: 6,
+        mct: '01560102',
     },
 
     {
         id: 'scarletsp',
         label: 'Scarlet Spidey (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 3, 3, 3, 4, 1],
         affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2712,14 +2900,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(61, 78, 184)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [2, 10],
         hp: 6,
+        mct: '01550102',
     },
 
     {
         id: 'scarletw',
         label: 'Scarlet Witch (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [5, 3, 2, 4, 3, 1],
         affil: [1, 3, 5, 10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2728,14 +2919,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(187, 37, 77)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 4],
         hp: 6,
+        mct: '00630102',
     },
 
     {
         id: 'sentinel',
         label: 'Sentinel MK4 (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 3.5, 2, 3, 4, 1],
         affil: [19],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2744,14 +2938,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(37, 105, 187)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [2, 10],
         hp: 7,
+        mct: '00510101',
     },
 
     {
         id: 'sentprime',
         label: 'Sentinal Prime (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 4, 2, 3, 4, 3],
         affil: [19],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2760,14 +2957,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(141, 84, 160)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 2, 10, 11],
         hp: 10,
+        mct: '01600101',
     },
 
     {
         id: 'shdowking',
         label: 'Shadow King (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 4, 2, 3, 4, 1],
         affil: [5, 12],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2776,14 +2976,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(184, 20, 181)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 10],
         hp: 6,
+        mct: '01510102',
     },
 
     {
         id: 'shdowcat',
         label: 'Shadowcat (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3, 4, 2, 1, 4],
         affil: [17, 23],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2792,14 +2995,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(218, 186, 7)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1, 11],
         hp: 5,
+        mct: '00960102',
     },
 
     {
         id: 'sldd',
         label: 'Shadowland DD (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 4, 2, 4, 1, 1],
         affil: [8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2808,14 +3014,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(151, 59, 59)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [6],
         hp: 6,
+        mct: '00790102',
     },
 
     {
         id: 'shang',
         label: 'Shang-Chi (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 4, 3, 3, 4.5, 1],
         affil: [3, 10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2824,14 +3033,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(191, 34, 34)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 2, 10],
         hp: 5,
+        mct: '00690101',
     },
 
     {
         id: 'shehulk',
         label: 'She-Hulk (6)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3.5, 2, 2, 4, 4],
         affil: [1, 3, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2840,14 +3052,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(72, 173, 67)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 8, 10],
         hp: 20,
+        mct: '00390101',
     },
 
     {
         id: 'shocker',
         label: 'Shocker (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 2, 3, 3, 4, 1],
         affil: [8, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2856,14 +3071,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(174, 172, 61)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [10],
         hp: 5,
+        mct: '01560103',
     },
 
     {
         id: 'shuri',
         label: 'Shuri (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [1, 2, 2, 5, 5, 4],
         affil: [1, 24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2872,7 +3090,10 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(37, 141, 193)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 10, 11],
         hp: 5,
+        mct: '00080102',
     },
 
     {
@@ -2888,6 +3109,8 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(158, 31, 31)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 6,
     },
 
@@ -2895,7 +3118,7 @@ let dataSet = [
         id: 'slvrsabl',
         label: 'Silver Sable (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 2.5, 2, 5, 4, 4],
         affil: [8, 10, 26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2904,14 +3127,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(112, 112, 112)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 10, 11],
         hp: 5,
+        mct: '00690102',
     },
 
     {
         id: 'sin',
         label: 'Sin (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 2, 2, 3, 1, 1],
         affil: [6, 8, 13],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2920,14 +3146,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(204, 49, 25)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 4,
+        mct: '00610101',
     },
 
     {
         id: 'skurge',
         label: 'Skurge (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3, 2, 2, 1, 4],
         affil: [2, 6],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2936,14 +3165,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(25, 97, 204)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 7],
         hp: 6,
+        mct: '01020102',
     },
 
     {
         id: 'ssm',
         label: 'Spectacular Spidey (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 3, 3, 4, 4, 1],
         affil: [18, 26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2952,7 +3184,10 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(204, 25, 25)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [2, 10],
         hp: 5,
+        mct: '01430108',
     },
 
     {
@@ -2968,6 +3203,8 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 6,
     },
 
@@ -2975,7 +3212,7 @@ let dataSet = [
         id: 'spham',
         label: 'Spider-Ham (2)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 2, 3, 3, 2, 1],
         affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -2984,14 +3221,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(204, 49, 25)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: His card doesn\'t really support his role.</p>',
+        role: [1],
         hp: 3,
+        mct: '01700102',
     },
 
     {
         id: 'smcore',
         label: 'Spidey (Peter) (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 3, 3, 4, 4, 1],
         affil: [10, 26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3000,14 +3240,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(204, 25, 40)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [10],
         hp: 6,
+        mct: '00010109',
     },
 
     {
         id: 'spmiles',
         label: 'Spidey (Miles) (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3.5, 3, 3, 4, 1],
         affil: [26, 3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3016,14 +3259,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(163, 25, 25)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1],
         hp: 5,
+        mct: '00100102',
     },
 
     {
         id: 'sp2099',
         label: 'Spidey 2099 (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 4, 2, 3, 4, 1],
         affil: [26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3032,7 +3278,10 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(42, 70, 172)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 2],
         hp: 7,
+        mct: '01690102',
     },
 
     {
@@ -3048,6 +3297,8 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(94, 94, 94)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 6,
     },
 
@@ -3055,7 +3306,7 @@ let dataSet = [
         id: 'spwmn',
         label: 'Spidey Woman (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3, 4, 3, 4, 1],
         affil: [1, 3, 13, 26, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3064,14 +3315,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(205, 161, 29)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1],
         hp: 6,
+        mct: '01000102',
     },
 
     {
         id: 'sqrlgirl',
         label: 'Squirrel Girl (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3, 2, 3, 3, 1],
         affil: [1, 3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3080,14 +3334,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(182, 129, 22)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 10],
         hp: 6,
+        mct: '01370102',
     },
 
     {
         id: 'starlord',
         label: 'Star-Lord (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 2, 3, 4, 2, 1],
         affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3096,14 +3353,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(182, 73, 22)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 4],
         hp: 6,
+        mct: '00180101',
     },
 
     {
         id: 'steverog',
         label: 'Steve Rogers, Cap (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3, 3, 3, 2, 1],
         affil: [18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3112,14 +3372,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(34, 115, 236)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5],
         hp: 6,
+        mct: '00770101',
     },
 
     {
         id: 'storm',
         label: 'Storm (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 2.5, 2, 4, 3, 1],
         affil: [23, 1, 12, 24],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3128,14 +3391,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(204, 141, 15)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 10],
         hp: 5,
+        mct: '00410102',
     },
 
     {
         id: 'sunspot',
         label: 'Sunspot (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 2, 3, 2, 3, 1],
         affil: [12, 17, 28],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3144,14 +3410,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(194, 20, 20)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 10],
         hp: 6,
+        mct: '01530101',
     },
 
     {
         id: 'sprgiant',
         label: 'Supergiant (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [1, 2, 3, 3, 2, 1],
         affil: [4],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3160,14 +3429,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(27, 135, 161)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips: Do not play this model until she is buffed.</p>',
+        role: [3],
         hp: 5,
+        mct: '00810102',
     },
 
     {
         id: 'taskmast',
         label: 'Taskmaster (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 3.5, 2, 4, 1, 1],
         affil: [8, 13, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3176,14 +3448,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(221, 119, 3)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 6],
         hp: 6,
+        mct: '00320102',
     },
 
     {
         id: 'thanos',
         label: 'Thanos (6)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 5, 2.5, 3, 3, 4],
         affil: [4],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3192,14 +3467,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(135, 82, 173)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [6, 5, 11],
         hp: 8,
+        mct: '00250107',
     },
 
     {
         id: 'bwid4',
         label: 'Black Widow, The (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3.5, 3, 2, 2, 2],
         affil: [1, 3, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3208,14 +3486,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(159, 25, 25)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1],
         hp: 6,
+        mct: '01430109',
     },
 
     {
         id: 'blob',
         label: 'Blob, The (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 3.5, 2, 2.5, 4, 1],
         affil: [5, 20],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3224,14 +3505,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(25, 49, 159)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [6, 10],
         hp: 6,
+        mct: '00820102',
     },
 
     {
         id: 'ihulk',
         label: 'iHulk, The (7)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4.5, 4.5, 3, 2, 4, 1],
         affil: [10, 16],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3240,14 +3524,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(80, 191, 49)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 10],
         hp: 15,
+        mct: '01440101',
     },
 
     {
         id: 'thorjane',
         label: 'Mighty Thor, The (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3, 3, 3, 3, 1],
         affil: [2, 1],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3256,14 +3543,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(182, 27, 81)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 10],
         hp: 8,
+        mct: '00910103',
     },
 
     {
         id: 'ogtorch',
         label: 'OG Torch, The (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 2, 3, 3, 4, 1],
         affil: [18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3272,14 +3562,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(159, 51, 35)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [10],
         hp: 5,
+        mct: '00770102',
     },
 
     {
         id: 'wreckcrew',
         label: 'Wrecking Crew, The (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 2, 4, 4, 3, 1],
         affil: [6, 8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3288,14 +3581,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(35, 159, 62)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 6,
+        mct: '01620102',
     },
 
     {
         id: 'thor2',
         label: 'Thor, Hero (6)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [5, 3.5, 3, 2, 2, 1],
         affil: [2],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3304,14 +3600,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(195, 51, 29)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5],
         hp: 9,
+        mct: '00910104',
     },
 
     {
         id: 'thor1',
         label: 'Thor, Prince (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3.5, 2.5, 2, 4, 1],
         affil: [2, 3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3320,7 +3619,10 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(183, 6, 6)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 10],
         hp: 7,
+        mct: '00110101',
     },
 
     {
@@ -3336,6 +3638,8 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(183, 109, 6)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 6,
     },
 
@@ -3343,7 +3647,7 @@ let dataSet = [
         id: 'toad',
         label: 'Toad (2)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 3, 3, 3, 2, 3],
         affil: [5, 20],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3352,14 +3656,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(149, 166, 23)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1],
         hp: 4,
+        mct: '00420102',
     },
 
     {
         id: 'ulik',
         label: 'Ulik (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 3.5, 4, 2, 4, 1],
         affil: [6, 8],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3368,7 +3675,10 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(23, 166, 87)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5],
         hp: 7,
+        mct: '01300102',
     },
 
     {
@@ -3384,6 +3694,8 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(182, 59, 2)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 6,
     },
 
@@ -3391,7 +3703,7 @@ let dataSet = [
         id: 'ultron',
         label: 'Ultron (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 3, 3, 4, 2, 1],
         affil: [6],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3400,14 +3712,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(120, 120, 120)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 4],
         hp: 6,
+        mct: '00010110',
     },
 
     {
         id: 'ultyrant',
         label: 'Ultron, Tyrant (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 4, 3, 3, 4, 1],
         affil: [6],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3416,14 +3731,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(105, 105, 105)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 2, 10],
         hp: 8,
+        mct: '01430110',
     },
 
     {
         id: 'ursamajo',
         label: 'Ursa Major (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 3.5, 3, 2, 3.5, 1],
         affil: [27],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3432,14 +3750,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(145, 90, 54)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 10],
         hp: 7,
+        mct: '00890102',
     },
 
     {
         id: 'valkyrie',
         label: 'Valkyrie (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 2, 3, 2, 3, 1],
         affil: [1, 2, 10],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3448,14 +3769,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(25, 109, 200)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 6,
+        mct: '00110102',
     },
 
     {
         id: 'venom',
         label: 'Venom (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3, 3.5, 2, 3, 4, 1],
         affil: [21, 26],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3464,14 +3788,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(101, 157, 98)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 2, 10],
         hp: 7,
+        mct: '00090101',
     },
 
     {
         id: 'viper',
         label: 'Viper (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 3, 3.5, 3, 2, 1],
         affil: [6, 13],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3480,14 +3807,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(62, 178, 56)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [1],
         hp: 5,
+        mct: '00610102',
     },
 
     {
         id: 'vision',
         label: 'Vision (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 3, 2, 3, 4, 1],
         affil: [3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3496,14 +3826,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(56, 178, 132)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [2, 10],
         hp: 6,
+        mct: '00130101',
     },
 
     {
         id: 'vulture',
         label: 'Vulture (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 2, 3.5, 2, 4, 1],
         affil: [8, 21],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3512,14 +3845,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(13, 191, 61)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [2, 10],
         hp: 5,
+        mct: '01560104',
     },
 
     {
         id: 'warmachi',
         label: 'War Machine (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2, 4, 2, 3, 2, 1],
         affil: [3, 18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3528,14 +3864,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(115, 94, 94)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [6],
         hp: 5,
+        mct: '00380102',
     },
 
     {
         id: 'warlock',
         label: 'Warlock (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [2.5, 3.5, 2, 4, 2, 1],
         affil: [17, 28],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3544,14 +3883,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(151, 135, 68)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9],
         hp: 5,
+        mct: '01530102',
     },
 
     {
         id: 'wasp',
         label: 'Wasp (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 2, 3.5, 3, 2, 1],
         affil: [1, 3],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3560,14 +3902,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(186, 151, 13)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 5,
+        mct: '00260102',
     },
 
     {
         id: 'weaponx',
         label: 'Weapon X (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4.5, 2.5, 2.5, 2, 1, 1],
         affil: [25], 
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3576,14 +3921,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(173, 67, 67)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 5,
+        mct: '01090102',
     },
 
     {
         id: 'werewolf',
         label: 'Werewolf (5)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3.5, 3.5, 3, 2, 1],
         affil: [16],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3592,14 +3940,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(139, 84, 39)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5, 2],
         hp: 7,
+        mct: '02450104',
     },
 
     {
         id: 'bucky1',
         label: 'Winter Soldier (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 2, 2.5, 5, 2, 1],
         affil: [18],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3608,14 +3959,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(158, 66, 66)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 4],
         hp: 5,
+        mct: '00130102',
     },
 
     {
         id: 'bucky2',
         label: 'Winter Soldier, Op (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [3.5, 3, 2.5, 5, 3, 1],
         affil: [3, 6, 13, 18, 27],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3624,14 +3978,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(146, 38, 38)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 4],
         hp: 6,
+        mct: '01430111',
     },
 
     {
         id: 'wolvie',
         label: 'Wolverine (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 3.5, 3, 2.5, 2.5, 1],
         affil: [3, 10, 20, 23, 28],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3640,14 +3997,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(186, 153, 23)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [5],
         hp: 7,
+        mct: '00400102',
     },
 
     {
         id: 'wong',
         label: 'Wong (2)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [1, 1, 2, 2, 1, 5],
         affil: [7, 10, 16],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3656,14 +4016,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(163, 46, 114)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 11],
         hp: 4,
+        mct: '00230102',
     },
 
     {
         id: 'x23',
         label: 'X-23 (3)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 2.5, 3, 3, 1, 1],
         affil: [25, 17, 23, 28],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3672,14 +4035,17 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(92, 92, 92)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4],
         hp: 5,
+        mct: '00710102',
     },
 
     {
         id: 'yondu',
         label: 'Yondu (4)',
         hidden: true,
-        data: [3, 4, 3, 4, 1, 1],
+        data: [4, 2.5, 2.5, 5, 2, 2],
         affil: [11],
         fill: true,
         backgroundColor: 'rgba(105, 105, 105, 0.2)',
@@ -3688,6 +4054,9 @@ let dataSet = [
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(208, 17, 77)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [9, 4],
         hp: 6,
+        mct: '01260102',
     },
 ]
