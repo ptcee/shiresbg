@@ -196,6 +196,12 @@ document.querySelectorAll('#dropdowns select').forEach(select => {
     });
 });
 
+function matchesFilter(selectedValue, dataValue) {
+    if (selectedValue === 'all') return true;
+    const values = selectedValue.split(',').map(v => parseFloat(v.trim()));
+    return values.includes(dataValue);
+}
+
 function filterButtons() {
     const damageValue = document.getElementById('damageFilter').value;
     const durabilityValue = document.getElementById('durabilityFilter').value;
@@ -205,13 +211,14 @@ function filterButtons() {
     const supportValue = document.getElementById('supportFilter').value;
 
     buttonData.forEach((btn, index) => {
-        let showButton = true;
-        if (damageValue !== 'all' && dataSet[index].data[0] !== parseInt(damageValue)) showButton = false;
-        if (durabilityValue !== 'all' && dataSet[index].data[1] !== parseInt(durabilityValue)) showButton = false;
-        if (speedValue !== 'all' && dataSet[index].data[2] !== parseInt(speedValue)) showButton = false;
-        if (rangeValue !== 'all' && dataSet[index].data[3] !== parseInt(rangeValue)) showButton = false;
-        if (controlValue !== 'all' && dataSet[index].data[4] !== parseInt(controlValue)) showButton = false;
-        if (supportValue !== 'all' && dataSet[index].data[5] !== parseInt(supportValue)) showButton = false;
+        const data = dataSet[index].data;
+        const showButton = 
+            matchesFilter(damageValue, data[0]) &&
+            matchesFilter(durabilityValue, data[1]) &&
+            matchesFilter(speedValue, data[2]) &&
+            matchesFilter(rangeValue, data[3]) &&
+            matchesFilter(controlValue, data[4]) &&
+            matchesFilter(supportValue, data[5]);
 
         const button = document.getElementById(btn.id);
         if (showButton) {
@@ -221,6 +228,7 @@ function filterButtons() {
         }
     });
 }
+
 
 
 //AFFIL PICKER//
