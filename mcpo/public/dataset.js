@@ -1692,7 +1692,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [5, 10],
         hp: 20,
-        ihp: 20,
+        ihp: 0,
         pp: 3,
         mct: '00040101',
     },

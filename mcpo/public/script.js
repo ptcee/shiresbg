@@ -5,7 +5,7 @@ const addLeftBtn = document.getElementById('addLeft');
 const addRightBtn = document.getElementById('addRight');
 const allCharacters = [];
 
-// CHARACTER CARDS //
+// CHARACTER CARDS
 dataSet.forEach(char => {
   const option = document.createElement('option');
   option.value = char.id;
@@ -46,7 +46,7 @@ function addCharacter(side) {
     }
   };
 
-  // POWER AND HEALTH SHIT //
+  // POWER AND HEALTH SHIT
   let health = char.hp;
   let power = 1;
 
@@ -87,9 +87,6 @@ function addCharacter(side) {
     }
   };
 
-
-
-  // Group flip and act buttons inside utilbtns div
   const utilbtns = document.createElement('div');
   utilbtns.className = 'utilbtns';
   utilbtns.append(flipBtn, actBtn);
@@ -130,6 +127,8 @@ function addCharacter(side) {
   sideEl.appendChild(wrapper);
 }
 
+
+//MARKER
 function toggleMarker(parent, label, color) {
   const existing = parent.querySelector(`.marker.${label}`);
   if (existing) {
@@ -223,7 +222,7 @@ function createBlockBar(label, value, min, max, color, onChange) {
   return { container, plus, minus, plus3, minus3, update };
 }
 
-
+// CRISIS DISPLAYS
 const extracts = [
   'Alien Ship Crashes In Downtown!',
   'Scientific Samples Found in Discovered Universe',
@@ -275,7 +274,7 @@ populateSelect('extractselect', extracts);
 populateSelect('secureselect', secures);
 
 
-//POWER PHASE RESET BUTTON
+//POWER PHASE BUTTON
 document.getElementById('powerPhaseBtn').onclick = () => {
   allCharacters.forEach(c => {
     const currentPower = c.powerBar.container.querySelectorAll('.block').length;
@@ -312,36 +311,6 @@ document.getElementById('p1plus').addEventListener('click', () => updateScore('p
 document.getElementById('p1minus').addEventListener('click', () => updateScore('p1', -1));
 document.getElementById('p2plus').addEventListener('click', () => updateScore('p2', 1));
 document.getElementById('p2minus').addEventListener('click', () => updateScore('p2', -1));
-
-document.getElementById('updateBtn').addEventListener('click', (e) => {
-  e.preventDefault();
-
-  const cleanHTML = (container) => {
-    const clone = container.cloneNode(true);
-    clone.querySelectorAll('.side-buttons').forEach(btn => btn.remove());
-    return clone.innerHTML;
-  };
-
-  const state = {
-    p1: {
-      name: document.getElementById('p1name').value,
-      affil: document.getElementById('p1affil').options[document.getElementById('p1affil').selectedIndex].text,
-      score: parseInt(document.getElementById('p1score').textContent)
-    },
-    p2: {
-      name: document.getElementById('p2name').value,
-      affil: document.getElementById('p2affil').options[document.getElementById('p2affil').selectedIndex].text,
-      score: parseInt(document.getElementById('p2score').textContent)
-    },
-    round: parseInt(document.getElementById('round').value),
-    extract: document.getElementById('extractselect').value,
-    secure: document.getElementById('secureselect').value,
-    left: cleanHTML(document.getElementById('left')),
-    right: cleanHTML(document.getElementById('right'))
-  };
-
-  socket.emit('updateState', state);
-});
 
 //SWAPPING
 document.getElementById('swapSides').addEventListener('click', (e) => {
@@ -388,3 +357,89 @@ document.getElementById('swapSides').addEventListener('click', (e) => {
     }
   });
 });
+
+//PUSH UPDATE TO DISPLAY AND TO SCORE HTML FILES BABY
+document.getElementById('updateBtn').addEventListener('click', (e) => {
+  e.preventDefault();
+
+  const cleanHTML = (container) => {
+    const clone = container.cloneNode(true);
+    clone.querySelectorAll('.side-buttons').forEach(btn => btn.remove());
+    return clone.innerHTML;
+  };
+
+  const state = {
+    p1: {
+      name: document.getElementById('p1name').value,
+      affil: document.getElementById('p1affil').options[document.getElementById('p1affil').selectedIndex].text,
+      score: parseInt(document.getElementById('p1score').textContent)
+    },
+    p2: {
+      name: document.getElementById('p2name').value,
+      affil: document.getElementById('p2affil').options[document.getElementById('p2affil').selectedIndex].text,
+      score: parseInt(document.getElementById('p2score').textContent)
+    },
+    round: parseInt(document.getElementById('round').value),
+    extract: document.getElementById('extractselect').value,
+    secure: document.getElementById('secureselect').value,
+    left: cleanHTML(document.getElementById('left')),
+    right: cleanHTML(document.getElementById('right'))
+  };
+
+  socket.emit('updateState', state);
+});
+
+//AUTO UPDATING 
+function getCurrentState() {
+  const cleanHTML = (container) => {
+    const clone = container.cloneNode(true);
+    clone.querySelectorAll('.side-buttons').forEach(btn => btn.remove());
+    return clone.innerHTML;
+  };
+
+  return {
+    p1: {
+      name: document.getElementById('p1name').value,
+      affil: document.getElementById('p1affil').options[document.getElementById('p1affil').selectedIndex].text,
+      score: parseInt(document.getElementById('p1score').textContent)
+    },
+    p2: {
+      name: document.getElementById('p2name').value,
+      affil: document.getElementById('p2affil').options[document.getElementById('p2affil').selectedIndex].text,
+      score: parseInt(document.getElementById('p2score').textContent)
+    },
+    round: parseInt(document.getElementById('round').value),
+    extract: document.getElementById('extractselect').value,
+    secure: document.getElementById('secureselect').value,
+    left: cleanHTML(document.getElementById('left')),
+    right: cleanHTML(document.getElementById('right'))
+  };
+}
+
+const observer = new MutationObserver(() => {
+  socket.emit('updateState', getCurrentState());
+});
+
+observer.observe(document.body, {
+  childList: true,
+  subtree: true,
+  attributes: true,
+  characterData: true
+});
+
+document.querySelectorAll('input, select').forEach(el => {
+  el.addEventListener('change', () => {
+    socket.emit('updateState', getCurrentState());
+  });
+  el.addEventListener('input', () => {
+    socket.emit('updateState', getCurrentState());
+  });
+});
+
+let updateTimeout;
+function triggerUpdate() {
+  clearTimeout(updateTimeout);
+  updateTimeout = setTimeout(() => {
+    socket.emit('updateState', getCurrentState());
+  }, 100);
+}
