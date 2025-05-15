@@ -17,7 +17,7 @@
     <form action="#">
       <div id="playercontrols">
       <div id="p1">
-        <input type="text" id="p1name" name="p1name">
+        <input type="text" id="p1name" name="p1name" placeholder="Left Side Player">
         <select id="p1affil">
           <option value="all">Affiliation</option>
           <option value="1">A-Force</option>
@@ -58,7 +58,7 @@
       </div>
 
       <div id="p2">
-        <input type="text" id="p2name" name="p2name">
+        <input type="text" id="p2name" name="p2name" placeholder="Right Side Player">
         <select id="p2affil">
           <option value="all">Affiliation</option>
           <option value="1">A-Force</option>
@@ -101,9 +101,8 @@
       <div id="crisis">
         <select name="extract" id="extractselect"></select>
         <select name="secure" id="secureselect"></select>
-      </div>
 
-      <div id="roundbox">
+        <div id="roundbox">
         <select id="round">
           <option value="1">Round 1</option>
           <option value="2">Round 2</option>
@@ -114,6 +113,9 @@
           <option value="7">Round 7</option>
           <option value="8">Round 8</option>
         </select>
+        <button id="swapSides" type="button">Swap</button>
+
+      </div>
       </div>
     </form>
   </div>
@@ -136,7 +138,6 @@
   </script>
   <script src="dataset.js"></script>
   <script src="script.js"></script>
-  <script src="/socket.io/socket.io.js"></script>
 
 
 </body>

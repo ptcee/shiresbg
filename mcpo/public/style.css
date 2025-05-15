@@ -69,6 +69,38 @@ h3 {
   border-color: red;
 }
 
+.act-marker {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #00eb3f;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  bottom: -10px;
+}
+
+.left-char .act-marker {
+  right: -10px;
+  left: auto;
+}
+
+.right-char .act-marker {
+  left: -10px;
+  right: auto;
+}
+
+.utilbtns {
+  display: flex;
+  justify-content: center;
+}
+
+
 .bar-container {
   margin-top: 10px;
   display: flex;
@@ -229,14 +261,25 @@ button {
 
 #playercontrols {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 #p1, #p2 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
   text-align: center;
+  height: 28px;
+  margin-bottom: 5px;
+}
+
+#p1score, #p2score {
+  padding: 10px;
+}
+
+#crisis {
+  display: flex;
+  gap: 5px;
 }
 
 .objtoggle {

@@ -32,6 +32,8 @@ function addCharacter(side) {
   const charDiv = document.createElement('div');
   charDiv.className = 'character';
   charDiv.style.backgroundImage = `url("img/${char.id}.png")`;
+  charDiv.style.position = 'relative';
+  charDiv.classList.add(side === 'left' ? 'left-char' : 'right-char');
 
   const label = document.createElement('h3');
   label.textContent = char.label;
@@ -44,7 +46,6 @@ function addCharacter(side) {
     }
   };
 
-
   // POWER AND HEALTH SHIT //
   let health = char.hp;
   let power = 1;
@@ -53,14 +54,45 @@ function addCharacter(side) {
   const powerBar = createBlockBar("POWER", power, 0, 10, "#00eb3f", val => power = val);
 
   charDiv.append(label, healthBar.container, powerBar.container);
-  allCharacters.push({ powerBar, updatePower: powerBar.update });
+  allCharacters.push({ powerBar, updatePower: powerBar.update, charData: char });
 
 
   const flipBtn = document.createElement('button');
   flipBtn.textContent = 'flip';
   flipBtn.onclick = () => {
     charDiv.classList.toggle('flipped');
+    healthBar.update(char.ihp !== undefined ? char.ihp : char.hp);
   };
+
+
+  const actBtn = document.createElement('button');
+  actBtn.textContent = 'Act';
+  const actMarker = document.createElement('div');
+  actMarker.textContent = '✓';
+  actMarker.className = 'act-marker';
+  actMarker.style.display = 'none';
+  charDiv.appendChild(actMarker);
+
+  actBtn.onclick = () => {
+    const isNowActive = actMarker.style.display === 'none';
+    actMarker.style.display = isNowActive ? 'flex' : 'none';
+
+    if (isNowActive && char.hf) {
+      const isFlipped = charDiv.classList.contains('flipped');
+      const maxHP = isFlipped && char.ihp !== undefined ? char.ihp : char.hp;
+      const healAmount = Math.min(char.hf, maxHP - health);
+      if (healAmount > 0) {
+        healthBar.update(health + healAmount);
+      }
+    }
+  };
+
+
+
+  // Group flip and act buttons inside utilbtns div
+  const utilbtns = document.createElement('div');
+  utilbtns.className = 'utilbtns';
+  utilbtns.append(flipBtn, actBtn);
 
   const eBtn = document.createElement('button');
   eBtn.textContent = 'E';
@@ -74,9 +106,9 @@ function addCharacter(side) {
   objToggleDiv.className = 'objtoggle';
   objToggleDiv.append(eBtn, sBtn);
 
-
   const sideBtns = document.createElement('div');
   sideBtns.className = 'side-buttons';
+
   const healthGroup = document.createElement('div');
   healthGroup.className = 'button-group red';
   healthGroup.append(healthBar.minus3, healthBar.minus, healthBar.plus, healthBar.plus3);
@@ -85,10 +117,7 @@ function addCharacter(side) {
   powerGroup.className = 'button-group green';
   powerGroup.append(powerBar.minus3, powerBar.minus, powerBar.plus, powerBar.plus3);
 
-  sideBtns.append(healthGroup, powerGroup, flipBtn, objToggleDiv);
-
-
-
+  sideBtns.append(healthGroup, powerGroup, utilbtns, objToggleDiv);
 
   if (side === 'left') {
     sideBtns.classList.add('left-buttons');
@@ -144,15 +173,25 @@ function createBlockBar(label, value, min, max, color, onChange) {
   const update = (newVal) => {
     value = newVal;
     blocksWrapper.innerHTML = '';
+
     for (let i = 0; i < value; i++) {
       const block = document.createElement('div');
       block.className = 'block';
       block.style.backgroundColor = color;
       blocksWrapper.appendChild(block);
     }
+
     title.textContent = `${label} (${value})`;
     onChange(value);
+
+    if (label === "HEALTH") {
+      const characterDiv = container.closest('.character');
+      if (characterDiv) {
+        characterDiv.style.filter = value === 0 ? 'grayscale(100%)' : 'none';
+      }
+    }
   };
+
 
   const minus = document.createElement('button');
   minus.textContent = '–';
@@ -236,16 +275,30 @@ populateSelect('extractselect', extracts);
 populateSelect('secureselect', secures);
 
 
-
+//POWER PHASE RESET BUTTON
 document.getElementById('powerPhaseBtn').onclick = () => {
   allCharacters.forEach(c => {
-    const blocks = c.powerBar.container.querySelectorAll('.block').length;
-    if (blocks < 10) {
-      c.updatePower(blocks + 1);
-    }
+    const currentPower = c.powerBar.container.querySelectorAll('.block').length;
+    const increment = c.charData.pp !== undefined ? c.charData.pp : 1;
+    const newPower = Math.min(currentPower + increment, 10);
+    c.updatePower(newPower);
+  });
+
+  const roundSelect = document.getElementById('round');
+  let currentIndex = roundSelect.selectedIndex;
+  if (currentIndex < roundSelect.options.length - 1) {
+    roundSelect.selectedIndex = currentIndex + 1;
+  } else {
+    roundSelect.selectedIndex = 0;
+  }
+
+  document.querySelectorAll('.act-marker').forEach(marker => {
+    marker.style.display = 'none';
   });
 };
 
+
+// SCORES
 const p1scoreEl = document.getElementById('p1score');
 const p2scoreEl = document.getElementById('p2score');
 
@@ -263,24 +316,6 @@ document.getElementById('p2minus').addEventListener('click', () => updateScore('
 document.getElementById('updateBtn').addEventListener('click', (e) => {
   e.preventDefault();
 
-  socket.emit('updateState', {
-    p1: {
-      name: document.getElementById('p1name').value,
-      affil: document.getElementById('p1affil').options[document.getElementById('p1affil').selectedIndex].text,
-      score: parseInt(p1scoreEl.textContent)
-    },
-    p2: {
-      name: document.getElementById('p2name').value,
-      affil: document.getElementById('p2affil').options[document.getElementById('p2affil').selectedIndex].text,
-      score: parseInt(p2scoreEl.textContent)
-    },
-    round: parseInt(document.getElementById('round').value),
-    extract: document.getElementById('extractselect').value,
-    secure: document.getElementById('secureselect').value,
-  });
-});
-
-document.getElementById('updateBtn').onclick = () => {
   const cleanHTML = (container) => {
     const clone = container.cloneNode(true);
     clone.querySelectorAll('.side-buttons').forEach(btn => btn.remove());
@@ -288,10 +323,68 @@ document.getElementById('updateBtn').onclick = () => {
   };
 
   const state = {
+    p1: {
+      name: document.getElementById('p1name').value,
+      affil: document.getElementById('p1affil').options[document.getElementById('p1affil').selectedIndex].text,
+      score: parseInt(document.getElementById('p1score').textContent)
+    },
+    p2: {
+      name: document.getElementById('p2name').value,
+      affil: document.getElementById('p2affil').options[document.getElementById('p2affil').selectedIndex].text,
+      score: parseInt(document.getElementById('p2score').textContent)
+    },
+    round: parseInt(document.getElementById('round').value),
+    extract: document.getElementById('extractselect').value,
+    secure: document.getElementById('secureselect').value,
     left: cleanHTML(document.getElementById('left')),
     right: cleanHTML(document.getElementById('right'))
   };
 
   socket.emit('updateState', state);
-};
+});
 
+//SWAPPING
+document.getElementById('swapSides').addEventListener('click', (e) => {
+  e.preventDefault();
+
+  const p1name = document.getElementById('p1name');
+  const p2name = document.getElementById('p2name');
+  [p1name.value, p2name.value] = [p2name.value, p1name.value];
+
+  const p1affil = document.getElementById('p1affil');
+  const p2affil = document.getElementById('p2affil');
+  [p1affil.selectedIndex, p2affil.selectedIndex] = [p2affil.selectedIndex, p1affil.selectedIndex];
+
+  const p1score = document.getElementById('p1score');
+  const p2score = document.getElementById('p2score');
+  [p1score.textContent, p2score.textContent] = [p2score.textContent, p1score.textContent];
+
+  const left = document.getElementById('left');
+  const right = document.getElementById('right');
+
+  const leftIds = Array.from(left.querySelectorAll('.character h3')).map(el => el.textContent.trim());
+  const rightIds = Array.from(right.querySelectorAll('.character h3')).map(el => el.textContent.trim());
+
+  left.innerHTML = '';
+  right.innerHTML = '';
+  const getIdByLabel = (label) => {
+    const match = dataSet.find(c => c.label === label);
+    return match ? match.id : null;
+  };
+
+  leftIds.forEach(label => {
+    const id = getIdByLabel(label);
+    if (id) {
+      select.value = id;
+      addCharacter('right');
+    }
+  });
+
+  rightIds.forEach(label => {
+    const id = getIdByLabel(label);
+    if (id) {
+      select.value = id;
+      addCharacter('left');
+    }
+  });
+});
