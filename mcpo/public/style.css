@@ -98,6 +98,15 @@ h3 {
 .utilbtns {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 23px;
+  margin-top: 2px;
+}
+
+.utilbtns button {
+  height: 26px;
+  width: 26px;
+  font-weight: bold;
 }
 
 
@@ -219,7 +228,7 @@ button {
 
 .button-group {
   gap: 2px;
-  margin: 2px 0;
+  margin: 0 0;
 }
 
 .bar-container {
