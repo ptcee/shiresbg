@@ -40,7 +40,6 @@ function addCharacter(side) {
   label.style.cursor = 'pointer';
   label.title = 'Click to remove';
 
-
   label.onclick = () => {
     if (confirm(`Remove ${char.label}?`)) {
       wrapper.remove();
@@ -51,12 +50,22 @@ function addCharacter(side) {
   let health = char.hp;
   let power = 1;
 
-  const healthBar = createBlockBar("HEALTH", health, 0, 20, "#eb0000", val => health = val);
+  const healthBar = createBlockBar("HEALTH", health, 0, 20, "#eb0000", val => health = val, () => powerBar);
   const powerBar = createBlockBar("POWER", power, 0, 10, "#00eb3f", val => power = val);
+
+  // MINUS HP WITHOUT GAINING POWER
+  const pureMinus = document.createElement('button');
+  pureMinus.textContent = '–';
+  pureMinus.style.backgroundColor = '#700000';
+  pureMinus.style.color = 'white';
+  pureMinus.onclick = () => {
+    if (healthBar.value > 0) {
+      healthBar.update(healthBar.value - 1);
+    }
+  };
 
   charDiv.append(label, healthBar.container, powerBar.container);
   allCharacters.push({ powerBar, updatePower: powerBar.update, charData: char });
-
 
   const flipBtn = document.createElement('button');
   flipBtn.textContent = 'flip';
@@ -64,7 +73,6 @@ function addCharacter(side) {
     charDiv.classList.toggle('flipped');
     healthBar.update(char.ihp !== undefined ? char.ihp : char.hp);
   };
-
 
   const actBtn = document.createElement('button');
   actBtn.textContent = 'Act';
@@ -90,7 +98,7 @@ function addCharacter(side) {
 
   const utilbtns = document.createElement('div');
   utilbtns.className = 'utilbtns';
-  utilbtns.append(flipBtn, actBtn);
+  utilbtns.append(flipBtn, actBtn, pureMinus);
 
   const eBtn = document.createElement('button');
   eBtn.textContent = 'E';
@@ -157,9 +165,7 @@ function toggleMarker(parent, label, color) {
   }
 }
 
-
-
-function createBlockBar(label, value, min, max, color, onChange) {
+function createBlockBar(label, value, min, max, color, onChange, getPowerBar) {
   const container = document.createElement('div');
   container.className = 'bar-container';
 
@@ -192,17 +198,30 @@ function createBlockBar(label, value, min, max, color, onChange) {
     }
   };
 
-
   const minus = document.createElement('button');
   minus.textContent = '–';
   minus.onclick = () => {
-    if (value > min) update(value - 1);
+    if (value > min) {
+      const diff = 1;
+      update(value - diff);
+      if (label === "HEALTH" && getPowerBar) {
+        const power = getPowerBar();
+        if (power) power.update(Math.min(power.max, power.value + diff));
+      }
+    }
   };
 
   const minus3 = document.createElement('button');
   minus3.textContent = '–3';
   minus3.onclick = () => {
-    if (value > min) update(Math.max(min, value - 3));
+    if (value > min) {
+      const diff = Math.min(3, value - min);
+      update(value - diff);
+      if (label === "HEALTH" && getPowerBar) {
+        const power = getPowerBar();
+        if (power) power.update(Math.min(power.max, power.value + diff));
+      }
+    }
   };
 
   const plus = document.createElement('button');
@@ -220,7 +239,7 @@ function createBlockBar(label, value, min, max, color, onChange) {
   update(value);
   container.append(title, blocksWrapper);
 
-  return { container, plus, minus, plus3, minus3, update };
+  return { container, plus, minus, plus3, minus3, update, get value() { return value; }, max };
 }
 
 // CRISIS DISPLAYS
