@@ -58,6 +58,7 @@ function addCharacter(side) {
   pureMinus.textContent = '–';
   pureMinus.style.backgroundColor = '#700000';
   pureMinus.style.color = 'white';
+  pureMinus.title = "Damage without Power";
   pureMinus.onclick = () => {
     if (healthBar.value > 0) {
       healthBar.update(healthBar.value - 1);
@@ -68,14 +69,14 @@ function addCharacter(side) {
   allCharacters.push({ powerBar, updatePower: powerBar.update, charData: char });
 
   const flipBtn = document.createElement('button');
-  flipBtn.textContent = 'flip';
+  flipBtn.textContent = '⟳';
   flipBtn.onclick = () => {
     charDiv.classList.toggle('flipped');
     healthBar.update(char.ihp !== undefined ? char.ihp : char.hp);
   };
 
   const actBtn = document.createElement('button');
-  actBtn.textContent = 'Act';
+  actBtn.textContent = '✓';
   const actMarker = document.createElement('div');
   actMarker.textContent = '✓';
   actMarker.className = 'act-marker';
