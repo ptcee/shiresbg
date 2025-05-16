@@ -36,9 +36,10 @@ function addCharacter(side) {
   charDiv.classList.add(side === 'left' ? 'left-char' : 'right-char');
 
   const label = document.createElement('h3');
-  label.textContent = char.label;
+  label.textContent = char.label.replace(/,\s*the\b/i, '').trim();
   label.style.cursor = 'pointer';
   label.title = 'Click to remove';
+
 
   label.onclick = () => {
     if (confirm(`Remove ${char.label}?`)) {
