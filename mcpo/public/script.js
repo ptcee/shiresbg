@@ -185,7 +185,7 @@ function createBlockBar(label, value, min, max, color, onChange) {
 
     if (label === "HEALTH") {
       const characterDiv = container.closest('.character');
-      if (characterDiv) {
+      if (characterDiv && characterDiv.classList.contains('flipped')) {
         characterDiv.style.filter = value === 0 ? 'grayscale(100%)' : 'none';
       }
     }
