@@ -749,7 +749,8 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(189, 28, 0)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [3, 1],
-        hp: 7,
+        hp: 8,
+        ihp: 7,
         mct: '00500101',
     },
 
@@ -790,7 +791,8 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(95, 17, 151)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11],
-        hp: 5,
+        hp: 6,
+        ihp: 5,
         mct: '00670101',
     },
 
@@ -1072,6 +1074,7 @@ let dataSet = [
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [11, 2],
         hp: 6,
+        ihp: 7,
         mct: '00230101',
     },
 
@@ -2214,7 +2217,8 @@ let dataSet = [
         pointHoverBorderColor: 'rgb(178, 206, 18)',
         writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
         role: [4],
-        hp: 5,
+        hp: 6,
+        ihp: 5,
         mct: '00570102',
     },
 
