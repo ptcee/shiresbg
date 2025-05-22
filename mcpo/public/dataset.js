@@ -214,7 +214,7 @@ let dataSet = [
 
     {
         id: 'avlch',
-        label: 'Avalanche (?)',
+        label: 'Avalanche (3)',
         hidden: true,
         data: [0, 0, 0, 0, 0, 0],
         affil: [5],
@@ -1997,7 +1997,7 @@ let dataSet = [
 
     {
         id: 'ladymstr',
-        label: 'Lady Mastermind (?)',
+        label: 'Lady Mastermind (4)',
         hidden: true,
         data: [3, 4, 3, 4, 1, 1],
         affil: [5],
