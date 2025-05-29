@@ -154,7 +154,7 @@ function toggleMarker(parent, label, color) {
     marker.textContent = label;
     marker.style.position = 'absolute';
     marker.style.bottom = '5px';
-    marker.style.right = label === 'E' ? '30px' : '5px';
+    marker.style.right = label === 'E' ? '30px' : '50px';
     marker.style.backgroundColor = color;
     marker.style.color = 'white';
     marker.style.borderRadius = '50%';
