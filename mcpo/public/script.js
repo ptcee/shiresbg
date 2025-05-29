@@ -56,7 +56,9 @@ function addCharacter(side) {
   // MINUS HP WITHOUT GAINING POWER
   const pureMinus = document.createElement('button');
   pureMinus.textContent = '🩸';
-  pureMinus.style.backgroundColor = '#700000';
+  pureMinus.style.padding = '0';
+  pureMinus.style.margin = '0';
+  pureMinus.style.backgroundColor = '#e55d5d';
   pureMinus.style.color = 'white';
   pureMinus.title = "Damage without Power";
   pureMinus.onclick = () => {
