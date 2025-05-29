@@ -66,17 +66,18 @@ h3 {
 
 
 .character.flipped {
-  border-color: red;
+  border-color: rgb(170, 0, 0);
 }
 
 .act-marker {
   position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: #00eb3f;
+  width: 25px;
+  height: 25px;
+  background-color: #0f0f0f;
   color: white;
+  border: 2px solid #01c532;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -170,8 +171,10 @@ button {
 
 .side-buttons button {
   border: none;
+  background-color: purple;
+  color: #fff;
+  border-radius: 5px;
 }
-
 
 .left-buttons {
   margin-right: 8px;
@@ -308,7 +311,3 @@ button {
   color: #fff;
 }
 
-.side-buttons button {
-  background-color: purple;
-  color: #fff;
-}

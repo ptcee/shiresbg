@@ -70,6 +70,8 @@ function addCharacter(side) {
 
   const flipBtn = document.createElement('button');
   flipBtn.textContent = '⟳';
+  flipBtn.style.padding = '0';
+  flipBtn.style.margin = '0';
   flipBtn.onclick = () => {
     charDiv.classList.toggle('flipped');
     healthBar.update(char.ihp !== undefined ? char.ihp : char.hp);
@@ -77,6 +79,7 @@ function addCharacter(side) {
 
   const actBtn = document.createElement('button');
   actBtn.textContent = '✓';
+  actBtn.style.backgroundColor = '#0ec478';
   const actMarker = document.createElement('div');
   actMarker.textContent = '✓';
   actMarker.className = 'act-marker';
