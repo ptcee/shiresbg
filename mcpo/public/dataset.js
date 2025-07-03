@@ -1218,6 +1218,27 @@ let dataSet = [
     },
 
     {
+        id: 'mawspace',
+        label: 'Space Maw (5)',
+        hidden: true,
+        data: [4, 2, 2, 4, 4, 1],
+        affil: [4],
+        fill: true,
+        backgroundColor: 'rgba(33, 101, 135, 0.2)',
+        borderColor: 'rgb(43, 86, 136)',
+        pointBackgroundColor: 'rgb(43, 86, 136)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgb(43, 86, 136)',
+        writeup: '<h3>[l]</h3> <p class="prole">Roles: [r]</p><p>Tips:</p>',
+        role: [4, 9, 10],
+        hp: 7,
+        ihp: 6,
+        pp: 4,
+        mct: '00190102',
+    },
+
+    {
         id: 'echo',
         label: 'Echo (?)',
         hidden: true,
