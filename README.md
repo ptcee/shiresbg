@@ -1,13 +1,12 @@
 # dojo-league-1
 
-This is the map for Shire league 1! <br /><a href="https://ptcee.github.io/dojo-league-1">Editable Link</a>
+This is the map for Shire league 1! <br /><a href="https://ptcee.github.io/shiresbg/">Editable Link</a>
 
 
 # Leaderboard
-<img width="271" alt="Screen Shot 2025-03-04 at 1 52 16 PM" src="#" />
+
 
 # Current territories
-<img width="992" alt="Screen Shot 2025-03-04 at 1 50 47 PM" src="#" />
 
 # Rules
 <ul>
