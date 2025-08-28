@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOJO LEAGUE Season 1</title>
+    <title>SHIRE LEAGUE Season 1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <h1>BATTLEWORLD</h1>
+        <h1>MIDDLE EARTH</h1>
         <div class="buttons-top">
             <a href="#legend">
                 <button class="pushable" id="legends-btn">
@@ -32,13 +34,6 @@
                 <span class="front"> Rules </span>
               </button>
             
-             <a href="radar/radar.html">
-                <button class="pushable" id="radar-btn">
-                    <span class="shadow"></span>
-                    <span class="edge purp-edge"></span>
-                    <span class="front purp-front"> Stats </span>
-                  </button>
-                </a>
         </div>
 
 <!-- ########## RULES ########## -->
@@ -50,7 +45,7 @@
                     <li>Holding a home zone: 1 point. </li>
                     <li>Holding an enemy zone: 2 points.</li>
                     <hr />
-                    <li>If you are defending a zone in your home area, you may choose which player recieves priority.
+                    <li>If you are defending a zone in your home area, you may choose which player recieves first priority.
                     </li>
 
                     <li>You cannot challenge the same person twice in a row.</li>
@@ -65,7 +60,7 @@
                         chooses priority.
                     </li>
                     <hr />
-                    <li>If a baron does not attack a zone 2 weeks in a row, one of their zones will randomly become
+                    <li>If a lord does not attack a zone 2 weeks in a row, one of their zones will randomly become
                         uncontested.
                     </li>
                 </ul>
@@ -76,9 +71,9 @@
             <div class="map-container">
 
                 <!-- Monarchy of M -->
-                <div class="area mike">
+                <!-- <div class="area mike">
                     <h2>Monarchy of M</h2>
-                    <p>Baron: Mike</p>
+                    <p>Lord: Mike</p>
                     <div class="zones">
                         <div class="zone" id="atl">
                             <span class="palanquin-bold">Atlantis</span>
@@ -91,21 +86,21 @@
                         </div>
                     </div>
                     <span class="shad shadm"></span>
-                </div>
+                </div> -->
 
                 <!-- Spider-Island -->
                 <div class="area pat">
-                    <h2>Spider-Island</h2>
-                    <p>Baron: Patty</p>
+                    <h2>Dunharrow</h2>
+                    <p>Lord: Patty</p>
                     <div class="zones">
                         <div class="zone" id="spiqueen">
-                            <span class="palanquin-bold">Spider Queen's Lair</span>
+                            <span class="palanquin-bold">250-499</span>
                         </div>
                         <div class="zone" id="meatdis">
-                            <span class="palanquin-bold">Meatpacking District</span>
+                            <span class="palanquin-bold">500-799</span>
                         </div>
                         <div class="zone" id="ostower">
-                            <span class="palanquin-bold">Oscorp Tower</span>
+                            <span class="palanquin-bold">800+</span>
                         </div>
                     </div>
                     <span class="shad shadp"></span>
@@ -113,17 +108,17 @@
 
                 <!-- Domain of Apocalypse -->
                 <div class="area chris">
-                    <h2>Domain of Apocalypse</h2>
-                    <p>Baron: Chris</p>
+                    <h2>Isengard</h2>
+                    <p>Lord: Chris</p>
                     <div class="zones">
                         <div class="zone" id="ncair">
-                            <span class="palanquin-bold">New Cairo</span>
+                            <span class="palanquin-bold">250-499</span>
                         </div>
                         <div class="zone" id="sfran">
-                            <span class="palanquin-bold">San Fransico</span>
+                            <span class="palanquin-bold">500-799</span>
                         </div>
                         <div class="zone" id="westcount">
-                            <span class="palanquin-bold">Westchester County</span>
+                            <span class="palanquin-bold">800+</span>
                         </div>
                     </div>
                     <span class="shad shadc"></span>
@@ -131,17 +126,17 @@
 
                 <!-- Deadlands -->
                 <div class="area chadd">
-                    <h2>Deadlands</h2>
-                    <p>Baron: Chadd</p>
+                    <h2>Moria</h2>
+                    <p>Lord: Chadd</p>
                     <div class="zones">
                         <div class="zone" id="udcamp">
-                            <span class="palanquin-bold">Undead Encampment</span>
+                            <span class="palanquin-bold">250-499</span>
                         </div>
                         <div class="zone" id="shield">
-                            <span class="palanquin-bold">The Shield</span>
+                            <span class="palanquin-bold">500-799</span>
                         </div>
                         <div class="zone" id="rshq">
-                            <span class="palanquin-bold">Red Skull's Hideout</span>
+                            <span class="palanquin-bold">800+</span>
                         </div>
                     </div>
                     <span class="shad shadd"></span>
@@ -149,17 +144,17 @@
 
                 <!-- Greenland -->
                 <div class="area josh">
-                    <h2>Greenland</h2>
-                    <p>Baron: Josh</p>
+                    <h2>Rohan</h2>
+                    <p>Lord: Josh</p>
                     <div class="zones">
                         <div class="zone" id="fangmtn">
-                            <span class="palanquin-bold">Fang Mountain</span>
+                            <span class="palanquin-bold">250-499</span>
                         </div>
                         <div class="zone" id="seaofmon">
-                            <span class="palanquin-bold">Sea of Monsters</span>
+                            <span class="palanquin-bold">500-799</span>
                         </div>
                         <div class="zone" id="tribal">
-                            <span class="palanquin-bold">Barrens of the Tribal Hulks</span>
+                            <span class="palanquin-bold">800+</span>
                         </div>
                     </div>
                     <span class="shad shadj"></span>
@@ -167,17 +162,17 @@
 
                 <!-- Manhattan 616 -->
                 <div class="area bren">
-                    <h2>Manhattan 616</h2>
-                    <p>Baron: Brendan</p>
+                    <h2>Isengard</h2>
+                    <p>Lord: Brendan</p>
                     <div class="zones">
                         <div class="zone" id="bronx-1">
-                            <span class="palanquin-bold">Baxter Building</span>
+                            <span class="palanquin-bold">250-499</span>
                         </div>
                         <div class="zone" id="bronx-2">
-                            <span class="palanquin-bold">Fisk Towers</span>
+                            <span class="palanquin-bold">500-799</span>
                         </div>
                         <div class="zone" id="bronx-3">
-                            <span class="palanquin-bold">Times Square</span>
+                            <span class="palanquin-bold">800+</span>
                         </div>
                     </div>
                     <span class="shad shadb"></span>
@@ -185,26 +180,26 @@
 
                 <!-- Killville -->
                 <div class="area mark">
-                    <h2>Killville</h2>
-                    <p>Baron: Mark</p>
+                    <h2>???</h2>
+                    <p>Lord: Mark</p>
                     <div class="zones">
                         <div class="zone" id="assguild">
-                            <span class="palanquin-bold">Assassin's Guild</span>
+                            <span class="palanquin-bold">250-499</span>
                         </div>
                         <div class="zone" id="griffprk">
-                            <span class="palanquin-bold">Griffith Park</span>
+                            <span class="palanquin-bold">500-799</span>
                         </div>
                         <div class="zone" id="mannd">
-                            <span class="palanquin-bold">Mann District</span>
+                            <span class="palanquin-bold">800+</span>
                         </div>
                     </div>
                     <span class="shad shadpc"></span>
                 </div>
 
                 <!-- Eric -->
-                <div class="area eric">
+                <!-- <div class="area eric">
                     <h2>Utopolis</h2>
-                    <p>Baron: Eric</p>
+                    <p>Lord: Eric</p>
                     <div class="zones">
                         <div class="zone" id="sqcitadel">
                             <span class="palanquin-bold">Squadron Citadel</span>
@@ -217,12 +212,12 @@
                         </div>
                     </div>
                     <span class="shad shade"></span>
-                </div>
+                </div> -->
 
                 <!-- New Xandar -->
-                <div class="area gini">
+                <!-- <div class="area gini">
                     <h2>New Xandar</h2>
-                    <p>Baron: Gini</p>
+                    <p>Lord: Gini</p>
                     <div class="zones">
                         <div class="zone" id="nx1">
                             <span class="palanquin-bold">Magus City</span>
@@ -235,21 +230,21 @@
                         </div>
                     </div>
                     <span class="shad shadg"></span>
-                </div>
+                </div> -->
 
                 <!-- Technopolis -->
                 <div class="area worb">
-                    <h2>Technopolis</h2>
-                    <p>Baron: Worb</p>
+                    <h2>???</h2>
+                    <p>Lord: Worb</p>
                     <div class="zones">
                         <div class="zone" id="starkt">
-                            <span class="palanquin-bold">Stark Tower</span>
+                            <span class="palanquin-bold">250-499</span>
                         </div>
                         <div class="zone" id="fskest">
-                            <span class="palanquin-bold">Fisk Estate</span>
+                            <span class="palanquin-bold">500-799</span>
                         </div>
                         <div class="zone" id="dailyb">
-                            <span class="palanquin-bold">Daily Bugle</span>
+                            <span class="palanquin-bold">800+</span>
                         </div>
                     </div>
                     <span class="shad shadw"></span>
@@ -257,17 +252,17 @@
 
                 <!-- Uncontested Zones -->
                 <div class="area none">
-                    <h2>Doomgard</h2>
-                    <p>God Emperor Doom's Home</p>
+                    <h2>The Free Lands</h2>
+                    <p>--</p>
                     <div class="zones">
                         <div class="zone" id="west-1">
-                            <span class="palanquin-bold">Doom's Castle</span>
+                            <span class="palanquin-bold">250-499</span>
                         </div>
                         <div class="zone" id="west-2">
-                            <span class="palanquin-bold">Courtyard</span>
+                            <span class="palanquin-bold">500-799</span>
                         </div>
                         <div class="zone" id="west-3">
-                            <span class="palanquin-bold">Halls of Homicide</span>
+                            <span class="palanquin-bold">800+</span>
                         </div>
                     </div>
                     <span class="shad shadnone"></span>
@@ -278,16 +273,16 @@
 <!-- ########## LEGENDS AND SCOREBOARD ########## -->
             <h2>LEGEND</h2>
             <div class="legend-box" id="legend">
-                <p class="mike">Mike (Brotherhood)<span class="shad shadm"></span></p>
-                <p class="pat">Patty (Spideys)<span class="shad shadp"></span></p>
-                <p class="chris">Chris (Apocalypse)<span class="shad shadc"></span></p>
-                <p class="chadd">Chadd (Black Order)<span class="shad shadd"></span></p>
-                <p class="josh">Josh (Guardians)<span class="shad shadj"></span></p>
-                <p class="bren">Brendan (Sinister 6)<span class="shad shadb"></span></p>
-                <p class="mark">Mark (A-Force)<span class="shad shadpc"></span></p>
-                <p class="eric">Eric (X-Men)<span class="shad shade"></span></p>
-                <p class="gini">Gini (X-Force)<span class="shad shadg"></span></p>
-                <p class="worb">Worb (Weapon X)<span class="shad shadw"></span></p>
+                <!-- <p class="mike">Mike<span class="shad shadm"></span></p> -->
+                <p class="pat">Patty<span class="shad shadp"></span></p>
+                <p class="chris">Chris<span class="shad shadc"></span></p>
+                <p class="chadd">Chadd<span class="shad shadd"></span></p>
+                <p class="josh">Josh<span class="shad shadj"></span></p>
+                <p class="bren">Brendan<span class="shad shadb"></span></p>
+                <p class="mark">Mark<span class="shad shadpc"></span></p>
+                <!-- <p class="eric">Eric<span class="shad shade"></span></p>
+                <p class="gini">Gini<span class="shad shadg"></span></p> -->
+                <p class="worb">Worb<span class="shad shadw"></span></p>
                 <p class="none">Uncontrolled<span class="shad shadnone"></span></p>
             </div>
 

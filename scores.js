@@ -1,14 +1,14 @@
 $(document).ready(function () {
     let counts = [
-        { name: 'Mike', className: 'mike' },
+        // { name: 'Mike', className: 'mike' },
         { name: 'Patty', className: 'pat' },
         { name: 'Chris', className: 'chris' },
         { name: 'Chadd', className: 'chadd' },
         { name: 'Josh', className: 'josh' },
         { name: 'Brendan', className: 'bren' },
         { name: 'Mark', className: 'mark' },
-        { name: 'Eric', className: 'eric' },
-        { name: 'Gini', className: 'gini' },
+        // { name: 'Eric', className: 'eric' },
+        // { name: 'Gini', className: 'gini' },
         { name: 'Worb', className: 'worb' },
     ];
 

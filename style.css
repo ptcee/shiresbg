@@ -1,27 +1,37 @@
 :root {
-  --mike: rgb(206, 24, 60);
+  /* --mike: rgb(206, 24, 60); */
   --chris: rgb(31, 68, 142);
   --josh: rgb(121, 1, 161);
   --pat: rgb(141, 11, 2);
   --chadd: rgb(0, 0, 0);
   --bren: rgb(110, 189, 0);
   --mark: rgb(124, 61, 10);
-  --eric: rgb(255, 102, 0);
+  /* --eric: rgb(255, 102, 0); */
   --worb: rgb(148, 45, 217);
-  --gini: rgb(155, 128, 7);
+  /* --gini: rgb(155, 128, 7); */
 
   --none: rgb(137, 137, 137);
 }
 
 
 body {
-  font-family: "Palanquin", serif;
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
   margin: 0;
   background-color: #282828;
   align-items: center;
   box-sizing: border-box;
   font-size: 16px;
 }
+
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 .container {
   text-align: center;
@@ -36,16 +46,26 @@ h1 {
   font-size: 2.5rem;
   color: #ffffff;
   margin: 0;
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
   font-size: 1.5rem;
   color: #ffffff;
   margin-bottom: 0px;
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 p {
   color: #ffffff;
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .map-container {
@@ -106,7 +126,10 @@ p {
 }
 
 .zone span:first-child {
-  font-family: "Kanit", sans-serif;
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
   pointer-events: none;
 }
 

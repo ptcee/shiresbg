@@ -1,15 +1,15 @@
 $(document).ready(function () {
     const cssVars = [
-        { label: "Brotherhood", className: "mike" },
-        { label: "Spideys", className: "pat" },
-        { label: "Apocalypse", className: "chris" },
-        { label: "Black Order", className: "chadd" },
-        { label: "Asgavengers", className: "josh" },
-        { label: "Sinister 6", className: "bren" },
-        { label: "A-Force", className: "mark" },
-        { label: "X-Men", className: "eric" },
-        { label: "X-Force", className: "gini" },
-        { label: "Weapon X", className: "worb" },
+        // { label: "Mike", className: "mike" },
+        { label: "Patty", className: "pat" },
+        { label: "Chris", className: "chris" },
+        { label: "Chadd", className: "chadd" },
+        { label: "Josh", className: "josh" },
+        { label: "Brendan", className: "bren" },
+        { label: "Mark", className: "mark" },
+        // { label: "Eric", className: "eric" },
+        // { label: "Gini", className: "gini" },
+        { label: "Worb", className: "worb" },
         { label: "Uncontrolled", className: "none" }
     ];    
 
