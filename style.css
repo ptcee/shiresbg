@@ -1,5 +1,5 @@
 :root {
-  /* --mike: rgb(206, 24, 60); */
+  --ricky: rgb(206, 24, 60);
   --chris: rgb(31, 68, 142);
   --josh: rgb(121, 1, 161);
   --pat: rgb(141, 11, 2);
@@ -304,8 +304,8 @@ p {
   position: relative;
 }
 
-.mike {
-  background-color: var(--mike);
+.ricky {
+  background-color: var(--ricky);
 }
 
 .chris {

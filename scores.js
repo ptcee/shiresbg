@@ -1,6 +1,6 @@
 $(document).ready(function () {
     let counts = [
-        // { name: 'Mike', className: 'mike' },
+        { name: 'Ricky', className: 'ricky' },
         { name: 'Patty', className: 'pat' },
         { name: 'Chris', className: 'chris' },
         { name: 'Chadd', className: 'chadd' },

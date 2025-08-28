@@ -1,6 +1,6 @@
 $(document).ready(function () {
     const cssVars = [
-        // { label: "Mike", className: "mike" },
+        { label: "Ricky", className: "ricky" },
         { label: "Patty", className: "pat" },
         { label: "Chris", className: "chris" },
         { label: "Chadd", className: "chadd" },
