@@ -6,7 +6,16 @@ This is the map for Shire league 1! <br /><a href="https://ptcee.github.io/shire
 # Leaderboard
 
 
-# Current territories
+# Territory Rules
+<div style="display: flex; flex-direction: column;">
+  <div>MISTY MOUNTAINS</div>
+  <div>
+    <h2>SPECIAL RULE</h2>
+    <p>Tunnels Beneath: Whilst fighting in the Misty Mountains, infantry models may re-roll failed Jump and Climb tests.</p>
+    <h2>CONTROL BONUS</h2>
+    <p>If your faction controls the Misty Mountains, infantry models in your Army gain the Backstabbers special rule.</p>
+  </div>
+</div>
 
 # Rules
 <ul>
