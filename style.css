@@ -28,7 +28,6 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  color: #ffffff;
   margin: 0;
   font-family: "Eagle Lake", serif;
   font-weight: 400;
@@ -37,7 +36,6 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  color: #ffffff;
   margin-bottom: 0px;
   font-family: "Eagle Lake", serif;
   font-weight: 400;
@@ -45,7 +43,6 @@ h2 {
 }
 
 p {
-  color: #ffffff;
   font-family: "Texturina", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -124,4 +121,36 @@ p {
   border-radius: 6px;
 }
 
+.rules {
+display: flex;
+flex-wrap: wrap;
+width: 90%;
+}
 
+.regiontitle {
+display: flex;
+flex-direction: column;
+width: 300px;
+margin: 5px 5px;
+border: 1px solid grey;
+border-radius: 5px;
+padding: 5px;
+}
+
+.regiontitle h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+.regiontitle h3 {
+  color: #7a0000;
+}
+
+.regiontitle h4 {
+  color: #000;
+  margin-top: 5px;
+}
+
+.regiontitle p {
+  color: #555;
+}
