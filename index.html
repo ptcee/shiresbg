@@ -6677,7 +6677,7 @@
 
   </div>
 
-<!-- Firebase (v12 modular, works with imports) -->
+<!-- Firebase -->
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
   import { getDatabase, ref, set, update, onValue, get } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-database.js";
@@ -6697,12 +6697,10 @@
   const app = initializeApp(firebaseConfig);
   const db = getDatabase(app);
 
-  // Expose these to your existing script.js
   window.firebaseDB = db;
   window.firebase = { getDatabase, ref, set, update, onValue, get };
 </script>
 
-<!-- Your existing site scripts -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="dataset.js"></script>
 <script src="script.js"></script>
