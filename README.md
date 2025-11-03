@@ -10,7 +10,7 @@
 # Rules
 <ul>
 <li>If you are defending a zone, you always deploy first.</li>
-<li>Each battle must be decided on 350, 500 or 700 points.</li>
+<li>Each battle must be decided on 400, 600 or 750 points.</li>
 <hr />
 <li>Starting from the bottom ranked player, each player may declare an attack on a zone, wagering their nearest zone if defeated.</li>
 <li>If you control no zones to wager, you may attack an uncontested zone. Choose an opponent, whoever wins claims the zone.</li>
