@@ -1,4 +1,4 @@
-# dojo-league-1
+# shire-league-1
 
  <a href="https://ptcee.github.io/shiresbg/">This is the map for Shire league 1!</a>
 
