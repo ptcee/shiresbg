@@ -1,6 +1,6 @@
 # dojo-league-1
 
-This is the map for Shire league 1! <br /><a href="https://ptcee.github.io/shiresbg/">Editable Link</a>
+ <a href="https://ptcee.github.io/shiresbg/">This is the map for Shire league 1!</a>
 
 
 # Leaderboard
