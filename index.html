@@ -7,12 +7,8 @@
   <title>SHIRE LEAGUE Season 1</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
   <link
-    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Palanquin:wght@100;200;300;400;500;600;700&family=Mirza:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-    rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Palanquin:wght@100;200;300;400;500;600;700&family=Mirza:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&family=Eagle+Lake&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -6483,7 +6479,7 @@
       <h4>Special Rule</h4>
       <p>These rules are in effect when fighting in the specified region. They affect both armies.</p>
       <h4>Control Bonus</h4>
-      <p>If you control a region you may use these rules no matter what region you're fighting in. Can you use multiple at once? idk.</p>
+      <p>If you control a region you may use these rules when defending that region.</p>
     </div>
   </div>
 
@@ -6493,7 +6489,7 @@
       <h4>Special Rule</h4>
       <p>Scenarios always use Dark of Night rules.</p>
       <h4>Control Bonus</h4>
-      <p>If your faction controls the Misty Mountains, infantry models in your Army gain the Backstabbers Special Rule.
+      <p>Infantry models in your Army gain the Backstabbers Special Rule.
       </p>
     </div>
   </div>
@@ -6505,7 +6501,7 @@
       <h4>Special Rule</h4>
       <p>Models wearing Heavy Armour and Cavalry suffer –1" Movement.</p>
       <h4>Control Bonus</h4>
-      <p>If your faction controls Harad, your Heroes gain the Poisoneded Attacks Special Rule.
+      <p>Your Heroes gain the Poisoneded Attacks Special Rule.
       </p>
     </div>
   </div>
@@ -6514,9 +6510,9 @@
     <h3>SOUTHERN GONDOR</h3>
     <div>
       <h4>Special Rule</h4>
-      <p>All Good models gain Fearless.</p>
+      <p>Models suffer -1" Movement when moving towards 1 uncontrolled board edge and +1 when moving away from it.</p>
       <h4>Control Bonus</h4>
-      <p>If your faction controls Southern Gondor, all Warrior models in your Army may re-roll failed Courage tests while within 6" of a Hero.
+      <p>Once per game you may use this bonus to give all your models +1 to shooting attacks or reroll shooting attacks of 1.
       </p>
     </div>
   </div>
@@ -6525,9 +6521,9 @@
     <h3>MORDOR</h3>
     <div>
       <h4>Special Rule</h4>
-      <p>All Evil models may treat their general as a 6" banner.</p>
+      <p>All models reduce their Courage value by -1 when rolling Courage tests.</p>
       <h4>Control Bonus</h4>
-      <p>If your faction controls Mordor, your Army’s Heroes gain the Terror Special Rule. If already they have Terror, enemies recieve -1 to their Courage test.
+      <p>Your Army’s Heroes gain the Terror Special Rule. Enemies cannot benefit from Fearless.
       </p>
     </div>
   </div>
@@ -6547,7 +6543,7 @@
     <h3>IRON HILLS</h3>
     <div>
       <h4>Special Rule</h4>
-      <p>At the end of the Move Phase roll a d6 for each ruin or rocky terrain that has models within 1" of it. On a 1 those models suffer a S2 hit and are knocked prone if they lose a Wound.</p>
+      <p>At the end of the Move Phase roll a d6 for each ruin or rocky terrain that has models within 1" of it. On a 1 those models are knocked prone.</p>
       <h4>Control Bonus</h4>
       <p>If your faction controls the Iron Hills, infantry models who have not moved this turn gain +1 Defense.
       </p>
@@ -6646,7 +6642,7 @@
     <h3>ANGMAR</h3>
     <div>
       <h4>Special Rule</h4>
-      <p>While fighting in Angmar, all Good models gain Fearful.</p>
+      <p>While fighting in Angmar, monsters and spirits gain Terror.</p>
       <h4>Control Bonus</h4>
       <p>If your faction controls Angmar, your General's weapons gain the Venom trait.
       </p>
@@ -6677,7 +6673,7 @@
 
   </div>
 
-<!-- Firebase -->
+<!-- Firebase (v12 modular, works with imports) -->
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
   import { getDatabase, ref, set, update, onValue, get } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-database.js";
@@ -6697,10 +6693,12 @@
   const app = initializeApp(firebaseConfig);
   const db = getDatabase(app);
 
+  // Expose these to your existing script.js
   window.firebaseDB = db;
   window.firebase = { getDatabase, ref, set, update, onValue, get };
 </script>
 
+<!-- Your existing site scripts -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="dataset.js"></script>
 <script src="script.js"></script>
